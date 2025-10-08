@@ -1,0 +1,15 @@
+En el vasto mundo de la programación y la gestión de información, los lenguajes de marcas desempeñan un papel crucial, siendo herramientas esenciales para la creación y manipulación de documentos web. Estos lenguajes no son solo una forma de comunicarse con los navegadores web, sino que también permiten a los desarrolladores crear interfaces de usuario interactivas y dinámicas.
+
+La carpeta `003-Manipulación de documentos Web` del árbol global proporciona un enfoque profundo sobre cómo interactuar con estos lenguajes de marcas. Comenzamos por el estudio de los lenguajes de script de cliente, que son fundamentales para añadir funcionalidad dinámica a las páginas web. Aprenderemos a seleccionar y acceder a elementos del DOM (Modelo de Objeto del Documento), así como a crear y modificar elementos en tiempo real.
+
+Continuando con el tema, exploramos la manipulación de estilos, una habilidad esencial para personalizar las páginas web según nuestras necesidades. Aprenderemos cómo cambiar propiedades CSS mediante JavaScript, lo que nos permitirá adaptar la apariencia de los sitios web en respuesta a eventos del usuario o cambios en el estado de la aplicación.
+
+La carpeta también aborda la definición de esquemas y vocabularios en lenguajes de marcas. Aprenderemos cómo crear descripciones precisas de documentos, lo que facilita su validación y comprensión por parte de los navegadores y otros sistemas. Esto es especialmente relevante en el contexto de la semántica web, donde la claridad y estructura son fundamentales para mejorar la accesibilidad y el rendimiento.
+
+Además, se destaca la conversión y adaptación de documentos para el intercambio de información. Aprenderemos técnicas avanzadas para transformar documentos entre diferentes formatos, lo que es crucial en un mundo donde la interoperabilidad es una prioridad. Esto incluye el uso de herramientas y plantillas para facilitar este proceso.
+
+La carpeta también aborda el almacenamiento de información en sistemas web, enseñándonos cómo utilizar lenguajes de consulta y manipulación en documentos para acceder y modificar datos de manera eficiente. Aprenderemos a importar y exportar bases de datos relacionales en diferentes formatos, lo que nos permitirá integrar fácilmente nuestros proyectos con sistemas existentes.
+
+Finalmente, se exploran los sistemas de gestión empresarial, donde la manipulación de documentos web es una habilidad clave para la creación de interfaces de usuario personalizadas y la generación de informes. Aprenderemos cómo utilizar lenguajes de marcas y JavaScript para crear aplicaciones que faciliten el acceso a información crucial y permitan la realización de análisis empresariales.
+
+En resumen, la carpeta `003-Manipulación de documentos Web` es un recurso valioso para cualquier desarrollador web que busque mejorar sus habilidades en la creación y gestión de interfaces interactivas. A través de una serie de lecciones bien estructuradas, aprenderemos a utilizar lenguajes de marcas de manera efectiva, lo que nos permitirá crear aplicaciones web dinámicas y accesibles para un público amplio.

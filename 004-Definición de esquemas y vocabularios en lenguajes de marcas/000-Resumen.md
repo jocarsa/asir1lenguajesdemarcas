@@ -1,0 +1,17 @@
+En el vasto mundo de la informática, los lenguajes de marcas desempeñan un papel crucial como herramientas para estructurar y presentar información. En esta unidad didáctica, nos adentramos en la definición de esquemas y vocabularios en lenguajes de marcas, una temática fundamental que permite a los desarrolladores crear documentos bien formados y comprensibles.
+
+El primer paso hacia la comprensión de este concepto es reconocer las características distintivas de los lenguajes de marcas. Estos son sistemas diseñados para representar información en forma jerárquica, utilizando etiquetas y atributos que proporcionan una estructura clara y legible. La clasificación de estos lenguajes puede variar según su ámbito de aplicación, desde el HTML utilizado en páginas web hasta los XML utilizados en aplicaciones empresariales.
+
+La definición de esquemas en lenguajes de marcas es un proceso que permite establecer reglas para la estructura y contenido de los documentos. Estos esquemas actúan como contratos entre el creador del documento y los sistemas que lo procesarán, asegurando que la información esté presentada de manera consistente y coherente. Algunas de las principales tecnologías utilizadas para definir esquemas en lenguajes de marcas incluyen DTD (Document Type Definition), XML Schema (XSD) y Schemas XSLT.
+
+El vocabulario en lenguajes de marcas se refiere a la colección de etiquetas, atributos y valores que pueden ser utilizados para describir el contenido del documento. Este vocabulario debe estar bien definido y documentado para que los desarrolladores puedan crear documentos que sean fáciles de leer y procesar por sistemas informáticos.
+
+La creación de esquemas y vocabularios en lenguajes de marcas requiere un pensamiento estructurado y una comprensión profunda del contenido que se desea representar. Los desarrolladores deben considerar la jerarquía de la información, las relaciones entre diferentes elementos y los tipos de datos que se utilizarán.
+
+Una vez definidos el esquema y el vocabulario, estos pueden ser utilizados para crear documentos bien formados. La herramienta de edición de lenguajes de marcas proporcionará asistencia visual en tiempo real, destacando errores y sugerencias de mejora, lo que facilita la creación de documentos precisos.
+
+La manipulación de documentos Web es una habilidad fundamental en el desarrollo web moderno. Los lenguajes de script de cliente permiten interactuar con los elementos del documento HTML y CSS, modificándolos dinámicamente según las necesidades del usuario o del sistema. Esta capacidad abierta ofrece un mundo de posibilidades para crear interfaces interactivas y respuestas personalizadas.
+
+La definición de esquemas y vocabularios en lenguajes de marcas no solo facilita la creación de documentos bien formados, sino que también mejora la interoperabilidad entre diferentes sistemas informáticos. Al establecer un conjunto común de reglas y etiquetas, los sistemas pueden compartir información de manera eficiente y coherente.
+
+En conclusión, la definición de esquemas y vocabularios en lenguajes de marcas es una habilidad esencial para cualquier desarrollador que trabaje con documentos estructurados. A través del uso de esquemas bien definidos y vocabularios precisos, se pueden crear documentos que sean fáciles de leer, procesar y compartir, lo que mejora la eficiencia y la calidad del trabajo en el campo de la informática.
