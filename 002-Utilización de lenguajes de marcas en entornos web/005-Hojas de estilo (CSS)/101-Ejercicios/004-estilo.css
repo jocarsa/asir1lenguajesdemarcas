@@ -1,0 +1,11 @@
+/* 
+  selector{
+    atributo:valor;
+    atributo:valor;
+    atributo:valor;
+    ...
+  }
+*/
+h2{               /* Ves a HTML y selecciona la etiqueta h2 */
+  color:green;    /* Y ponle color verde al texto */
+}
