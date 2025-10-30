@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Curriculum José Vicente Carratalá Sanchis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      :root{
+        --bg: #f4f6f8;
+        --paper: #ffffff;
+        --text: #1f2937;
+        --muted: #6b7280;
+        --brand: #23326f;
+        --brand-ink: #0f3d1a;
+        --accent: #10b981;
+        --divider: #e5e7eb;
+        --radius: 14px;
+        --shadow: 0 6px 20px rgba(17,24,39,.08);
+      }
+      @media (prefers-color-scheme: dark){
+        :root{
+          --bg: #0b0f14; --paper: #0f141a; --text: #e5e7eb; --muted: #93a3b8;
+          --brand: #2aa84a; --brand-ink:#0b2a14; --accent:#22d3ee; --divider:#1f2937;
+          --shadow: 0 8px 24px rgba(0,0,0,.35);
+        }
+      }
+      *,*::before,*::after{box-sizing:border-box}
+      h1,h2,h3,h4,h5{padding:1px;margin:4px;}
+      p{text-align:justify;}
+      html,body{height:100%}
+      html{background:var(--bg)}
+      body{
+        margin:0;color:var(--text);
+        font:14px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Arial,"Apple Color Emoji","Segoe UI Emoji";
+        display:flex;justify-content:center;align-items:flex-start;padding:24px;
+      }
+      .cv{
+        background:var(--paper);width:100%;max-width:980px;min-height:400px;
+        display:grid;grid-template-columns:280px 1fr;border-radius:var(--radius);
+        overflow:hidden;box-shadow:var(--shadow);
+      }
+      #izquierda{
+        background:linear-gradient(160deg,var(--brand) 0%, #0e6a25 100%);
+        color:#fff;padding:26px 22px;display:flex;flex-direction:column;gap:22px;
+      }
+      #izquierda img{width:100%;display:block;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.18);}
+      #derecha{background:var(--paper);padding:28px;display:flex;flex-direction:column;gap:26px;}
+      @media (max-width: 820px){.cv{grid-template-columns:1fr} #derecha{padding:22px}}
+      h1{font-size:clamp(22px,3.5vw,32px);line-height:1.15;letter-spacing:.2px}
+      h2{font-size:clamp(14px,2.2vw,18px);color:var(--muted);font-weight:600;margin-top:6px}
+      h3{font-size:12px;text-transform:uppercase;letter-spacing:.14em;opacity:.95;margin-bottom:6px}
+      h4{font-size:13px;font-weight:700} h5{font-size:12px;color:var(--muted);font-weight:600}
+      p{margin:8px 0 0 0;color:var(--text)}
+      section,section>div{display:flex;flex-direction:column;gap:18px}
+      #derecha article{
+        display:flex;gap:16px;padding:14px 16px;border:1px solid var(--divider);
+        border-radius:12px;transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;background:var(--paper);
+      }
+      #derecha article:hover{transform:translateY(-2px);box-shadow:var(--shadow);border-color:rgba(16,185,129,.35)}
+      #derecha article img{width:46px;height:46px;object-fit:contain;border-radius:10px;background:#fff;border:1px solid var(--divider);padding:6px}
+      .texto{display:flex;flex-direction:column;gap:4px}
+      #derecha > div::before{
+        content: attr(data-title);
+        text-transform:uppercase;letter-spacing:.18em;font-size:11px;color:var(--muted);
+        border-bottom:1px dashed var(--divider);padding-bottom:8px;margin-bottom:2px;order:-1;
+      }
+      ul{list-style:none;padding:0;margin:6px 0 0 0;display:grid;gap:6px}
+      li{display:flex;align-items:center;gap:8px;font-size:12px}
+      li::before{content:"";width:8px;height:8px;border-radius:50%;background:linear-gradient(180deg,#fff,#e9ffee);box-shadow:0 0 0 2px rgba(255,255,255,.35);display:inline-block}
+      #izquierda article{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:12px;padding:14px;backdrop-filter:blur(2px)}
+      #infopersonal{padding:6px 0 2px 0}
+      #infopersonal p{color:var(--muted);font-size:13px}
+      a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+      :focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:8px}
+      #experiencia,#formacion,#proyectos,#publicaciones{gap:14px}
+
+      /* ======= PRINT STYLES ======= */
+      @page { size: A4 portrait; margin: 12mm; }
+      @media print {
+        :root {
+          --bg: #ffffff; --paper: #ffffff;
+          --text: #111827; --muted: #4b5563; --divider: #d1d5db;
+        }
+        html,body { background:#fff!important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+        body{padding:0!important;}
+        .cv{
+          width:auto!important;max-width:none!important;min-height:auto!important;
+          box-shadow:none!important;border-radius:0!important;
+          grid-template-columns:260px 1fr!important;
+        }
+        #izquierda{padding:18px 16px!important;}
+        #derecha{padding:18px!important;gap:18px!important;}
+        body{font-size:11pt!important;line-height:1.4!important;}
+        h1{font-size:18pt!important;margin:0 0 2mm 0!important;}
+        h2{font-size:11.5pt!important;margin:0 0 2mm 0!important;}
+        h3{font-size:9pt!important;opacity:1!important;}
+        h4{font-size:10.5pt!important;}
+        h5{font-size:9.5pt!important;color:var(--muted)!important;}
+        p,li{font-size:10.5pt!important;}
+        #derecha article{
+          box-shadow:none!important;transform:none!important;
+          border:0.4pt solid var(--divider)!important;
+          padding:10px 12px!important;gap:10px!important;
+          page-break-inside:avoid;break-inside:avoid;
+        }
+        #derecha article img{width:36px!important;height:36px!important;padding:4px!important;}
+        #izquierda{
+          background:linear-gradient(160deg,var(--brand) 0%,#0e6a25 100%)!important;
+          border:0.4pt solid rgba(0,0,0,.06);
+        }
+        #izquierda article{
+          backdrop-filter:none!important;background:rgba(255,255,255,.06)!important;
+          border:0.4pt solid rgba(255,255,255,.18)!important;
+          padding:10px!important;page-break-inside:avoid;break-inside:avoid;
+        }
+        #izquierda img{border-radius:8px!important;box-shadow:none!important;page-break-inside:avoid;}
+        ul{gap:3px!important;margin-top:4px!important;}
+        li{gap:6px!important;}
+        li::before{width:6px!important;height:6px!important;box-shadow:none!important;}
+        #derecha>div::before{
+          font-size:8.5pt!important;letter-spacing:.16em!important;
+          border-bottom:0.4pt dashed var(--divider)!important;
+          padding-bottom:4px!important;margin-bottom:2px!important;
+        }
+        a{color:inherit!important;text-decoration:none!important;}
+        #experiencia,#proyectos,#publicaciones,#formacion{page-break-inside:avoid;break-inside:avoid;}
+        p{orphans:3;widows:3;}
+        .no-print{display:none!important;}
+        :focus,:focus-visible{outline:none!important;}
+        h1,h2,h3,h4,h5{margin:2px!important;}
+        p{margin:4px 0 0 0!important;}
+        section,section>div{gap:10px!important;}
+      }
+    </style>
+  </head>
+  <body>
+    <main class="cv" role="main">
+      <section id="izquierda">
+        <img src="josevicente.jpg" alt="José Vicente Carratalá Sanchis">
+        <article>
+          <h3>Aptitudes técnicas</h3>
+          <ul>
+            <li>Python, Java, JavaScript, PHP, C++, SQL</li>
+            <li>HTML5/CSS3, React/Next.js, Flask</li>
+            <li>SQLite, MySQL/MariaDB</li>
+            <li>APIs IA: OpenAI, Ollama, Hugging Face</li>
+            <li>CUDA/OpenCV (render y visión)</li>
+            <li>WebRTC, A-Frame (3D Web)</li>
+            <li>Ubuntu Server, Apache, SSL</li>
+            <li>Git/GitHub, automatización con Python</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Competencias docentes</h3>
+          <ul>
+            <li>Diseño de actividades y rúbricas FP</li>
+            <li>Evaluación automática con LLMs</li>
+            <li>Materiales propios (DAM/DAW)</li>
+            <li>Aprendizaje personalizado por intereses</li>
+            <li>Comunicación clara y motivadora</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Gestión y producto</h3>
+          <ul>
+            <li>Dirección de proyectos EdTech (JOCARSA)</li>
+            <li>Diseño de dashboards BI</li>
+            <li>Metodologías iterativas y data-driven</li>
+            <li>Documentación y contenidos técnicos</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Contenido y divulgación</h3>
+          <ul>
+            <li>Autor: “Aprende programación con Python”</li>
+            <li>Libros en curso: SQL, Ubuntu Server, Markdown</li>
+            <li>YouTube: formación y proyectos</li>
+            <li>Imágenes de stock y visualizaciones 3D</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="derecha">
+        <div id="infopersonal" data-title="Perfil">
+          <h1>José Vicente Carratalá Sanchis</h1>
+          <h2>Programador · Profesor · Diseñador de soluciones</h2>
+          <p>Desarrollo soluciones educativas y de gestión empresarial con foco en claridad, simplicidad y utilidad. Combino programación, diseño y docencia para crear plataformas, materiales y flujos de evaluación que mejoran la experiencia de aprendizaje y el trabajo docente. Fundador de JOCARSA, autor del libro <em>Aprende programación con Python</em> y creador de contenidos técnicos.</p>
+        </div>
+
+        <div id="experiencia" data-title="Experiencia">
+          <article><img src="logos/jocarsa.png"><div class="texto"><h4>2024–Actualidad · Fundador y Desarrollador · JOCARSA</h4><h5>Soluciones SaaS de gestión y educación</h5><p>Diseño y desarrollo de productos: CRM/ERP, documentos online, hojas de cálculo, mapas mentales, dashboards BI y utilidades de administración de servidores.</p></div></article>
+          <article><img src="logos/edu.png"><div class="texto"><h4>2024–Actualidad · Profesor y tutor FP (DAM/DAW)</h4><h5>Programación, Bases de Datos, Lenguajes de Marcas, SGE</h5><p>Creación de temarios, actividades y rúbricas alineadas con resultados de aprendizaje. Automatización de correcciones con LLMs.</p></div></article>
+          <article><img src="logos/ia.png"><div class="texto"><h4>2024–Actualidad · Arquitecto de IA educativa</h4><h5>Pipeline de evaluación con modelos locales</h5><p>Desarrollo del sistema <strong>eval</strong>: generación y corrección automática de actividades con múltiples modelos.</p></div></article>
+          <article><img src="logos/server.png"><div class="texto"><h4>2024–Actualidad · Admin de sistemas y DevOps</h4><h5>Ubuntu Server, Apache, SSL, WebSocket seguro</h5><p>Implementación de servicios, certificados SSL y microservicios (Flask). Automatización de backups y despliegues.</p></div></article>
+        </div>
+
+        <div id="proyectos" data-title="Proyectos destacados">
+          <article><img src="logos/app.png"><div class="texto"><h4>Aplicaciones web docentes</h4><h5>“pasarlistav2”, “kanban”, “salmon”, “mediumseagreen”</h5><p>Asistencia, evaluación por periodos, videoconferencia WebRTC y dashboards temáticos.</p></div></article>
+          <article><img src="logos/bi.png"><div class="texto"><h4>Plataforma BI para JOCARSA</h4><h5>Dashboards, reportes y análisis en tiempo real</h5><p>Arquitectura orientada a Java y servicios web para métricas de negocio y uso educativo.</p></div></article>
+          <article><img src="logos/3d.png"><div class="texto"><h4>Gráficos y 3D interactivo</h4><h5>A-Frame, OpenCV/C++, CUDA</h5><p>Simulaciones de terreno fractal y ray tracing interactivo con enfoque didáctico.</p></div></article>
+          <article><img src="logos/blog.png"><div class="texto"><h4>JOCARSApress</h4><h5>Blog/CMS ligero con SQLite</h5><p>Tema “gainsboro”, panel de administración y gestión de publicaciones.</p></div></article>
+        </div>
+
+        <div id="publicaciones" data-title="Publicaciones y contenido">
+          <article><img src="logos/libro.png"><div class="texto"><h4>Autor · “Aprende programación con Python”</h4><h5>Libro y material didáctico</h5><p>Metodología práctica orientada a FP y autodidactas. Próximos títulos: SQL, Ubuntu Server, Markdown y HTML/CSS/JS.</p></div></article>
+          <article><img src="logos/youtube.png"><div class="texto"><h4>Canal de YouTube y recursos</h4><h5>Vídeos formativos y demostraciones</h5><p>Contenido sobre programación, IA aplicada a la docencia y desarrollo de productos.</p></div></article>
+        </div>
+
+        <div id="formacion" data-title="Formación y certificaciones">
+          <article><img src="logos/cert.png"><div class="texto"><h4>Administración de servidores y seguridad</h4><h5>Ubuntu Server · Apache · SSL</h5><p>Instalación y configuración de servicios web con certificados SSL y automatización de despliegues.</p></div></article>
+          <article><img src="logos/ia.png"><div class="texto"><h4>Modelos de lenguaje y evaluación automática</h4><h5>Ollama · OpenAI · QLoRA</h5><p>Diseño de datasets, rúbricas de evaluación y generación de informes para FP.</p></div></article>
+          <article><img src="logos/dev.png"><div class="texto"><h4>Desarrollo Full-Stack enfocado a educación</h4><h5>Python/Flask · PHP/SQLite · React</h5><p>Aplicaciones docentes con APIs REST, almacenamiento estructurado y diseño simple.</p></div></article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
