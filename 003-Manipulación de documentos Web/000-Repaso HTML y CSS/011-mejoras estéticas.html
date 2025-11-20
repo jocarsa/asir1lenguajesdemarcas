@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>CV - Jose Vicente Carratalá Sanchis</title>
+    <style>
+      /* RESET BÁSICO */
+      *{
+        box-sizing:border-box;
+        margin:0;
+        padding:0;
+      }
+
+      body,html{
+        height:100%;
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        background:#111;
+        color:#111;
+      }
+
+      /* CONTENEDOR PRINCIPAL */
+      .cv{
+        max-width:900px;
+        margin:40px auto;
+        background:#fff;
+        box-shadow:0 15px 40px rgba(0,0,0,.35);
+        border-radius:4px;
+        overflow:hidden;
+      }
+
+      header,main,footer{
+        padding:32px 40px;
+      }
+
+      /* CABECERA */
+      header{
+        border-bottom:3px solid #000;
+      }
+
+      .top{
+        display:flex;
+        justify-content:space-between;
+        gap:60px;
+      }
+
+      #identidad h1{
+        font-size:40px;
+        letter-spacing:.08em;
+        text-transform:uppercase;
+        line-height:1.1;
+      }
+
+      #identidad h2{
+        margin-top:6px;
+        font-size:16px;
+        font-weight:600;
+        text-transform:uppercase;
+        letter-spacing:.2em;
+      }
+
+      .contacto{
+        list-style:none;
+        font-size:14px;
+        line-height:1.7;
+        text-align:right;
+      }
+
+      .contacto li span{
+        font-weight:600;
+      }
+
+      #resumen{
+        margin-top:24px;
+        font-size:14px;
+        line-height:1.7;
+        max-width:100%;
+      }
+
+      /* SECCIONES GENERALES */
+      h3.titulo-bloque{
+        font-size:20px;
+        text-transform:uppercase;
+        letter-spacing:.14em;
+        margin-bottom:18px;
+      }
+
+      main{
+        display:flex;
+        gap:60px;
+        border-bottom:1px solid #ddd;
+      }
+
+      #educacion, #habilidades{
+        flex:1;
+      }
+
+      /* EDUCACIÓN */
+      #educacion time{
+        display:block;
+        font-size:12px;
+        text-transform:uppercase;
+        letter-spacing:.15em;
+        margin-top:10px;
+        color:#555;
+      }
+
+      #educacion p{
+        font-size:14px;
+        margin-top:3px;
+        line-height:1.5;
+      }
+
+      #educacion p strong{
+        font-weight:700;
+      }
+
+      /* HABILIDADES */
+      #habilidades ul{
+        list-style:none;
+        font-size:14px;
+        line-height:1.8;
+      }
+
+      #habilidades li::before{
+        content:"•";
+        display:inline-block;
+        margin-right:8px;
+      }
+
+      /* EXPERIENCIA */
+      footer{
+        font-size:14px;
+      }
+
+      footer h3{
+        composes:titulo-bloque;
+      }
+
+      footer h3{
+        font-size:20px;
+        text-transform:uppercase;
+        letter-spacing:.14em;
+        margin-bottom:18px;
+      }
+
+      .experiencia{
+        margin-bottom:20px;
+      }
+
+      .experiencia h4{
+        font-size:16px;
+        font-weight:700;
+      }
+
+      .experiencia .empresa{
+        margin-top:2px;
+        font-size:13px;
+        font-weight:600;
+      }
+
+      .experiencia .periodo{
+        font-weight:400;
+        color:#555;
+      }
+
+      .experiencia p{
+        margin-top:6px;
+        line-height:1.6;
+      }
+
+      /* PEQUEÑOS AJUSTES RESPONSIVE */
+      @media (max-width:720px){
+        header,main,footer{
+          padding:24px 20px;
+        }
+        .top{
+          flex-direction:column;
+          gap:16px;
+        }
+        .contacto{
+          text-align:left;
+        }
+        main{
+          flex-direction:column;
+          gap:24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cv">
+      <header>
+        <div class="top">
+          <div id="identidad">
+            <h1>Jose Vicente<br>Carratalá Sanchis</h1>
+            <h2>Docente de programación y desarrollador de software</h2>
+          </div>
+          <ul class="contacto">
+            <li><span>Tel.:</span> +34 600 000 000</li>
+            <li><span>Email:</span> info@josevicentecarratala.com</li>
+            <li><span>Web:</span> josevicentecarratala.com · jocarsa.com</li>
+            <li><span>Ubicación:</span> València, España</li>
+          </ul>
+        </div>
+        <div id="resumen">
+          <p>
+            Docente de Formación Profesional en el área de programación y sistemas,
+            desarrollador de soluciones de gestión empresarial y autor de materiales
+            didácticos sobre programación (Python, bases de datos, lenguajes de marcas,
+            servidores, etc.). Combino la experiencia como profesor con el desarrollo
+            de productos SaaS (ERP, CRM, herramientas de analítica y plugins para Moodle)
+            bajo la marca JOCARSA.
+          </p>
+          <p style="margin-top:8px;">
+            Me interesa especialmente el diseño de ecosistemas educativos y de software
+            que simplifiquen el trabajo diario de centros de formación y empresas, con
+            especial foco en la automatización de procesos, la visualización clara de
+            datos y la experiencia de usuario.
+          </p>
+        </div>
+      </header>
+
+      <main>
+        <section id="educacion">
+          <h3 class="titulo-bloque">Formación y publicaciones</h3>
+
+          <time>2015 – Actualidad</time>
+          <p><strong>Autor de libros técnicos</strong><br>
+             Publicación de manuales de programación, entre ellos
+             “Aprende programación con Python”, así como libros sobre SQL,
+             Markdown y administración de servidores.</p>
+
+          <time>2000 – Actualidad</time>
+          <p><strong>Formación continua en desarrollo de software</strong><br>
+             Especialización práctica en desarrollo web y backend
+             (Python, PHP, Java, JavaScript), bases de datos SQL, administración
+             de servidores Linux y plataformas e-learning.</p>
+        </section>
+
+        <aside id="habilidades">
+          <h3 class="titulo-bloque">Habilidades</h3>
+          <ul>
+            <li>Diseño e implementación de soluciones de gestión empresarial (ERP/CRM)</li>
+            <li>Desarrollo de plugins y automatizaciones para Moodle y entornos e-learning</li>
+            <li>Programación en Python, PHP, Java, JavaScript y bases de datos SQL</li>
+            <li>Administración de servidores Linux y servicios web (Ubuntu Server, Apache, SSL)</li>
+            <li>Diseño de material didáctico y cursos online de programación</li>
+            <li>Visualización 3D y creación de recursos multimedia para formación</li>
+            <li>Gestión integral de proyectos educativos y tecnológicos</li>
+          </ul>
+        </aside>
+      </main>
+
+      <footer>
+        <h3>Experiencia profesional</h3>
+
+        <div class="experiencia">
+          <h4>Docente de programación y sistemas</h4>
+          <div class="empresa">
+            Centros de Formación Profesional ·
+            <span class="periodo">2010 – Actualidad</span>
+          </div>
+          <p>
+            Impartición de módulos de programación, bases de datos, lenguajes de marcas,
+            servicios y procesos, administración de sistemas y proyectos intermodulares.
+            Diseño de actividades, rúbricas de evaluación, material didáctico y
+            acompañamiento del alumnado en proyectos reales.
+          </p>
+        </div>
+
+        <div class="experiencia">
+          <h4>Fundador y desarrollador principal</h4>
+          <div class="empresa">
+            JOCARSA ·
+            <span class="periodo">2008 – Actualidad</span>
+          </div>
+          <p>
+            Desarrollo de soluciones SaaS de gestión empresarial: ERP, CRM, herramientas
+            de productividad, paneles de Business Intelligence y utilidades para
+            administración de servidores. Diseño de interfaces web modernas y
+            dashboards para la toma de decisiones en empresas y centros educativos.
+          </p>
+        </div>
+
+        <div class="experiencia">
+          <h4>Autor y diseñador de cursos online</h4>
+          <div class="empresa">
+            Proyectos propios y colaboraciones ·
+            <span class="periodo">2015 – Actualidad</span>
+          </div>
+          <p>
+            Creación de cursos online de programación, bases de datos, desarrollo web,
+            servidores y herramientas de productividad. Producción de vídeos, guías
+            paso a paso, ejercicios continuos y material descargable para plataformas
+            de formación y uso en el aula.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+
