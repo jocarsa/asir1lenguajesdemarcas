@@ -1,0 +1,47 @@
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "rectangle",
+      "left": "356.854px",
+      "top": "93.6667px",
+      "width": "",
+      "height": "",
+      "texto": "html"
+    },
+    {
+      "id": "forma-2",
+      "tipo": "rectangle",
+      "left": "355.51px",
+      "top": "25.3229px",
+      "width": "",
+      "height": "",
+      "texto": "css"
+    },
+    {
+      "id": "forma-3",
+      "tipo": "rectangle",
+      "left": "354.844px",
+      "top": "273.667px",
+      "width": "",
+      "height": "",
+      "texto": "py"
+    },
+    {
+      "id": "forma-4",
+      "tipo": "pill",
+      "left": "344.177px",
+      "top": "217px",
+      "width": "",
+      "height": "",
+      "texto": "flask"
+    }
+  ],
+  "flechas": [
+    {
+      "idInicio": "forma-4",
+      "idFin": "forma-1",
+      "tipo": "simple"
+    }
+  ]
+}
