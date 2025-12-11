@@ -1,0 +1,88 @@
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "rectangle",
+      "left": "446px",
+      "top": "188.2px",
+      "width": "",
+      "height": "",
+      "texto": "HTML"
+    },
+    {
+      "id": "forma-2",
+      "tipo": "rectangle",
+      "left": "446.042px",
+      "top": "148.052px",
+      "width": "",
+      "height": "",
+      "texto": "CSS"
+    },
+    {
+      "id": "forma-3",
+      "tipo": "rectangle",
+      "left": "447.949px",
+      "top": "316.132px",
+      "width": "",
+      "height": "",
+      "texto": "Python"
+    },
+    {
+      "id": "forma-4",
+      "tipo": "pill",
+      "left": "447.946px",
+      "top": "278.519px",
+      "width": "",
+      "height": "",
+      "texto": "flask"
+    },
+    {
+      "id": "forma-5",
+      "tipo": "pill",
+      "left": "447.9px",
+      "top": "352.812px",
+      "width": "",
+      "height": "",
+      "texto": "sqlite"
+    },
+    {
+      "id": "forma-6",
+      "tipo": "rectangle",
+      "left": "448.043px",
+      "top": "437.163px",
+      "width": "",
+      "height": "",
+      "texto": "xSQL"
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {
+        "shapeId": "forma-6",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-5",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-1",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    }
+  ]
+}

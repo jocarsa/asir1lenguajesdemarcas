@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      body,html{background:lightgray;}
+      header,main,footer{background:white;padding:20px;width:600px;margin:auto;}
+      header,footer{text-align:center;}
+      article{border:1px solid lightgray;border-radius:5px;margin-bottom:20px;padding:20px;}
+      article p{text-align:justify;font-family:sans-serif;font-size:11px;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Jose Vicente Carratala</h1>
+      <h2>Blog superchulo</h2>
+      <p>
+      Hoy es {{ datos['fecha']['dia'] }} 
+      del mes {{ datos['fecha']['mes'] }}
+      del año {{ datos['fecha']['anio'] }}
+      y son las 
+      {{ datos['fecha']['hora'] }}:
+      {{ datos['fecha']['minuto'] }}:
+      {{ datos['fecha']['segundo'] }}
+      </p>
+    </header>
+    <main>
+    {% for articulo in datos['articulos'] %}
+    	<article>
+        <h3>{{ articulo['titulo'] }}</h3>
+        <time>{{ articulo['fecha'] }}</time>
+        <p>{{ articulo['texto'] }}</p>
+    	</article>
+    {% endfor %}
+    </main>
+    <footer>
+      (c) 2025 Jose Vicente Carratala
+    </footer>
+  </body>
+</html>

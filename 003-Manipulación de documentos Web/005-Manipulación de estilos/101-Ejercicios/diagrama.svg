@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="202.03749712775732" height="409.1125353644875" viewBox="0 0 202.03749712775732 409.1125353644875">
+
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+      .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+      .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .conn { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+    <marker id="arrow-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#111827"/>
+    </marker>
+  </defs>
+        
+<rect class="shape-rect" x="40" y="80.15000736012178" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="99.99999999999997" y="104.15000736012178" text-anchor="middle">HTML</text>
+<rect class="shape-rect" x="40.03751866957725" y="40" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="100.03751866957722" y="63.99999999999999" text-anchor="middle">CSS</text>
+<rect class="shape-rect" x="41.937507180606644" y="208.07499156278718" width="119.99999999999996" height="40.000013463637394" rx="4" ry="4" />
+<text x="101.93750718060662" y="232.07499829460588" text-anchor="middle">Python</text>
+<rect class="shape-rect" x="41.937507180606644" y="170.4624894086052" width="119.99999999999996" height="40.000031415153934" rx="20.000015707576967" ry="20.000015707576967" />
+<text x="101.93750718060662" y="194.46250511618217" text-anchor="middle">flask</text>
+<rect class="shape-rect" x="41.9000244140625" y="244.7625059240004" width="119.99997307272514" height="39.999999999999986" rx="19.999999999999993" ry="19.999999999999993" />
+<text x="101.90001095042507" y="268.7625059240004" text-anchor="middle">sqlite</text>
+<rect class="shape-rect" x="42.037497127757376" y="329.1125353644875" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="102.03749712775735" y="353.1125353644875" text-anchor="middle">xSQL</text>
+<path class="conn" d="M 102.00489816407134 329.1125353644875 L 101.93260991411114 284.7625059240004" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 101.50843949885189 170.4624894086052 L 100.42906734477435 120.15000736012175" marker-end="url(#arrow-end)" />
+</svg>

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Apuntes - Book Viewer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Highlight.js (code coloring) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+<style>
+/* -------------------------------------------------------
+   BASIC RESET
+------------------------------------------------------- */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+    font-family: system-ui, sans-serif;
+    background: #f3f3f3;
+    color: #222;
+    line-height: 1.5;
+}
+
+/* -------------------------------------------------------
+   LAYOUT
+------------------------------------------------------- */
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 260px;
+    padding: 1rem;
+    background: #ffffff;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+}
+
+.sidebar-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.book-container {
+    flex: 1;
+    padding: 1.5rem;
+}
+
+.book {
+    max-width: 900px;
+    margin: 0 auto 3rem auto;
+    padding: 2rem 2.5rem;
+    background: #ffffff;
+    box-shadow: 0 0 12px rgba(0,0,0,0.08);
+}
+
+/* -------------------------------------------------------
+   TYPOGRAPHY
+------------------------------------------------------- */
+.book h1, .book h2, .book h3,
+.book h4, .book h5, .book h6 {
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+
+.book h1 {
+    font-size: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: .3rem;
+}
+
+.book h2 {
+    font-size: 1.6rem;
+    border-bottom: 1px solid #eee;
+}
+
+.book p {
+    margin: .5rem 0 .75rem 0;
+    text-align: justify;
+}
+
+.book ul, .book ol { margin: .5rem 0 .75rem 1.5rem; }
+.book li { margin-bottom: .25rem; }
+
+.book code {
+    background: #f2f2f2;
+    padding: .1em .25em;
+    border-radius: 3px;
+    font-family: monospace;
+}
+
+/* -------------------------------------------------------
+   CODE BLOCK "WINDOW" (macOS style)
+------------------------------------------------------- */
+.code-window {
+    margin: .75rem 0 1rem 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: #f6f6f6;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.code-window-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    background: #e5e5e5;
+}
+
+.code-window-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.code-window-dot.red    { background: #ff5f57; }
+.code-window-dot.yellow { background: #febc2e; }
+.code-window-dot.green  { background: #28c840; }
+
+/* filename in code window header */
+.code-window-filename {
+    margin-left: 30%;
+    font-family: monospace;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+/* code area + line numbers */
+.code-window pre {
+    margin: 0;
+    padding: .75rem;
+    background: transparent;
+    border-radius: 0;
+    overflow-x: auto;
+    font-family: monospace;
+    position: relative;
+}
+
+.code-window pre code {
+    display: block;
+}
+
+/* each logical line */
+.code-line {
+    white-space: pre;
+}
+
+/* gutter with line numbers */
+.code-line-number {
+    display: inline-block;
+    width: 3ch;
+    text-align: right;
+    margin-right: 1em;
+    opacity: 0.6;
+    user-select: none;
+}
+
+/* actual code content */
+.code-line-content {
+    display: inline-block;
+}
+
+/* -------------------------------------------------------
+   TABLE OF CONTENTS
+------------------------------------------------------- */
+.toc ul { list-style: none; padding-left: 0; }
+.toc li { margin-bottom: .25rem; }
+.toc a { color: #004a8f; text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
+
+/* Horizontal rule from --- */
+.book hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1.5rem 0;
+}
+
+/* -------------------------------------------------------
+   PRINT STYLES
+------------------------------------------------------- */
+@media print {
+    body { background: #ffffff; }
+
+    .layout { display: block; }
+    .sidebar { display: none; }
+
+    .book-container { padding: 0; }
+    .book {
+        max-width: none;
+        box-shadow: none;
+        padding: 1.5cm;
+        font-size: 11pt;
+    }
+
+    .book h1 { page-break-before: always; }
+    .book h1:first-of-type { page-break-before: auto; }
+
+    .book h1, .book h2, .book h3 {
+        page-break-after: avoid;
+    }
+
+    .book pre, .book ul, .book ol {
+        page-break-inside: avoid;
+    }
+}
+h3::first-letter {
+  text-transform: uppercase;
+}
+</style>
+</head>
+
+<body>
+<div class="layout">
+    <aside class="sidebar">
+        <h1 class="sidebar-title">Índice</h1>
+        <nav id="toc" class="toc"><p>Cargando índice...</p></nav>
+    </aside>
+
+    <main class="book-container">
+        <article id="book" class="book">
+            <p>Cargando apuntes.md…</p>
+        </article>
+    </main>
+</div>
+
+<script>
+/* -------------------------------------------------------
+   MARKDOWN UTILS
+------------------------------------------------------- */
+
+function slugify(text) {
+    return text
+        .toString()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // remove accents
+        .toLowerCase()
+        .replace(/[^a-z0-9\s-]/g, "")
+        .trim()
+        .replace(/\s+/g, "-");
+}
+
+// Inline markdown on normal text (NO html escaping here to allow <small>, <a id="...">, etc.)
+function inlineMD(s) {
+    let out = s;
+
+    // Links: [text](url)
+    out = out.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+
+    // Inline code: `code`
+    out = out.replace(/`([^`]+)`/g, "<code>$1</code>");
+
+    // Bold: **text**
+    out = out.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+
+    // Italic: *text*
+    out = out.replace(/\*([^*]+)\*/g, "<em>$1</em>");
+
+    return out;
+}
+
+function escapeHTML(str) {
+    return str
+        .replace(/&/g,"&amp;")
+        .replace(/</g,"&lt;")
+        .replace(/>/g,"&gt;");
+}
+
+/* -------------------------------------------------------
+   PARSE MARKDOWN (con listas anidadas según indentación)
+------------------------------------------------------- */
+function parseMarkdown(md) {
+    const lines = md.replace(/\r\n/g, "\n").split("\n");
+
+    let html = "";
+    const headings = [];
+
+    let inCode = false;
+    let code = [];
+    let p = [];
+
+    // Pila de listas anidadas: [{ type: 'ul'|'ol', indent: number }]
+    let listStack = [];
+
+    function flushP() {
+        if (p.length) {
+            const text = p.join(" ").trim();
+            if (text) html += `<p>${inlineMD(text)}</p>\n`;
+            p = [];
+        }
+    }
+
+    function flushAllLists() {
+        while (listStack.length) {
+            const last = listStack.pop();
+            html += `</${last.type}>\n`;
+        }
+    }
+
+    function flushCode() {
+        if (inCode) {
+            const codeHTML = escapeHTML(code.join("\n"));
+            html += `
+<div class="code-window">
+  <div class="code-window-header">
+    <span class="code-window-dot red"></span>
+    <span class="code-window-dot yellow"></span>
+    <span class="code-window-dot green"></span>
+  </div>
+  <pre><code>${codeHTML}</code></pre>
+</div>\n`;
+            inCode = false;
+            code = [];
+        }
+    }
+
+    for (let line of lines) {
+        // Code fence
+        if (line.trim().startsWith("```")) {
+            if (!inCode) {
+                flushP();
+                flushAllLists();
+                inCode = true;
+                code = [];
+            } else {
+                flushCode();
+            }
+            continue;
+        }
+
+        if (inCode) {
+            code.push(line);
+            continue;
+        }
+
+        // Horizontal rule from --- 
+        if (/^---\s*$/.test(line.trim())) {
+            flushP();
+            flushAllLists();
+            html += "<hr>\n";
+            continue;
+        }
+
+        // Heading
+        const h = line.match(/^(#{1,6})\s+(.*)$/);
+        if (h) {
+            flushP();
+            flushAllLists();
+            const level = h[1].length;
+            const text = h[2].trim();
+            const id = slugify(text);
+            headings.push({ level, text, id });
+            html += `<h${level} id="${id}">${inlineMD(text)}</h${level}>\n`;
+            continue;
+        }
+
+        // Ordered list (with indentation)
+        let ol = line.match(/^(\s*)\d+\.\s+(.*)$/);
+        if (ol) {
+            flushP();
+
+            const indent = ol[1].length;
+            const content = ol[2].trim();
+            const type = "ol";
+
+            // Close lists until indentation level matches
+            while (listStack.length && indent < listStack[listStack.length - 1].indent) {
+                const last = listStack.pop();
+                html += `</${last.type}>\n`;
+            }
+
+            let current = listStack[listStack.length - 1];
+
+            // Open new list if type changes or indentation increases
+            if (!current || current.type !== type || indent > current.indent) {
+                html += `<${type}>\n`;
+                listStack.push({ type, indent });
+            }
+
+            html += `<li>${inlineMD(content)}</li>\n`;
+            continue;
+        }
+
+        // Unordered list (with indentation)
+        let ul = line.match(/^(\s*)[-*]\s+(.*)$/);
+        if (ul) {
+            flushP();
+
+            const indent = ul[1].length;
+            const content = ul[2].trim();
+            const type = "ul";
+
+            while (listStack.length && indent < listStack[listStack.length - 1].indent) {
+                const last = listStack.pop();
+                html += `</${last.type}>\n`;
+            }
+
+            let current = listStack[listStack.length - 1];
+
+            if (!current || current.type !== type || indent > current.indent) {
+                html += `<${type}>\n`;
+                listStack.push({ type, indent });
+            }
+
+            html += `<li>${inlineMD(content)}</li>\n`;
+            continue;
+        }
+
+        // Blank line
+        if (!line.trim()) {
+            flushP();
+            flushAllLists();
+            continue;
+        }
+
+        // Raw HTML line (e.g. <small>...</small> on its own)
+        if (line.trim().startsWith("<") && line.trim().endsWith(">") && !line.trim().startsWith("<!")) {
+            flushP();
+            flushAllLists();
+            html += line + "\n";
+            continue;
+        }
+
+        // Normal paragraph text
+        p.push(line.trim());
+    }
+
+    flushCode();
+    flushP();
+    flushAllLists();
+
+    return { html, headings };
+}
+
+/* -------------------------------------------------------
+   BUILD TOC (nested lists by heading level)
+------------------------------------------------------- */
+function buildTOC(headings) {
+    const toc = document.getElementById("toc");
+    toc.innerHTML = "";
+
+    if (!headings.length) {
+        toc.textContent = "Sin encabezados para generar índice.";
+        return;
+    }
+
+    const rootUl = document.createElement("ul");
+    let currentLevel = headings[0].level;
+    let currentUl = rootUl;
+    const ulStack = [rootUl];
+    let lastLi = null;
+
+    headings.forEach(h => {
+        const level = h.level;
+
+        if (level > currentLevel) {
+            for (let i = currentLevel; i < level; i++) {
+                const newUl = document.createElement("ul");
+                if (lastLi) {
+                    lastLi.appendChild(newUl);
+                } else {
+                    currentUl.appendChild(newUl);
+                }
+                ulStack.push(newUl);
+                currentUl = newUl;
+            }
+        } else if (level < currentLevel) {
+            for (let i = currentLevel; i > level; i--) {
+                ulStack.pop();
+            }
+            currentUl = ulStack[ulStack.length - 1];
+        }
+
+        currentLevel = level;
+
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = `#${h.id}`;
+        a.textContent = h.text;
+        li.appendChild(a);
+        currentUl.appendChild(li);
+        lastLi = li;
+    });
+
+    toc.appendChild(rootUl);
+}
+
+/* -------------------------------------------------------
+   Enhance code windows:
+   - Move filename (inline code in previous <p>) into header
+------------------------------------------------------- */
+function enhanceCodeWindows() {
+    document.querySelectorAll(".code-window").forEach(win => {
+        const header = win.querySelector(".code-window-header");
+        if (!header) return;
+
+        const prev = win.previousElementSibling;
+        if (!prev || prev.tagName !== "P") return;
+
+        const codeInline = prev.querySelector("code");
+        const filenameText = codeInline
+            ? codeInline.textContent.trim()
+            : prev.textContent.trim();
+
+        if (!filenameText) return;
+
+        const span = document.createElement("span");
+        span.className = "code-window-filename";
+        span.textContent = filenameText;
+        header.appendChild(span);
+
+        prev.remove();
+    });
+}
+
+/* -------------------------------------------------------
+   Add line numbers to highlighted code blocks
+------------------------------------------------------- */
+function addLineNumbersToCodeBlocks() {
+    document.querySelectorAll("pre code").forEach(block => {
+        // Syntax highlighting
+        hljs.highlightElement(block);
+
+        const original = block.innerHTML;
+        const lines = original.split("\n");
+
+        const numbered = lines.map((line, idx) => {
+            const content = line === "" ? "&nbsp;" : line;
+            return `<span class="code-line"><span class="code-line-number">${idx + 1}</span><span class="code-line-content">${content}</span></span>`;
+        }).join("\n");
+
+        block.innerHTML = numbered;
+    });
+}
+
+/* -------------------------------------------------------
+   MAIN
+------------------------------------------------------- */
+fetch("apuntes.md")
+    .then(r => {
+        if (!r.ok) throw new Error(r.status + " " + r.statusText);
+        return r.text();
+    })
+    .then(md => {
+        const { html, headings } = parseMarkdown(md);
+        const book = document.getElementById("book");
+        book.innerHTML = html;
+
+        // Enhance code windows (filename in header)
+        enhanceCodeWindows();
+
+        // Build TOC
+        buildTOC(headings);
+
+        // Highlight + line numbers
+        addLineNumbersToCodeBlocks();
+    })
+    .catch(err => {
+        document.getElementById("book").innerHTML =
+            `<p style="color:red">Error loading apuntes.md: ${err.message}</p>`;
+        document.getElementById("toc").innerHTML =
+            `<p style="color:red">No se pudo generar el índice.</p>`;
+    });
+</script>
+
+</body>
+</html>
+
