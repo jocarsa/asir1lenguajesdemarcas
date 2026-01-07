@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <title>El portafolio de Jose Vicente</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/estilo.css">
+  </head>
+  <body>
+    <header>
+      <h1>Jose Vicente Carratalá</h1>
+      <p>Portfolio</p>
+    </header>
+    <main>
+      {% for pieza in datos %}
+<article style="background-image:url(static/img/blancotrans.png),url(static/img/{{pieza.imagen}});background-size:cover;background-position:center center;">
+          <h3>{{pieza.titulo}}</h3>
+          
+        </article>
+      {% endfor %}
+        </main>
+
+    <section class="cv">
+      <div class="cv-inner">
+        <div class="cv-hero">
+          <div class="cv-title">
+            <h2>Sobre mí</h2>
+            <p class="cv-sub">
+              Soy <strong>Jose Vicente Carratalá</strong>, desarrollador de software y formador. Creo productos digitales, automatizo procesos y construyo soluciones orientadas a negocio.
+            </p>
+          </div>
+
+          <div class="cv-actions">
+            <a class="btn" href="mailto:info@josevicentecarratala.com">Contactar</a>
+            <a class="btn btn-ghost" href="https://github.com/jocarsa" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/jvcarratala/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="cv-grid">
+          <div class="cv-card">
+            <h3>Perfil</h3>
+            <ul>
+              <li>Desarrollo web y software de gestión (SaaS)</li>
+              <li>Automatización y herramientas internas</li>
+              <li>Arquitectura de producto y diseño orientado a usuario</li>
+              <li>Formación técnica y creación de contenidos</li>
+            </ul>
+          </div>
+
+          <div class="cv-card">
+            <h3>Especialidades</h3>
+            <ul>
+              <li>Backend: Python / PHP / Java</li>
+              <li>Frontend: HTML / CSS / JavaScript</li>
+              <li>Bases de datos: SQL (MySQL / SQLite)</li>
+              <li>Integraciones, APIs y despliegue en servidor</li>
+            </ul>
+          </div>
+
+          <div class="cv-card">
+            <h3>Proyectos</h3>
+            <ul>
+              <li><strong>Jocarsa</strong>: soluciones de gestión empresarial y productividad</li>
+              <li>Dashboards, reporting y herramientas de administración</li>
+              <li>Plataformas educativas y automatización de procesos</li>
+              <li>Contenido técnico: libros, cursos y recursos</li>
+            </ul>
+          </div>
+
+          <div class="cv-card">
+            <h3>Contacto</h3>
+            <ul>
+              <li>Email: <a href="mailto:info@josevicentecarratala.com">info@josevicentecarratala.com</a></li>
+              <li>Web: <a href="https://josevicentecarratala.com" target="_blank" rel="noopener">josevicentecarratala.com</a></li>
+              <li>YouTube: <a href="https://www.youtube.com/@VicenteCarratala" target="_blank" rel="noopener">@VicenteCarratala</a></li>
+              <li>GitHub: <a href="https://github.com/jocarsa" target="_blank" rel="noopener">github.com/jocarsa</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="https://facebook.com/carratala" aria-label="Facebook de José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/facebook.png" alt="Facebook" loading="lazy" decoding="async"></a>
+                <a href="https://www.instagram.com/jvcarratala/" aria-label="Instagram de José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/instagram.png" alt="Instagram" loading="lazy" decoding="async"></a>
+                <a href="mailto:info@josevicentecarratala.com" aria-label="Enviar correo a José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/email.png" alt="Email" loading="lazy" decoding="async"></a>
+                <a href="https://github.com/jocarsa" aria-label="GitHub de José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/github.png" alt="GitHub" loading="lazy" decoding="async"></a>
+                <a href="https://josevicentecarratala.com" aria-label="Web principal de José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/home.png" alt="Web" loading="lazy" decoding="async"></a>
+                <a href="https://www.linkedin.com/in/jvcarratala/" aria-label="LinkedIn de José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/linkedin.png" alt="LinkedIn" loading="lazy" decoding="async"></a>
+                <a href="https://wa.me/34620891718" aria-label="WhatsApp de José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/whatsapp.png" alt="WhatsApp" loading="lazy" decoding="async"></a>
+                <a href="https://www.youtube.com/@VicenteCarratala" aria-label="YouTube de José Vicente Carratalá Sanchis"><img src="https://jocarsa.com/logos/youtube.png" alt="YouTube" loading="lazy" decoding="async"></a>
+    </footer>
+  </body>
+</html>

@@ -29,6 +29,8 @@
   - [Creación y modificación de elementos](#creacion-y-modificacion-de-elementos)
   - [Eliminación de elementos](#eliminacion-de-elementos)
   - [Manipulación de estilos](#manipulacion-de-estilos)
+  - [Ejercicio portafolio](#ejercicio-portafolio)
+  - [Acabamos el portafolio](#acabamos-el-portafolio)
 - [Definición de esquemas y vocabularios en lenguajes de marcas](#definicion-de-esquemas-y-vocabularios-en-lenguajes-de-marcas)
   - [Tecnologías para la definición de documentos. Estructura y sintaxis](#tecnologias-para-la-definicion-de-documentos-estructura-y-sintaxis)
   - [Creación de descripciones de documentos](#creacion-de-descripciones-de-documentos)
@@ -71,29 +73,43 @@
 <a id="clasificacion"></a>
 ## Clasificación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/001-Clasificaci%C3%B3n)
+
 
 <a id="caracteristicas-y-ambitos-de-aplicacion"></a>
 ## Características y ámbitos de aplicación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/002-Caracter%C3%ADsticas%20y%20%C3%A1mbitos%20de%20aplicaci%C3%B3n)
 
 
 <a id="estructura-y-sintaxis"></a>
 ## Estructura y sintaxis
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/003-Estructura%20y%20sintaxis)
+
 
 <a id="herramientas-de-edicion"></a>
 ## Herramientas de edición
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/004-Herramientas%20de%20edici%C3%B3n)
 
 
 <a id="elaboracion-de-documentos-bien-formados"></a>
 ## Elaboración de documentos bien formados
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/005-Elaboraci%C3%B3n%20de%20documentos%20bien%20formados)
+
 
 <a id="utilizacion-de-espacios-de-nombres"></a>
 ## Utilización de espacios de nombres
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/006-Utilizaci%C3%B3n%20de%20espacios%20de%20nombres)
+
 
 <a id="ejercicio-practico"></a>
 ## Ejercicio práctico
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/007-Ejercicio%20pr%C3%A1ctico)
 
 
 
@@ -103,9 +119,13 @@
 <a id="estandares-web-versiones-clasificacion"></a>
 ## Estándares web. Versiones. Clasificación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/001-Est%C3%A1ndares%20web.%20Versiones.%20Clasificaci%C3%B3n)
+
 
 <a id="estructura-de-un-documento-html"></a>
 ## Estructura de un documento HTML
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/002-Estructura%20de%20un%20documento%20HTML)
 
 ### Introducción a los ejercicios
 
@@ -390,6 +410,8 @@ En resumen, este código es un molde vacío pero bien estructurado que prepara l
 
 <a id="identificacion-de-etiquetas-y-atributos-de-html"></a>
 ## Identificación de etiquetas y atributos de HTML
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/003-Identificaci%C3%B3n%20de%20etiquetas%20y%20atributos%20de%20HTML)
 
 ### Introducción a los ejercicios
 
@@ -935,6 +957,8 @@ Estas actividades están diseñadas para que los estudiantes avancen gradualment
 
 <a id="herramientas-de-diseno-web"></a>
 ## Herramientas de diseño web
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/004-Herramientas%20de%20dise%C3%B1o%20web)
 
 ### Introducción a los ejercicios
 
@@ -2212,6 +2236,8 @@ footer {
 
 <a id="hojas-de-estilo-css"></a>
 ## Hojas de estilo (CSS)
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/005-Hojas%20de%20estilo%20%28CSS%29)
 
 ### Introducción a los ejercicios
 
@@ -4720,6 +4746,8 @@ Para marcar el enlace de la página actual como activo, necesitarás JavaScript 
 <a id="validacion-de-documentos-html-y-css"></a>
 ## Validación de documentos HTML y CSS
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/006-Validaci%C3%B3n%20de%20documentos%20HTML%20y%20CSS)
+
 ### Introducción a los ejercicios
 
 Para mejorar la legibilidad y el estilo del código HTML y CSS, es importante organizar el código en una estructura clara y mantener consistencia en los estilos. También es útil agregar comentarios para explicar partes específicas del código que pueden no ser obvias a primera vista.
@@ -6323,9 +6351,190 @@ Este diseño proporciona una interfaz visualmente atractiva e interactiva que me
 </html>
 ```
 
+### Actividades propuestas
+
+El problema parece ser que hay una diferencia en la forma en que se define el estilo CSS y la forma en que se utiliza. A continuación, te proporciono algunos pasos para corregir los errores y hacer que el código funcione correctamente:
+
+1. **Revisa las versiones de cada archivo**: En primer lugar, asegúrate de tener las mismas versiones de cada archivo (`index.html`, `styles.css` y `script.js`) en ambos archivos.
+2. **Corrección en la definición del estilo CSS**:
+   - El problema es que se ha agregado una línea adicional al código CSS para cambiar el tamaño de fuente, pero no se había incluido previamente en el archivo `styles.css`. Se recomienda eliminar esta línea si se va a utilizar.
+3. **Cambios en los enlaces de fuentes**:
+   - En el primer archivo (`index.html`), el enlace a la fuentes es correcto: `<link rel="stylesheet" href="styles.css">`.
+   - En el segundo archivo (`index.html`), el enlace a la fuentes es incorrecto: `@font-face { font-family: "mifuente"; src:url("Ubuntu-R.ttf"); }`. Sin embargo, se necesitan agregar los mismos estilos de CSS que se encuentran en el primer archivo.
+4. **Corrección en la estructura HTML**:
+   - En ambos archivos, la estructura HTML es correcta, pero se recomienda reorganizarla para mejorar la legibilidad y claridad.
+
+Aquí te presento una versión corregida del código:
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Vicente Carratalá</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>José Vicente Carratalá</h1>
+        <h2>Profesor, desarrollador, diseñador</h2>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobremi">Sobre mi</a></li>
+                <li><a href="#docencia">Docencia</a></li>
+                <li><a href="#desarrollo">Desarrollo</a></li>
+                <li><a href="#diseno">Diseño</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Inicio -->
+        <section id="inicio">
+            <h3>Inicio</h3>
+            <img src="josevicente.jpg" alt="Jose Vicente Carratala">
+        </section>
+
+        <!-- Sección Sobre mí -->
+        <section id="sobremi">
+            <h3>Sobre mi</h3>
+            <p>Soy Jose Vicente Carratala, un profesional apasionado por la tecnología, la formación y la creatividad digital. A lo largo de mi trayectoria, he trabajado en diversas áreas relacionadas con el desarrollo de software, la enseñanza de programación y la creación de contenidos visuales en 3D. Mi objetivo es ofrecer soluciones innovadoras y efectivas en el mundo de la tecnología y la formación.</p>
+        </section>
+
+        <!-- Sección Docencia -->
+        <section id="docencia">
+            <h3>Docencia</h3>
+            <div class="contenido">
+                <img src="josevicente.jpg" alt="Jose Vicente Carratala">
+                <p>Soy <b>docente</b> especializado en <u>programación</u> y <i>tecnologías digitales</i>, con una profunda vocación por enseñar de forma práctica, clara y motivadora. A lo largo de mi trayectoria he ayudado a cientos de estudiantes a descubrir el mundo del desarrollo de software, desde los primeros pasos hasta proyectos reales. Creo firmemente en el aprendizaje activo, el pensamiento crítico y la creatividad como pilares de la formación técnica, y disfruto diseñando materiales didácticos, cursos y experiencias formativas que acerquen la tecnología a todas las personas.</p>
+            </div>
+        </section>
+
+        <!-- Sección Desarrollo -->
+        <section id="desarrollo">
+            <h3>Desarrollo</h3>
+            <div class="contenido">
+                <img src="josevicente.jpg" alt="Jose Vicente Carratala">
+                <p>Soy docente especializado en programación y tecnologías digitales, con una profunda vocación por enseñar de forma práctica, clara y motivadora. A lo largo de mi trayectoria he ayudado a cientos de estudiantes a descubrir el mundo del desarrollo de software, desde los primeros pasos hasta proyectos reales. Creo firmemente en el aprendizaje activo, el pensamiento crítico y la creatividad como pilares de la formación técnica, y disfruto diseñando materiales didácticos, cursos y experiencias formativas que acerquen la tecnología a todas las personas.</p>
+            </div>
+        </section>
+
+        <!-- Sección Diseño -->
+        <section id="diseno">
+            <h3>Diseño</h3>
+            <div class="contenido">
+                <img src="josevicente.jpg" alt="Jose Vicente Carratala">
+                <p>Soy docente especializado en programación y tecnologías digitales, con una profunda vocación por enseñar de forma práctica, clara y motivadora. A lo largo de mi trayectoria he ayudado a cientos de estudiantes a descubrir el mundo del desarrollo de software, desde los primeros pasos hasta proyectos reales. Creo firmemente en el aprendizaje activo, el pensamiento crítico y la creatividad como pilares de la formación técnica, y disfruto diseñando materiales didácticos, cursos y experiencias formativas que acerquen la tecnología a todas las personas.</p>
+            </div>
+        </section>
+
+        <!-- Sección Portafolio -->
+        <section id="portafolio">
+            <h3>Portafolio</h3>
+            <div id="rejilla">
+                <article>
+                    <h4>Titulo</h4>
+                    <p>Descripcion</p>
+                    <img src="josevicente.jpg" alt="Jose Vicente Carratala">
+                </article>
+                <article> 
+                    <h4>Titulo</h4>
+                    <p>Descripcion</p>
+                    <img src="josevicente.jpg" alt="Jose Vicente Carratala">
+                </article>
+                <article>
+                    <h4>Titulo</h4>
+                    <p>Descripcion</p>
+                    <img src="josevicente.jpg" alt="Jose Vicente Carratala">
+                </article>
+                <article>
+                    <h4>Titulo</h4>
+                    <p>Descripcion</p>
+                    <img src="josevicente.jpg" alt="Jose Vicente Carratala">
+                </article>
+                <article>
+                    <h4>Titulo</h4>
+                    <p>Descripcion</p>
+                    <img src="josevicente.jpg" alt="Jose Vicente Carratala">
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto">
+            <form>
+                <label for="nombre">Introduce tu nombre</label><br>
+                <input type="text" name="nombre" id="nombre"><br>
+                <br>
+                <label for="email">Introduce tu email</label><br>
+                <input type="email" name="email" id="email"><br>
+                <br>
+                <label for="mensaje">Introduce tu mensaje</label><br>
+                <textarea name="mensaje" id="mensaje"></textarea><br>
+                <br>
+                <input type="submit"><br>
+            </form>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_LbSL3G6S6Q?si=AHi-LS4W2Dlb3s-v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <!-- Esto será el pié de página -->
+    </footer>
+
+</body>
+</html>
+```
+
+```css
+@font-face {
+  font-family: "mifuente";
+  src:url("Ubuntu-R.ttf");
+}
+
+body{
+    background-color: #f2f4f7;
+    text-align: justify;
+    padding: 20px;
+}
+
+header, main, footer{
+    background-color: #f9f9f9;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+#inicio img {
+    border-radius: 50%;
+}
+
+.contenido {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ article {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+```
+
+Espero que esto te ayude. Recuerda leer las instrucciones del problema y revisar todas las partes del código para asegurarte de tener los mismos resultados en ambos archivos.
+
 
 <a id="lenguajes-de-marcas-para-la-sindicacion-de-contenidos"></a>
 ## Lenguajes de marcas para la sindicación de contenidos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/007-Lenguajes%20de%20marcas%20para%20la%20sindicaci%C3%B3n%20de%20contenidos)
 
 ### Introducción a los ejercicios
 
@@ -8865,6 +9074,8 @@ This CV presents a well-rounded view of José Vicente Carratalá Sanchis's exper
 <a id="ejercicio-de-final-de-unidad"></a>
 ## Ejercicio de final de unidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/101-Ejercicio%20de%20final%20de%20unidad)
+
 ### Introducción a los ejercicios
 
 En esta carpeta encontrarás un conjunto de ejercicios diseñados para ayudarte a familiarizarte con los fundamentos del lenguaje de programación Python. Estos ejemplos abarcan desde conceptos básicos como imprimir mensajes y declarar variables, hasta operaciones más avanzadas como entrada de datos y cálculos matemáticos. A través de estos problemas, mejorarás tus habilidades en la manipulación de tipos de datos, uso de operadores aritméticos y comparativos, así como la creación de programas simples que combinan estas capacidades para resolver tareas prácticas.
@@ -9418,6 +9629,8 @@ Estas actividades están diseñadas para introducir gradualmente a los estudiant
 <a id="examen-final"></a>
 ## Examen final
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/104-Examen%20final)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene una serie de ejercicios orientados a familiarizarte con el manejo de bases de datos SQL en entornos web. Los problemas abordan desde la creación y configuración de tablas hasta operaciones más avanzadas como la inserción de datos, la creación de claves foráneas, consultas JOIN y la administración de usuarios y privilegios. A través de estos ejercicios, adquirirás competencias esenciales en la estructuración y manipulación de datos en una base de datos relacional, lo que te permitirá integrar correctamente esta información en aplicaciones web dinámicas.
@@ -9664,9 +9877,13 @@ FLUSH PRIVILEGES;
 <a id="repaso-html-y-css"></a>
 ## Repaso HTML y CSS
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/003-Manipulaci%C3%B3n%20de%20documentos%20Web/000-Repaso%20HTML%20y%20CSS)
+
 
 <a id="lenguajes-de-script-de-cliente-caracteristicas-y-sintaxis-basica-estandares"></a>
 ## Lenguajes de script de cliente. Características y sintaxis básica. Estándares
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/003-Manipulaci%C3%B3n%20de%20documentos%20Web/001-Lenguajes%20de%20script%20de%20cliente.%20Caracter%C3%ADsticas%20y%20sintaxis%20b%C3%A1sica.%20Est%C3%A1ndares)
 
 ### Introducción a los ejercicios
 
@@ -10482,8 +10699,34 @@ Este diagrama es útil como introducción básica al flujo de desarrollo web con
 <a id="seleccion-y-acceso-a-elementos"></a>
 ## Selección y acceso a elementos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/003-Manipulaci%C3%B3n%20de%20documentos%20Web/002-Selecci%C3%B3n%20y%20acceso%20a%20elementos)
+
+### Introducción a los ejercicios
+
+**Introducción y Resumen**
+
+En este conjunto de ejercicios, se aborda el manejo de elementos en una página web utilizando la biblioteca Flask. A continuación, se presentan los tipos de problemas que se trabajan y las competencias que se practican:
+
+*   **Selección y acceso a elementos**: Se centra en aprender a seleccionar y acceder a diferentes elementos de una página web, como texto, imágenes o incluso diagramas.
+*   **Uso de plantillas**: Aprender a utilizar plantillas para renderizar contenido en la página web.
+*   **Lectura de archivos**: Estudiar cómo leer datos de archivos JSON.
+
+Estos ejercicios se diseñan para ayudar a los estudiantes a desarrollar habilidades prácticas en el manejo de elementos y plantillas en una página web, así como en la lectura de datos de archivos.
+
 ### flask sencillo
 <small>Creado: 2025-12-03 11:53</small>
+
+#### Explicación
+
+¡Hola estudiantes! Hoy vamos a analizar un fragmento de código clave en el proyecto Flask Sencillo.
+
+Este fragmento se encarga de crear una aplicación Web básica utilizando la librería Flask. Primero, importamos la librería `Flask` y creamos una instancia de ella llamada `app`. Esto nos permite configurar nuestra aplicación web. 
+
+En el código, vemos un decorador `@app.get("/")` que indica a Flask que escuche en la ruta raíz (`"/"`) de nuestra aplicación web y devuelva una respuesta cuando alguien acceda a esa ruta. En este caso, la función `index()` devuelve simplemente "Hola mundo desde Flask". 
+
+Este código es importante porque nos permite crear una base básica para nuestras aplicaciones web y entender cómo funcionan las rutas en Flask. Es fundamental para cualquier desarrollador web que desee aprender sobre Flask y otras tecnologías similares.
+
+¡Eso es todo por hoy, estudiantes!
 
 `001-flask sencillo.py`
 
@@ -10512,6 +10755,16 @@ if __name__ == "__main__":						# Si nos encontramos en el archivo principal
 ### devolvemos html
 <small>Creado: 2025-12-03 11:55</small>
 
+#### Explicación
+
+¡Hola a todos! Hoy vamos a explorar cómo funciona Flask, una herramienta de programación para crear aplicaciones web en Python.
+
+Flask es un framework ligero y flexible que nos permite crear aplicaciones web sin necesidad de mucho código. En este fragmento de código, creamos una instancia de la clase `Flask` llamada `app`, pasando el nombre de nuestra aplicación como argumento. Esto nos permite crear una base para nuestras rutas y funciones.
+
+La línea `@app.get("/")` es donde realmente empezamos a crear nuestra aplicación web. En este caso, estamos definiendo una función llamada `index()` que se ejecutará cuando la URL `/` sea visitada en nuestro sitio web. La función devuelve un string con el texto "Hola mundo desde Flask", lo cual será visualizado en la página web.
+
+Finalmente, la línea `app.run(debug=True)` es donde configuramos la aplicación para comenzar a escuchar peticiones y ejecutar nuestra función `index()`. El parámetro `debug=True` permite que veamos los errores de nuestro sitio web en el navegador, lo cual puede ser útil durante el desarrollo.
+
 `002-devolvemos html.py`
 
 ```python
@@ -10538,6 +10791,18 @@ if __name__ == "__main__":
 
 ### multilinea
 <small>Creado: 2025-12-03 11:58</small>
+
+#### Explicación
+
+Este código es una aplicación web simple creada con el framework Flask, un popular marco para desarrollar aplicaciones web en Python. El objetivo de este ejercicio es mostrar cómo se puede generar un archivo HTML dinámicamente desde Python.
+
+El código comienza creando una instancia de la clase `Flask` llamada `app`, que representa la aplicación web. Luego, defines una función decoradora llamada `@app.get("/")` que se ejecutará cada vez que se acceda a la ruta "/" de la aplicación. Esta función devuelve un string que contiene el código HTML para mostrar en la página.
+
+La clave aquí es la parte del código donde se utiliza el símbolo `#` seguido de una descripción o comentario, y luego se ejecuta una instrucción Python. En este caso, no hay comentarios con ese formato pero estamos utilizando el mismo patrón para descomponer el código en bloques más pequeños a continuación. 
+
+La función también utiliza un parámetro llamado `debug=True` cuando la aplicación se ejecuta. Esto activa la modo de desarrollo, que permite al usuario ver los cambios realizados en la aplicación sin necesidad de recargar la página.
+
+Finalmente, el código utiliza el método `app.run()` para iniciar la aplicación y escuchar solicitudes HTTP.
 
 `003-multilinea.py`
 
@@ -10567,6 +10832,20 @@ if __name__ == "__main__":
 ### deseable
 <small>Creado: 2025-12-03 12:06</small>
 
+#### Explicación
+
+¡Hola estudiantes! Hoy vamos a analizar un fragmento de código que es fundamental para cualquier proyecto web en Python utilizando Flask. Este código es el punto de partida para crear una aplicación web simple.
+
+El código comienza con la importación de las funciones necesarias desde la biblioteca Flask. En este caso, estamos utilizando `Flask` y `render_template`, los cuales nos permiten crear aplicaciones web y renderizar plantillas HTML respectivamente.
+
+A continuación, se crea un objeto llamado `app` que es el encargado de gestionar la aplicación web. Esta instancia es necesaria para ejecutar la aplicación.
+
+El punto crucial del código es el decorador `@app.get("/")`, el cual indica que la función `index()` se va a ejecutar cuando una solicitud HTTP GET se envía al servidor en la ruta raíz de la aplicación (`"/"`) y también se puede utilizar para acceder a la página inicial de nuestra aplicación web.
+
+La función `index()` utiliza el método `render_template` para obtener un HTML template llamado "004-deseable.html" ubicado dentro del directorio de plantillas. En este caso, se espera que se encuentre en una carpeta llamada `templates`, aunque no se ha definido esta ruta en el código proporcionado.
+
+Finalmente, la aplicación se ejecuta con el comando `app.run(debug=True)` cuando se inicia el script principal (`if __name__ == "__main__"`). El parámetro `debug=True` activa el modo de desarrollo y nos permite cambiar los archivos directamente desde nuestro navegador local sin tener que hacer copiar en el servidor.
+
 `004-deseable.py`
 
 ```python
@@ -10585,6 +10864,22 @@ if __name__ == "__main__":
 
 ### multisitio
 <small>Creado: 2025-12-03 12:27</small>
+
+#### Explicación
+
+Este código es un fragmento de una aplicación web creada con la biblioteca Flask, una herramienta popular para desarrollar aplicaciones web en Python. El objetivo principal de este código es definir las rutas y funcionales para diferentes páginas de la aplicación.
+
+El código se divide en tres partes principales:
+
+1.  Importación de las bibliotecas necesarias: En esta parte del código, se importan las clases `Flask` y `render_template` de la biblioteca Flask. La clase `Flask` es la base para crear una aplicación web, mientras que `render_template` se utiliza para renderizar plantillas HTML.
+2.  Creación de la aplicación: Se crea una instancia de la clase `Flask` llamada `app`, y se le asigna el nombre del módulo actual (`__name__`) como parámetro. Esta es la base para la aplicación web, y es donde se configurarán las rutas.
+3.  Definición de las rutas: Las rutas son definidas mediante la función `@app.get()` que indica que una función debe ser llamada cuando se hace una solicitud GET a una ruta determinada. En este caso, se definen tres rutas:
+
+    -   `/`: Se define una función `inicio` que devuelve una plantilla HTML llamada "inicio.html" cuando se accede a la raíz de la aplicación.
+    -   `/sobremi`: Se define una función `sobremi` que devuelve una plantilla HTML llamada "sobremi.html".
+    -   `/contacto`: Se define una función `contacto` que devuelve una plantilla HTML llamada "contacto.html".
+
+Finalmente, se ejecuta la aplicación cuando se ejecuta el script directamente (es decir, no es parte de un proyecto más grande) con `app.run(debug=True)`. Esta línea de código configura la aplicación para que escuche solicitudes en el puerto 5000 y actúe como servidor de desarrollo, permitiendo cambios y actualizaciones en tiempo real.
 
 `005-multisitio.py`
 
@@ -10612,6 +10907,12 @@ if __name__ == "__main__":
 ### pasar datos
 <small>Creado: 2025-12-04 08:41</small>
 
+#### Explicación
+
+Este código es el corazón de un pequeño servidor web en Python, utilizando la biblioteca Flask. El objetivo principal es crear una página web simple que muestra información almacenada en un diccionario llamado `datos`.
+
+El código define dos elementos clave: primero, importa las funciones necesarias para crear y gestionar un servidor web con Flask, y segundo, crea una instancia del objeto `Flask`, que representa el servidor web. En este caso, se llama a la clase `Flask` utilizando el nombre `app`.
+
 `006-pasar datos.py`
 
 ```python
@@ -10631,6 +10932,20 @@ if __name__ == "__main__":
 
 ### pasar mas datos
 <small>Creado: 2025-12-04 08:45</small>
+
+#### Explicación
+
+Este fragmento de código es una parte del proyecto Flask que crea una aplicación web básica para mostrar información. A continuación, te explico qué hace el código y cómo funciona:
+
+El código define una aplicación web utilizando la biblioteca Flask. Se importa la clase `Flask` y se crea un objeto llamado `app`, que es la instancia de la aplicación.
+
+Luego, se define un diccionario llamado `datos` que contiene información sobre una persona, incluyendo su nombre y apellidos. Este diccionario será utilizado para pasar datos a una plantilla HTML.
+
+El código también define una función llamada `inicio()` que se ejecutará cuando el usuario acceda a la página principal de la aplicación (la URL es "/"). Esta función utiliza la función `render_template()` para renderizar un archivo HTML llamado "masdatos.html" y pasarle como parámetro el diccionario `datos`. Esto significa que las variables definidas en el diccionario se pueden acceder desde la plantilla HTML.
+
+Finalmente, el código verifica si se está ejecutando el script directamente (es decir, no es parte de un proyecto más grande) y, si es así, utiliza la función `run()` para iniciar la aplicación web en modo desarrollador (`debug=True`). Esto significa que la aplicación estará disponible en una dirección específica del navegador.
+
+En resumen, este código crea una aplicación web básica que muestra información desde un diccionario y se ejecuta cuando el usuario accede a la página principal.
 
 `007-pasar mas datos.py`
 
@@ -10654,6 +10969,14 @@ if __name__ == "__main__":
 
 ### diagrama
 <small>Creado: 2025-12-03 12:33</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo JSON que contiene información sobre formas y flechas en un diagrama. En este caso, se trata de un archivo utilizado por el lenguaje JavaScript para manipular elementos del DOM (Document Object Model) en una página web.
+
+En este archivo, podemos ver dos arrays principales: "formas" y "flechas". El array "formas" contiene objetos que representan diferentes formas en el diagrama, como rectángulos, con sus propiedades como posición y texto. Por otro lado, el array "flechas" contiene objetos que representan conexiones entre estas formas, especificando la dirección y estilo de cada flecha.
+
+Este archivo es importante porque nos permite entender cómo se estructuran los datos del diagrama y cómo se pueden manipularlos para realizar tareas como agregar o eliminar formas, Flechas o incluso actualizar su posición.
 
 `diagrama.json`
 
@@ -10794,12 +11117,85 @@ if __name__ == "__main__":
 }
 ```
 
+### Actividades propuestas
+
+**Actividades para estudiantes de Formación Profesional**
+
+A continuación, se presentan las actividades propuestas basadas en los ejercicios proporcionados:
+
+1. **Creación de una aplicación Flask simple**
+ * Descripción: El alumnado debe crear una aplicación Flask que devuelva un mensaje "Hola mundo" cuando se acceda a la raíz de la web.
+ * Aprendizaje: Comprender la estructura básica de una aplicación Flask y cómo ejecutarla.
+2. **Manipulación de HTML en Flask**
+ * Descripción: El alumnado debe modificar el archivo "html.py" para que devuelva un mensaje diferente y comprenda cómo renderizar plantillas en Flask.
+ * Aprendizaje: Comprender la importancia del HTML en las aplicaciones web y cómo renderizar plantillas en Flask.
+3. **Creación de una aplicación Flask con múltiples páginas**
+ * Descripción: El alumnado debe crear una aplicación Flask que tenga varias páginas (inicio, sobremi, contacto) y comprenda cómo renderizar diferentes plantillas en Flask.
+ * Aprendizaje: Comprender la estructura básica de una aplicación Flask con múltiples páginas y cómo renderizar diferentes plantillas.
+4. **Pasar datos entre páginas en Flask**
+ * Descripción: El alumnado debe modificar el archivo "masdatos.py" para que devuelva datos adicionales y comprenda cómo pasar datos entre páginas en Flask.
+ * Aprendizaje: Comprender cómo pasar datos entre páginas en una aplicación Flask.
+5. **Análisis de un diagrama JSON**
+ * Descripción: El alumnado debe analizar el diagrama JSON proporcionado y comprender su estructura y propósito.
+ * Aprendizaje: Comprender la estructura y propósito de los diagramas JSON.
+6. **Creación de una página web con HTML y CSS**
+ * Descripción: El alumnado debe crear una página web con HTML y CSS que muestre las diferentes formas (python, flask, html) y comprenda cómo utilizar CSS en la creación de páginas web.
+ * Aprendizaje: Comprender la importancia del HTML y CSS en la creación de páginas web y cómo utilizarlos para crear diseños visuales.
+7. **Creación de una aplicación Flask con datos**
+ * Descripción: El alumnado debe crear una aplicación Flask que devuelva datos almacenados en un archivo JSON y comprenda cómo acceder a esos datos en la aplicación.
+ * Aprendizaje: Comprender cómo almacenar y acceder a datos en una aplicación Flask.
+8. **Creación de una página web con diagramas**
+ * Descripción: El alumnado debe crear una página web que muestre los diagramas JSON proporcionados y comprenda cómo utilizarlos para crear visualizaciones.
+ * Aprendizaje: Comprender la importancia de los diagramas en la creación de páginas web y cómo utilizarlos para crear visualizaciones.
+
 
 <a id="creacion-y-modificacion-de-elementos"></a>
 ## Creación y modificación de elementos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/003-Manipulaci%C3%B3n%20de%20documentos%20Web/003-Creaci%C3%B3n%20y%20modificaci%C3%B3n%20de%20elementos)
+
+### Introducción a los ejercicios
+
+**Introducción a los ejercicios de programación**
+
+En esta carpeta se presentan una serie de ejercicios diseñados para ayudar a desarrolladores a comprender y practicar conceptos fundamentales de la creación de aplicaciones web utilizando Flask, Jinja2 y Python. Estos ejercicios cubren temas como la creación y modificación de elementos, la manipulación de datos, el uso de plantillas y la estructura de un proyecto.
+
+**Tipos de problemas y competencias**
+
+Los ejercicios presentados en esta carpeta se enfocan en las siguientes áreas:
+
+*   Creación y modificación de elementos: Los desarrolladores deben crear y modificar elementos de la aplicación web, como plantillas y páginas HTML.
+*   Manipulación de datos: Se requiere que los desarrolladores manipulen datos de manera eficiente y segura.
+*   Uso de plantillas: La creación de plantillas utilizando Jinja2 es fundamental para generar contenido dinámico en la aplicación web.
+*   Estructura de un proyecto: Los ejercicios también se enfocan en enseñar a los desarrolladores sobre la estructura y organización de un proyecto, incluyendo la importancia de seguir buenas prácticas de programación.
+
+**Objetivos**
+
+Al completar estos ejercicios, los desarrolladores deben adquirir competencias en:
+
+*   Crear y modificar elementos de una aplicación web utilizando Flask y Jinja2.
+*   Manipular datos de manera eficiente y segura.
+*   Crear plantillas personalizadas utilizando Jinja2.
+*   Organizar y estructurar un proyecto de manera efectiva.
+
+Estos ejercicios están diseñados para ayudar a los desarrolladores a entender y practicar conceptos fundamentales en la creación de aplicaciones web, lo que les permitirá crear soluciones más robustas y escalables.
+
 ### blog
 <small>Creado: 2025-12-04 09:20</small>
+
+#### Explicación
+
+Este código es la parte principal de un proyecto de Flask, una aplicación web ligera y flexible que permite crear sitios web rápidos y eficientes. En este fragmento se definen las características básicas de la aplicación, incluyendo la configuración inicial y el punto de entrada para acceder al blog.
+
+El código se inicia con importaciones de bibliotecas Flask e histórico actualizado mediante `datetime.now()`. Luego, se crean variables que contienen información relevante como el año, mes, día, hora, minutos y segundos actuales. Estas variables serán útiles para establecer fechas y horas importantes en la aplicación.
+
+A continuación, se crea una instancia de Flask con `app = Flask(__name__)`, donde `__name__` es el nombre del módulo actual, que se utiliza como nombre de la aplicación. Posteriormente, se define un diccionario `blog` que contiene información sobre el blog, incluyendo fechas importantes y artículos.
+
+El diccionario `blog` tiene dos claves principales: `'fecha'` y `'articulos'`. La clave `'fecha'` contiene una estructura con las fechas mencionadas anteriormente, mientras que la clave `'articulos'` contiene una lista de artículos. Cada artículo es un diccionario con claves como `'titulo'`, `'texto'` y `'fecha'`.
+
+El código también define una ruta `/` para el punto de entrada del blog mediante `@app.get("/")`. La función `inicio()` devuelve una plantilla HTML que renderiza la información almacenada en `blog`. En este caso, se utiliza la plantilla `"blog.html"` y pasa el diccionario `datos=blog` como argumento a la plantilla para que pueda acceder a la información necesaria.
+
+Finalmente, si el archivo principal se ejecuta directamente (es decir, no se importa en otro script), entonces se configura el servidor Flask mediante `app.run(debug=True)`. Esta línea hace que Flask escuche en el puerto 5000 y actúe como desarrollador para obtener información de depuración.
 
 `001-blog.py`
 
@@ -10933,12 +11329,90 @@ if __name__ == "__main__":
     app.run(debug=True)	
 ```
 
+### Actividades propuestas
+
+A continuación, te presento una lista de actividades basadas en el contenido de la carpeta proporcionada:
+
+**Actividad 1: Creación y modificación de elementos**
+
+* Título: "Crear un template HTML personalizado"
+* Descripción: Los estudiantes deben crear un nuevo archivo HTML llamado "template.html" y modificar el código existente del archivo "blog.py" para que use este nuevo template. Deben entender cómo renderizar plantillas con Jinja2 y cómo acceder a variables en el template.
+
+**Actividad 2: Manipulación de datos**
+
+* Título: "Mostrar datos dinámicos en la página web"
+* Descripción: Los estudiantes deben modificar el código del archivo "blog.py" para que muestre los datos del blog en una tabla dinámica. Deben entender cómo acceder a variables y estructuras de recorrido en Jinja2.
+
+**Actividad 3: Despliegue de la aplicación**
+
+* Título: "Desplegar la aplicación Flask"
+* Descripción: Los estudiantes deben crear un nuevo archivo "config.py" para configurar el entorno de la aplicación. Deben entender cómo utilizar variables de entorno y subir la aplicación al servidor web.
+
+**Actividad 4: Seguridad**
+
+* Título: "Habilitar HTTPS en la aplicación"
+* Descripción: Los estudiantes deben modificar el código del archivo "blog.py" para que haga uso de certificados SSL. Deben entender cómo configurar HTTPS y habilitar autenticación en la aplicación.
+
+**Actividad 5: Bases de datos**
+
+* Título: "Crear una base de datos con SQLite"
+* Descripción: Los estudiantes deben crear un nuevo archivo "base_de_datos.py" para interactuar con la base de datos. Deben entender cómo ejecutar consultas SQL y insertar datos en SQLite.
+
+**Actividad 6: Pruebas unitarias**
+
+* Título: "Escribir pruebas unitarias"
+* Descripción: Los estudiantes deben escribir pruebas unitarias para una función específica del archivo "blog.py". Deben entender cómo utilizar la biblioteca unittest y cómo hacer que las pruebas pasen.
+
+**Actividad 7: Estilo de código**
+
+* Título: "Aplicar estilo de código en Python"
+* Descripción: Los estudiantes deben modificar el código del archivo "blog.py" para aplicar un estilo de código uniforme. Deben entender cómo seguir la guía PEP8 y mantener un estilo consistente.
+
+**Actividad 8: Documentación**
+
+* Título: "Documentar el código"
+* Descripción: Los estudiantes deben documentar una sección específica del archivo "blog.py" utilizando docstrings. Deben entender cómo escribir comentarios claros y útiles para otros desarrolladores.
+
 
 <a id="eliminacion-de-elementos"></a>
 ## Eliminación de elementos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/003-Manipulaci%C3%B3n%20de%20documentos%20Web/004-Eliminaci%C3%B3n%20de%20elementos)
+
+### Introducción a los ejercicios
+
+**Introducción**
+
+En este conjunto de ejercicios, se aborda la manipulación de documentos Web con un enfoque en la eliminación de elementos. Estos ejercicios están diseñados para ayudar a los estudiantes de Formación Profesional a practicar y mejorar sus habilidades en programación utilizando Python.
+
+**Competencias y tipo de problemas**
+
+En este conjunto de ejercicios, se trabajan problemas relacionados con la creación y eliminación de registros en una base de datos SQLite. Los estudiantes aprenderán a conectarse a una base de datos, crear tablas, insertar registros y eliminar registros. Estos ejercicios requieren que los estudiantes apliquen conceptos de programación básica, como el uso de consultas SQL y la gestión de bases de datos.
+
+**Estructura y contenido**
+
+El conjunto de ejercicios consta de dos archivos de ejercicio: `crear base datos tabla e insertar.py` y `leer de la base de datos.py`. Cada archivo proporciona un escenario específico para que los estudiantes practiquen las habilidades mencionadas anteriormente. El primer archivo muestra cómo crear una base de datos, crear una tabla y insertar un registro, mientras que el segundo archivo demuestra cómo leer registros de una base de datos. Estos ejercicios están diseñados para ser escalables y fáciles de entender, lo que facilita la práctica y la comprensión de los conceptos necesarios.
+
 ### crear base datos tabla e insertar registro
 <small>Creado: 2025-12-10 12:04</small>
+
+#### Explicación
+
+**Crear una base de datos y insertar un registro**
+
+Este código es utilizado para crear una base de datos SQLite llamada `clientes.db` y realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre ella. En este caso, se centra en la creación de una tabla `clientes` y el inserción de un registro.
+
+**Explicación**
+
+El código importa la biblioteca `sqlite3`, que es preintegrada con el sistema y nos permite interactuar con bases de datos SQLite. Luego, se establece una conexión con la base de datos utilizando el método `connect()`. Si la base de datos no existe, se crea automáticamente.
+
+A continuación, se ejecuta un comando SQL para crear la tabla `clientes` si no existe ya. La tabla tiene cuatro columnas: `id`, `nombre`, `email` y `telefono`. El campo `id` es autoincrementable y se utiliza como llave primaria.
+
+Finalmente, se inserta un registro en la tabla utilizando el método `execute()`. En este caso, se crea un nuevo cliente con los datos "Juan Pérez", "juan.perez@example.com" y "600123456".
+
+**Importancia**
+
+Este código es importante porque nos permite crear una base de datos estructurada para almacenar datos y realizar operaciones CRUD sobre ella. La base de datos SQLite es una buena opción para proyectos pequeños o prototipos, ya que es fácil de usar y no requiere una gran cantidad de recursos.
 
 `001-crear base datos tabla e insertar registro.py`
 
@@ -10975,6 +11449,19 @@ conexion.close()
 ### leer de la base de datos
 <small>Creado: 2025-12-10 12:07</small>
 
+#### Explicación
+
+**Conectar a una base de datos SQLite y mostrar un cliente insertado**
+
+Este fragmento de código conecta a una base de datos SQLite llamada "clientes.db" y muestra el cliente insertado en la tabla "clientes". A continuación, se detallan los pasos clave que realiza este código:
+
+1.  **Conectar a la base de datos**: Utiliza la función `sqlite3.connect()` para establecer una conexión con la base de datos SQLite. Si la base de datos no existe, SQLite crea una nueva automaticamente.
+2.  **Crear un cursor**: La propiedad de "cursor" se crea y se utiliza para interactuar con la base de datos. El cursor es el puntero que permite acceder y manipular los datos en la base de datos.
+3.  **Mostrar el cliente insertado**: Utiliza la consulta SQL `SELECT * FROM clientes` para seleccionar todos los registros de la tabla "clientes" en la base de datos. Luego, utiliza el método `fetchall()` del cursor para recolectar todos los registros devueltos por la consulta y almacenarlos en una lista.
+4.  **Imprimir el cliente**: Utiliza el método `print()` para imprimir el contenido de la lista de clientes, lo que muestra los datos del cliente insertado.
+
+El código es importante porque demuestra cómo se puede conectar a una base de datos SQLite y mostrar un registro insertado utilizando Python. Este fragmento de código también muestra cómo utilizar consultas SQL para interactuar con la base de datos.
+
 `002-leer de la base de datos.py`
 
 ```python
@@ -10993,9 +11480,793 @@ print(clientes)								# Imprimo la lista
 conexion.close()
 ```
 
+### Actividades propuestas
+
+**Actividades para estudiantes de Formación Profesional**
+
+A continuación, se presentan 10 actividades basadas en el código proporcionado, diseñadas para que los estudiantes de Formación Profesional puedan aplicar sus conocimientos y habilidades en programación.
+
+1. **Crear una base de datos**
+ * Descripción: Crear una base de datos llamada "empleados" con las tablas "trabajadores", "departamentos" y "contratos". Insertar un registro en la tabla "trabajadores".
+ * Objetivo: Aprender a crear y gestionar bases de datos utilizando Python.
+2. **Insertar registro**
+ * Descripción: Escribir un programa que inserte un registro en una base de datos llamada "produtos" con las columnas "nombre", "precio" y "cantidad".
+ * Objetivo: Aprender a utilizar consultas SQL para insertar registros en una base de datos.
+3. **Mostrar registros**
+ * Descripción: Crear un programa que muestre todos los registros de una base de datos llamada "empleados" utilizando una consulta SQL.
+ * Objetivo: Aprender a utilizar consultas SQL para recuperar registros de una base de datos.
+4. **Eliminar registro**
+ * Descripción: Escribe un programa que elimine un registro con el ID 5 en la tabla "trabajadores" de una base de datos llamada "empleados".
+ * Objetivo: Aprender a utilizar consultas SQL para eliminar registros de una base de datos.
+5. **Crear un índice**
+ * Descripción: Crear un programa que cree un índice en la tabla "clientes" con el campo "email" y luego mostrar todos los registros de la base de datos llamada "clientes".
+ * Objetivo: Aprender a utilizar consultas SQL para crear índices en una base de datos.
+6. **Consultar un registro**
+ * Descripción: Escribe un programa que consulte un registro específico con el ID 1 en la tabla "trabajadores" de una base de datos llamada "empleados".
+ * Objetivo: Aprender a utilizar consultas SQL para consultar registros específicos en una base de datos.
+7. **Actualizar registro**
+ * Descripción: Crear un programa que actualice el registro con el ID 1 en la tabla "trabajadores" de una base de datos llamada "empleados".
+ * Objetivo: Aprender a utilizar consultas SQL para actualizar registros en una base de datos.
+8. **Borrar una relación**
+ * Descripción: Escribe un programa que borre la relación entre la tabla "clientes" y la tabla "contratos" en una base de datos llamada "empleados".
+ * Objetivo: Aprender a utilizar consultas SQL para eliminar relaciones entre tablas en una base de datos.
+9. **Crear una vista**
+ * Descripción: Crear un programa que cree una vista llamada "clientes_filtrados" que muestre solo los registros con el campo "nombre" != "" de la base de datos llamada "empleados".
+ * Objetivo: Aprender a utilizar consultas SQL para crear vistas en una base de datos.
+10. **Optimizar consultas**
+ * Descripción: Escribe un programa que optimice la consulta de los registros de la tabla "trabajadores" utilizando el índice creado anteriormente.
+ * Objetivo: Aprender a utilizar técnicas de optimización de consultas en SQL.
+
 
 <a id="manipulacion-de-estilos"></a>
 ## Manipulación de estilos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/003-Manipulaci%C3%B3n%20de%20documentos%20Web/005-Manipulaci%C3%B3n%20de%20estilos)
+
+### Introducción a los ejercicios
+
+Estamos trabajando con un proyecto de blog creado con Flask y SQLite. El proyecto incluye una base de datos (`blog.db`) que almacena las entradas del blog, cada una de las cuales se representa como una fila en la tabla `entradas`.
+
+El archivo `miblog.py` es el archivo principal de la aplicación Flask. Aquí hay una descripción detallada de cada parte:
+
+1. Importación de librerías:
+   - `sqlite3`: Esta librería nos permite interactuar con la base de datos SQLite.
+   - `Flask`: Esta librería es la base para crear aplicaciones web.
+
+2. Creación del objeto Flask:
+   - `app = Flask(__name__)`: Este comando crea un objeto Flask llamado `app`. El segundo parámetro `__name__` es el nombre de nuestro módulo actual, que se utiliza como ruta por defecto si no se especifica una ruta específica.
+
+3. Definición de la ruta raíz:
+   - La función `@app.get("/")`: Esta línea define una ruta para cuando un usuario pide a la aplicación el endereço base (la ruta `/`). Cuando esta ruta es llamada, se ejecuta la función `inicio`.
+
+4. Conexión a la base de datos:
+   - `conexion = sqlite3.connect("blog.db")`: Este comando conecta nuestra aplicación con una base de datos SQLite llamada `blog.db`. Si la base de datos no existe, se creará automáticamente.
+
+5. Creación del cursor:
+   - `cursor = conexion.cursor()`: Esta línea crea un objeto llamado cursor que nos permite realizar solicitudes SQL en la base de datos.
+
+6. Realizar una consulta SQL:
+   - `cursor.execute("SELECT * FROM entradas")`: Este comando ejecuta una consulta SQL para seleccionar todas las filas de la tabla `entradas`.
+
+7. Ejecutar la petición y almacenar los resultados:
+   - `clientes = cursor.fetchall()`: Esta línea realiza la petición y almacena los resultados en el variable `clientes`. Los resultados son representados como una lista de tuplas.
+
+8. Convertir las tuplas a un formato más manejable:
+   - `lista = []` y `for fila in clientes: lista.append(dict(fila))`: Esta parte convierte cada tupla en un diccionario, lo que facilita su manipulación.
+
+9. Imprimir los resultados:
+   - `print(lista)`: Este comando imprime los resultados almacenados en la variable `lista`.
+
+10. Renderizar una plantilla HTML:
+    - `return render_template("blog.html", datos=lista)`: Esta línea utiliza el método `render_template` de Flask para renderizar un archivo HTML (`blog.html`) con los datos almacenados en la variable `lista`. El primer parámetro es la ruta del archivo HTML, y el segundo es una lista de argumentos que se pasan al plantilla.
+
+11. Arrancar la aplicación:
+    - `app.run(debug=True)`: Este comando arranca la aplicación Flask en modo debug, lo que significa que la aplicación estará disponible en un servidor local cuando ejecutamos el script.
+
+En resumen, este archivo es la parte principal de nuestra aplicación web. Define las rutas de acceso a la base de datos y renderiza plantillas HTML con los datos almacenados en la base de datos para mostrar contenido al usuario.
+
+### diagrama
+<small>Creado: 2025-12-11 09:29</small>
+
+#### Explicación
+
+Este código HTML define la estructura y el diseño de un diagrama que muestra diferentes lenguajes de programación y tecnologías relacionadas con ellos, utilizando elementos de CSS para personalizar la apariencia del diagrama. 
+
+El código utiliza un conjunto de clases CSS para definir las propiedades estéticas de los elementos del diagrama, como el tamaño, la posición, el color y la forma. Por ejemplo, se definen clases como `.shape`, `.rectangle` y `.pill` para crear diferentes formas de representar a cada lenguaje de programación. Además, se utilizan elementos CSS avanzados como gradientes y bordes para darle un toque más sofisticado al diagrama.
+
+Este código es importante porque permite visualizar las relaciones entre los diferentes lenguajes de programación y tecnologías relacionadas en una forma clara y concisa. Es útil para presentar información compleja de manera sencilla y atractiva, lo que puede ser especialmente útil en contextos educativos o profesionales donde se necesitan comunicar ideas complejas de manera efectiva.
+
+`diagrama.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Diagrama exportado</title>
+<style>
+body {
+  margin: 0;
+  padding: 20px;
+  background: #f3f3f7;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.page {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  width: 202.03749712775732px;
+  height: 409.1125353644875px;
+  overflow: visible;
+}
+
+/* formas básicas */
+.shape {
+  position: absolute;
+  min-width: 120px;
+  min-height: 40px;
+  padding: 6px 10px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #9ca3af;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.shape.rectangle {
+  border-radius: 4px;
+}
+
+.shape.pill {
+  border-radius: 999px;
+}
+
+.shape.circle {
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  justify-content: center;
+}
+
+/* base de datos */
+.shape.db {
+  min-width: 120px;
+  min-height: 60px;
+  padding-top: 20px;
+  border-radius: 60px / 16px;
+  background: linear-gradient(180deg, #e5e7eb 0%, #ffffff 40%, #e5e7eb 100%);
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+}
+.shape.db::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid #9ca3af;
+  background: radial-gradient(circle at 50% 30%, #ffffff 0%, #e5e7eb 70%);
+}
+.shape.db::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(156, 163, 175, 0.6);
+  border-top: none;
+  background: radial-gradient(circle at 50% 70%, #e5e7eb 0%, #d1d5db 70%);
+}
+
+/* entidades ER */
+.shape.entity {
+  width: 220px;
+  min-height: 80px;
+  background: #ffffff;
+  border: 2px solid #111827;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 0;
+}
+.entity-header {
+  background: #f3f4f6;
+  padding: 4px 8px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+.entity-properties {
+  flex: 1;
+  padding: 4px 4px 0 4px;
+}
+.entity-property {
+  display: grid;
+  grid-template-columns: 14px 1fr 14px;
+  align-items: center;
+  column-gap: 4px;
+  padding: 2px 0;
+}
+.entity-property .property-name {
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* puertos */
+.port {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid #111827;
+  background: #ffffff;
+}
+.port-left { justify-self: start; }
+.port-right { justify-self: end; }
+
+/* flechas rectas */
+.arrow {
+  position: absolute;
+  height: 2px;
+  background: #111827;
+  transform-origin: 0 50%;
+}
+.arrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.arrow-double::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+
+/* flechas ortogonales */
+.ortho-arrow {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ortho-arrow .ortho-seg {
+  position: absolute;
+  background: #111827;
+}
+.ortho-seg.seg-horizontal { height: 2px; }
+.ortho-seg.seg-vertical { width: 2px; }
+.ortho-arrowhead {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.ortho-arrowhead.dir-right {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.ortho-arrowhead.dir-left {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 8px solid #111827;
+}
+.ortho-arrowhead.dir-down {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #111827;
+}
+.ortho-arrowhead.dir-up {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 8px solid #111827;
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="shape rectangle" style="left:40px;top:80.15000736012178px;width:119.99999999999996px;height:39.999999999999986px;">HTML</div>
+<div class="shape rectangle" style="left:40.03751866957725px;top:40px;width:119.99999999999996px;height:39.999999999999986px;">CSS</div>
+<div class="shape rectangle" style="left:41.937507180606644px;top:208.07499156278718px;width:119.99999999999996px;height:40.000013463637394px;">Python</div>
+<div class="shape pill" style="left:41.937507180606644px;top:170.4624894086052px;width:119.99999999999996px;height:40.000031415153934px;">flask</div>
+<div class="shape pill" style="left:41.9000244140625px;top:244.7625059240004px;width:119.99997307272514px;height:39.999999999999986px;">sqlite</div>
+<div class="shape rectangle" style="left:42.037497127757376px;top:329.1125353644875px;width:119.99999999999996px;height:39.999999999999986px;">xSQL</div>
+<div class="arrow" style="left:102.00489816407134px;top:329.1125353644875px;width:44.35008835349886px;transform:rotate(-1.5724262735357548rad);"></div>
+<div class="arrow" style="left:101.50843949885189px;top:170.4624894086052px;width:50.3240588001998px;transform:rotate(-1.5922464036598047rad);"></div>
+</div>
+</body>
+</html>
+```
+
+### diagrama
+<small>Creado: 2025-12-11 09:29</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo JSON (JavaScript Object Notation) que contiene información sobre la presentación de una aplicación web. En este caso, se trata de un diagrama de flujo y elementos relacionados con los estilos y lenguajes de programación utilizados en la aplicación.
+
+El archivo JSON define dos estructuras principales: `formas` y `flechas`. La primera contiene información sobre las diferentes formas que presentan los elementos de la aplicación, como tamaños, posiciones y textos. Por otro lado, las flechas definen las relaciones entre estos elementos, especificando desde dónde parte una flecha hasta donde va.
+
+Este tipo de archivo es importante en el desarrollo web porque permite visualizar y organizar la información sobre la presentación de la aplicación de manera clara y concisa. Es fundamental para los diseñadores web y desarrolladores que trabajan en proyectos de software, ya que facilita la comunicación y colaboración al proporcionar un lenguaje común y accesible para expresar las ideas sobre la presentación de la aplicación.
+
+En resumen, este archivo JSON es una herramienta útil para el diseño y desarrollo web, ya que permite almacenar y compartir información sobre la presentación de la aplicación en un formato fácil de entender y trabajar.
+
+`diagrama.json`
+
+```json
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "rectangle",
+      "left": "446px",
+      "top": "188.2px",
+      "width": "",
+      "height": "",
+      "texto": "HTML"
+    },
+    {
+      "id": "forma-2",
+      "tipo": "rectangle",
+      "left": "446.042px",
+      "top": "148.052px",
+      "width": "",
+      "height": "",
+      "texto": "CSS"
+    },
+    {
+      "id": "forma-3",
+      "tipo": "rectangle",
+      "left": "447.949px",
+      "top": "316.132px",
+      "width": "",
+      "height": "",
+      "texto": "Python"
+    },
+    {
+      "id": "forma-4",
+      "tipo": "pill",
+      "left": "447.946px",
+      "top": "278.519px",
+      "width": "",
+      "height": "",
+      "texto": "flask"
+    },
+    {
+      "id": "forma-5",
+      "tipo": "pill",
+      "left": "447.9px",
+      "top": "352.812px",
+      "width": "",
+      "height": "",
+      "texto": "sqlite"
+    },
+    {
+      "id": "forma-6",
+      "tipo": "rectangle",
+      "left": "448.043px",
+      "top": "437.163px",
+      "width": "",
+      "height": "",
+      "texto": "xSQL"
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {
+        "shapeId": "forma-6",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-5",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-1",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    }
+  ]
+}
+```
+
+### diagrama
+<small>Creado: 2025-12-11 09:29</small>
+
+#### Explicación
+
+Este fragmento de código representa un diagrama de bloques en formato SVG (Scalable Vector Graphics). 
+
+El código se utiliza para crear un diagrama visual que muestra las relaciones entre diferentes lenguajes de programación y bases de datos. Cada bloque del diagrama tiene una forma específica definida mediante elementos HTML (text, rectángulos, polígonos) y estilos CSS.
+
+Los bloques del diagrama están relacionados con lenguajes de programación como HTML, CSS, Python, Flask, SQLite y xSQL, y se pueden interpretar como diferentes bloques o módulos que interactúan entre sí.
+
+`diagrama.svg`
+
+```
+<svg xmlns="http://www.w3.org/2000/svg" width="202.03749712775732" height="409.1125353644875" viewBox="0 0 202.03749712775732 409.1125353644875">
+
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+      .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+      .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .conn { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+    <marker id="arrow-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#111827"/>
+    </marker>
+  </defs>
+        
+<rect class="shape-rect" x="40" y="80.15000736012178" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="99.99999999999997" y="104.15000736012178" text-anchor="middle">HTML</text>
+<rect class="shape-rect" x="40.03751866957725" y="40" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="100.03751866957722" y="63.99999999999999" text-anchor="middle">CSS</text>
+<rect class="shape-rect" x="41.937507180606644" y="208.07499156278718" width="119.99999999999996" height="40.000013463637394" rx="4" ry="4" />
+<text x="101.93750718060662" y="232.07499829460588" text-anchor="middle">Python</text>
+<rect class="shape-rect" x="41.937507180606644" y="170.4624894086052" width="119.99999999999996" height="40.000031415153934" rx="20.000015707576967" ry="20.000015707576967" />
+<text x="101.93750718060662" y="194.46250511618217" text-anchor="middle">flask</text>
+<rect class="shape-rect" x="41.9000244140625" y="244.7625059240004" width="119.99997307272514" height="39.999999999999986" rx="19.999999999999993" ry="19.999999999999993" />
+<text x="101.90001095042507" y="268.7625059240004" text-anchor="middle">sqlite</text>
+<rect class="shape-rect" x="42.037497127757376" y="329.1125353644875" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="102.03749712775735" y="353.1125353644875" text-anchor="middle">xSQL</text>
+<path class="conn" d="M 102.00489816407134 329.1125353644875 L 101.93260991411114 284.7625059240004" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 101.50843949885189 170.4624894086052 L 100.42906734477435 120.15000736012175" marker-end="url(#arrow-end)" />
+</svg>
+```
+
+### miblog
+<small>Creado: 2025-12-11 09:24</small>
+
+#### Explicación
+
+Este código es una parte de un programa web creado con la herramienta Flask, que es una librería popular para desarrollar aplicaciones web en Python. 
+
+El código se encarga de conectar a una base de datos SQLite llamada "blog.db", seleccionar todas las filas del tabla llamada "entradas" y convertirlas en un formato más manejable. Luego, imprime la lista de resultados para revisarlos. Finalmente, utiliza esta lista para renderizar una plantilla web llamada "blog.html".
+
+`miblog.py`
+
+```python
+# Ejecutad esto en terminal 
+import sqlite3 														# Uso la librería SQLite3
+from flask import Flask,render_template		#I Uso la libreria flask para crear web
+
+app = Flask(__name__)											#I Creo una aplicación web
+
+@app.get("/")															#I Cuando alguien pida la raiz de la web								
+def inicio():															#I Ejecuto esta funcion
+	conexion = sqlite3.connect("blog.db")		# Me conecto a la base de datos
+	conexion.row_factory = sqlite3.Row 			# CONVIERTE EN DICCIONARIO
+	cursor = conexion.cursor()							# Creo un cursor para pedirle cosas a la bd
+	cursor.execute("SELECT * FROM entradas")# Le digo lo que quiero
+	clientes = cursor.fetchall()						# Ejecuto la petición contra la base de datos
+	
+	lista = []															# Creo una lista vacía
+ 
+	for fila in clientes:										# Y para cada fila de la base de datos
+		lista.append(dict(fila))   						# Añado esa fila a la lista
+
+	print(lista)														# Imprimo la lista
+
+	
+	return render_template("blog.html",datos=lista)	#I renderizo la web
+
+if __name__ == "__main__":								#I Si estoy en el archivo principal		
+	app.run(debug=True)										#I Pongo en marcha la web
+  
+```
+
+### Actividades propuestas
+
+Este es un ejemplo de cómo se estructura una aplicación web utilizando Flask y SQLite para almacenar los datos. A continuación, te presento una posible solución para optimizar y mantener esta aplicación:
+
+**Recomendaciones**
+
+1. **Modularización**: La aplicación actual es bastante grande y heterogénea. Considera modularizarla en módulos o paquetes más pequeños, cada uno con su propia responsabilidad. Esto te permitirá ser más escalable y mantenible.
+2. **Seguridad**: La aplicación no utiliza autenticación ni autorización de seguridad. Asegúrate de implementar estas características para proteger la integridad de tus datos y evitar accesos no autorizados a la base de datos.
+3. **Validación de entradas**: La aplicación no valida las entradas que se pasan a la función `inicio()`. Considera agregar validaciones para asegurarte de que los datos que se ingresan sean correctos y seguros.
+4. **Uso de variables de entorno**: La aplicación utiliza hardcoded algunas constantes, como la URL de la base de datos. Considera reemplazar estas constantes con variables de entorno para hacer más fácil el mantenimiento y la configuración de la aplicación.
+
+**Estructura de carpetas**
+
+Aquí te presento una posible estructura de carpetas para tu aplicación:
+```bash
+app/
+__init__.py
+routes/
+__init__.py
+blog.py
+home.py
+models/
+__init__.py
+entry.py
+database.py
+utils/
+__init__.py
+config.py
+requirements.txt
+run.py
+```
+**Modificaciones a `miblog.py`**
+
+A continuación, te presento algunas modificaciones que podrías hacer a la función `inicio()` y la aplicación en general:
+```python
+from flask import render_template, redirect, url_for
+from models.entry import Entry
+
+@app.get("/")
+def inicio():
+    con = sqlite3.connect("blog.db")
+    con.row_factory = sqlite3.Row
+    cursor = con.cursor()
+    cursor.execute("SELECT * FROM entradas")
+    clientes = cursor.fetchall()
+
+    lista = []
+    for fila in clientes:
+        lista.append(Entry(fila))
+
+    return render_template("blog.html", datos=lista)
+
+@app.errorhandler(404)
+def no_found(e):
+    return "Página no encontrada", 404
+```
+En esta versión, hemos agregado una función `no_found()` que se ejecuta cuando se intenta acceder a una página no existente. También hemos mejorado la estructura de la función `inicio()` para que sea más modular y segura.
+
+**Agregando autenticación**
+
+Para agregar autenticación a la aplicación, podrías utilizar una biblioteca como Flask-Login o Flask-Security. Aquí te presento un ejemplo básico utilizando Flask-Login:
+```python
+from flask_login import LoginManager, UserMixin, login_required, current_user
+
+login_manager = LoginManager()
+
+class User(UserMixin):
+    def __init__(self, id, username, password):
+        self.id = id
+        self.username = username
+        self.password = password
+
+@login_manager.user_loader
+def load_user(user_id):
+    con = sqlite3.connect("blog.db")
+    con.row_factory = sqlite3.Row
+    cursor = con.cursor()
+    cursor.execute("SELECT * FROM usuarios WHERE id =", user_id)
+    usuario = cursor.fetchone()
+    return User(usuario["id"], usuario["username"])
+
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    if request.method == "POST":
+        username = request.form["username"]
+        password = request.form["password"]
+        con = sqlite3.connect("blog.db")
+        con.row_factory = sqlite3.Row
+        cursor = con.cursor()
+        cursor.execute("SELECT * FROM usuarios WHERE username =", username)
+        usuario = cursor.fetchone()
+        if usuario and usuario["password"] == password:
+            return render_template("dashboard.html", username=username)
+    return "¡Iniciar sesión fallido!", 401
+
+@app.route("/logout")
+@login_required
+def logout():
+    con = sqlite3.connect("blog.db")
+    con.row_factory = sqlite3.Row
+    cursor = con.cursor()
+    cursor.execute("DELETE FROM usuarios WHERE id =", current_user.id)
+    return redirect(url_for("login"))
+```
+En este ejemplo, hemos agregado una clase `User` que representa un usuario y una función `load_user()` que se ejecuta cuando se intenta acceder a la página de login. La función `login()` se encarga de verificar los datos del usuario y redirigirlo a la página de dashboard si es autentificado, mientras que la función `logout()` elimina la sesion del usuario.
+
+Recuerda que esta es solo una versión básica y que podrías agregar más características y funcionalidades para hacer tu aplicación más segura y fiable.
+
+
+<a id="ejercicio-portafolio"></a>
+## Ejercicio portafolio
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/003-Manipulaci%C3%B3n%20de%20documentos%20Web/006-Ejercicio%20portafolio)
+
+### Metemos datos
+<small>Creado: 2025-12-17 11:55</small>
+
+`002-Metemos datos.sql`
+
+```sql
+CREATE TABLE "piezas" ( "id" INTEGER, "titulo" TEXT, "descripcion" TEXT, "imagen" TEXT, "fecha" TEXT, PRIMARY KEY("id" AUTOINCREMENT) ); - creame 20 entradas de portafolio para un programador web
+
+INSERT INTO piezas (titulo, descripcion, imagen, fecha) VALUES
+('Sitio web corporativo responsive',
+ 'Desarrollo de un sitio web corporativo totalmente responsive utilizando HTML5, CSS3 y JavaScript, optimizado para SEO y accesibilidad.',
+ 'portfolio01.jpg',
+ '2024-01-15'),
+
+('Aplicación web de gestión de clientes',
+ 'Aplicación CRUD para la gestión de clientes con autenticación, roles de usuario y base de datos MySQL.',
+ 'portfolio02.jpg',
+ '2024-02-03'),
+
+('Landing page para campaña de marketing',
+ 'Diseño y desarrollo de una landing page enfocada a conversión, con formularios y analítica integrada.',
+ 'portfolio03.jpg',
+ '2024-02-20'),
+
+('Panel de administración web',
+ 'Creación de un panel de administración con estadísticas, gráficos interactivos y control de usuarios.',
+ 'portfolio04.jpg',
+ '2024-03-05'),
+
+('Tienda online con pasarela de pago',
+ 'Desarrollo de un e-commerce con catálogo de productos, carrito de compra y pasarela de pago segura.',
+ 'portfolio05.jpg',
+ '2024-03-18'),
+
+('Blog técnico con CMS propio',
+ 'Implementación de un blog técnico con gestor de contenidos propio y sistema de comentarios.',
+ 'portfolio06.jpg',
+ '2024-04-01'),
+
+('API REST para aplicación web',
+ 'Diseño y desarrollo de una API RESTful para consumo desde aplicaciones frontend.',
+ 'portfolio07.jpg',
+ '2024-04-12'),
+
+('Aplicación web con autenticación JWT',
+ 'Proyecto web con sistema de login seguro basado en tokens JWT y control de sesiones.',
+ 'portfolio08.jpg',
+ '2024-04-25'),
+
+('Dashboard de visualización de datos',
+ 'Dashboard interactivo para visualización de datos en tiempo real mediante gráficos dinámicos.',
+ 'portfolio09.jpg',
+ '2024-05-07'),
+
+('Web institucional para centro educativo',
+ 'Desarrollo de una web institucional con secciones informativas, formularios y panel de gestión.',
+ 'portfolio10.jpg',
+ '2024-05-20'),
+
+('Sistema de reservas online',
+ 'Aplicación web para gestión de reservas con calendario, notificaciones y confirmaciones automáticas.',
+ 'portfolio11.jpg',
+ '2024-06-02'),
+
+('Portafolio personal profesional',
+ 'Diseño y desarrollo de un portafolio personal para programador web con enfoque profesional.',
+ 'portfolio12.jpg',
+ '2024-06-15'),
+
+('Aplicación web para control de tareas',
+ 'Herramienta web para gestión de tareas con estados, prioridades y seguimiento.',
+ 'portfolio13.jpg',
+ '2024-06-28'),
+
+('Integración de servicios externos',
+ 'Integración de APIs externas para envío de correos, mapas y servicios de terceros.',
+ 'portfolio14.jpg',
+ '2024-07-10'),
+
+('Web multilenguaje',
+ 'Desarrollo de una web multilenguaje con detección automática de idioma y traducciones.',
+ 'portfolio15.jpg',
+ '2024-07-22'),
+
+('Sistema de autenticación y roles',
+ 'Implementación de un sistema completo de usuarios con distintos niveles de permisos.',
+ 'portfolio16.jpg',
+ '2024-08-05'),
+
+('Optimización de rendimiento web',
+ 'Optimización de tiempos de carga y rendimiento mediante buenas prácticas frontend y backend.',
+ 'portfolio17.jpg',
+ '2024-08-18'),
+
+('Aplicación web para formularios dinámicos',
+ 'Desarrollo de formularios dinámicos con validación avanzada y almacenamiento de respuestas.',
+ 'portfolio18.jpg',
+ '2024-09-01'),
+
+('Web de presentación de producto SaaS',
+ 'Creación de una web de presentación para un producto SaaS, orientada a captación de clientes.',
+ 'portfolio19.jpg',
+ '2024-09-15'),
+
+('Sistema web de informes automáticos',
+ 'Aplicación web para generación automática de informes en distintos formatos.',
+ 'portfolio20.jpg',
+ '2024-09-30');
+
+
+Lo copio y lo pego en DBBrowser - Ejecutar SQL (pestaña)
+Y pulsad el boton de play (ejecutar sql)
+```
+
+### mi portafolio
+<small>Creado: 2025-12-17 12:02</small>
+
+`003-mi portafolio.py`
+
+```python
+# Ejecutad esto en terminal 
+import sqlite3 														# Uso la librería SQLite3
+from flask import Flask,render_template		#I Uso la libreria flask para crear web
+
+app = Flask(__name__)											#I Creo una aplicación web
+
+@app.get("/")															#I Cuando alguien pida la raiz de la web								
+def inicio():															#I Ejecuto esta funcion
+	conexion = sqlite3.connect("portafolio.db")		# Me conecto a la base de datos
+	conexion.row_factory = sqlite3.Row 			# CONVIERTE EN DICCIONARIO
+	cursor = conexion.cursor()							# Creo un cursor para pedirle cosas a la bd
+	cursor.execute("SELECT * FROM piezas")# Le digo lo que quiero
+	piezas = cursor.fetchall()						# Ejecuto la petición contra la base de datos
+	
+	lista = []															# Creo una lista vacía
+ 
+	for pieza in piezas:										# Y para cada fila de la base de datos
+		lista.append(dict(pieza))   						# Añado esa fila a la lista
+
+	print(lista)														# Imprimo la lista
+
+	
+	return render_template("portafolio.html",datos=lista)	#I renderizo la web
+
+if __name__ == "__main__":								#I Si estoy en el archivo principal		
+	app.run(debug=True)										#I Pongo en marcha la web
+  
+```
+
+
+<a id="acabamos-el-portafolio"></a>
+## Acabamos el portafolio
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/003-Manipulaci%C3%B3n%20de%20documentos%20Web/007-Acabamos%20el%20portafolio)
 
 
 
@@ -11005,17 +12276,25 @@ conexion.close()
 <a id="tecnologias-para-la-definicion-de-documentos-estructura-y-sintaxis"></a>
 ## Tecnologías para la definición de documentos. Estructura y sintaxis
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/004-Definici%C3%B3n%20de%20esquemas%20y%20vocabularios%20en%20lenguajes%20de%20marcas/001-Tecnolog%C3%ADas%20para%20la%20definici%C3%B3n%20de%20documentos.%20Estructura%20y%20sintaxis)
+
 
 <a id="creacion-de-descripciones-de-documentos"></a>
 ## Creación de descripciones de documentos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/004-Definici%C3%B3n%20de%20esquemas%20y%20vocabularios%20en%20lenguajes%20de%20marcas/002-Creaci%C3%B3n%20de%20descripciones%20de%20documentos)
 
 
 <a id="asociacion-de-descripciones-con-documentos-validacion"></a>
 ## Asociación de descripciones con documentos. Validación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/004-Definici%C3%B3n%20de%20esquemas%20y%20vocabularios%20en%20lenguajes%20de%20marcas/003-Asociaci%C3%B3n%20de%20descripciones%20con%20documentos.%20Validaci%C3%B3n)
+
 
 <a id="herramientas-de-creacion-y-validacion"></a>
 ## Herramientas de creación y validación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/004-Definici%C3%B3n%20de%20esquemas%20y%20vocabularios%20en%20lenguajes%20de%20marcas/004-Herramientas%20de%20creaci%C3%B3n%20y%20validaci%C3%B3n)
 
 
 
@@ -11025,17 +12304,25 @@ conexion.close()
 <a id="tecnologias-de-transformacion-de-documentos"></a>
 ## Tecnologías de transformación de documentos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/005-Conversi%C3%B3n%20y%20adaptaci%C3%B3n%20de%20documentos%20para%20el%20intercambio%20de%20informaci%C3%B3n/001-Tecnolog%C3%ADas%20de%20transformaci%C3%B3n%20de%20documentos)
+
 
 <a id="descripcion-de-la-estructura-y-de-la-sintaxis"></a>
 ## Descripción de la estructura y de la sintaxis
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/005-Conversi%C3%B3n%20y%20adaptaci%C3%B3n%20de%20documentos%20para%20el%20intercambio%20de%20informaci%C3%B3n/002-Descripci%C3%B3n%20de%20la%20estructura%20y%20de%20la%20sintaxis)
 
 
 <a id="creacion-y-utilizacion-de-plantillas-herramientas-y-depuracion"></a>
 ## Creación y utilización de plantillas. Herramientas y depuración
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/005-Conversi%C3%B3n%20y%20adaptaci%C3%B3n%20de%20documentos%20para%20el%20intercambio%20de%20informaci%C3%B3n/003-Creaci%C3%B3n%20y%20utilizaci%C3%B3n%20de%20plantillas.%20Herramientas%20y%20depuraci%C3%B3n)
+
 
 <a id="conversion-entre-diferentes-formatos-de-documentos"></a>
 ## Conversión entre diferentes formatos de documentos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/005-Conversi%C3%B3n%20y%20adaptaci%C3%B3n%20de%20documentos%20para%20el%20intercambio%20de%20informaci%C3%B3n/004-Conversi%C3%B3n%20entre%20diferentes%20formatos%20de%20documentos)
 
 
 
@@ -11045,25 +12332,37 @@ conexion.close()
 <a id="sistemas-de-almacenamiento-de-informacion-caracteristicas-tecnologias"></a>
 ## Sistemas de almacenamiento de información. Características. Tecnologías
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/006-Almacenamiento%20de%20informaci%C3%B3n/001-Sistemas%20de%20almacenamiento%20de%20informaci%C3%B3n.%20Caracter%C3%ADsticas.%20Tecnolog%C3%ADas)
+
 
 <a id="lenguajes-de-consulta-y-manipulacion-en-documentos"></a>
 ## Lenguajes de consulta y manipulación en documentos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/006-Almacenamiento%20de%20informaci%C3%B3n/002-Lenguajes%20de%20consulta%20y%20manipulaci%C3%B3n%20en%20documentos)
 
 
 <a id="consulta-y-manipulacion-de-informacion"></a>
 ## Consulta y manipulación de información
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/006-Almacenamiento%20de%20informaci%C3%B3n/003-Consulta%20y%20manipulaci%C3%B3n%20de%20informaci%C3%B3n)
+
 
 <a id="importacion-y-exportacion-de-bases-de-datos-relacionales-en-diferentes-formatos"></a>
 ## Importación y exportación de bases de datos relacionales en diferentes formatos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/006-Almacenamiento%20de%20informaci%C3%B3n/004-Importaci%C3%B3n%20y%20exportaci%C3%B3n%20de%20bases%20de%20datos%20relacionales%20en%20diferentes%20formatos)
 
 
 <a id="herramientas-de-tratamiento-y-almacenamiento-de-informacion-en-sistemas-nativos"></a>
 ## Herramientas de tratamiento y almacenamiento de información en sistemas nativos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/006-Almacenamiento%20de%20informaci%C3%B3n/005-Herramientas%20de%20tratamiento%20y%20almacenamiento%20de%20informaci%C3%B3n%20en%20sistemas%20nativos)
+
 
 <a id="almacenamiento-y-manipulacion-de-informacion-en-sistemas-nativos"></a>
 ## Almacenamiento y manipulación de información en sistemas nativos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/006-Almacenamiento%20de%20informaci%C3%B3n/006-Almacenamiento%20y%20manipulaci%C3%B3n%20de%20informaci%C3%B3n%20en%20sistemas%20nativos)
 
 
 
@@ -11073,33 +12372,49 @@ conexion.close()
 <a id="aplicaciones-de-gestion-empresarial-tipos-caracteristicas"></a>
 ## Aplicaciones de gestión empresarial. Tipos. Características
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/001-Aplicaciones%20de%20gesti%C3%B3n%20empresarial.%20Tipos.%20Caracter%C3%ADsticas)
+
 
 <a id="instalacion"></a>
 ## Instalación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/002-Instalaci%C3%B3n)
 
 
 <a id="administracion-y-configuracion"></a>
 ## Administración y configuración
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Administraci%C3%B3n%20y%20configuraci%C3%B3n)
+
 
 <a id="integracion-de-modulos"></a>
 ## Integración de módulos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/004-Integraci%C3%B3n%20de%20m%C3%B3dulos)
 
 
 <a id="mecanismos-de-acceso-seguro-a-la-informacion-roles-y-privilegios"></a>
 ## Mecanismos de acceso seguro a la información. Roles y privilegios
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/005-Mecanismos%20de%20acceso%20seguro%20a%20la%20informaci%C3%B3n.%20Roles%20y%20privilegios)
+
 
 <a id="elaboracion-de-informes"></a>
 ## Elaboración de informes
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/006-Elaboraci%C3%B3n%20de%20informes)
 
 
 <a id="exportacion-de-informacion"></a>
 ## Exportación de información
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/007-Exportaci%C3%B3n%20de%20informaci%C3%B3n)
+
 
 <a id="elaboracion-de-documentacion"></a>
 ## Elaboración de documentación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/008-Elaboraci%C3%B3n%20de%20documentaci%C3%B3n)
 
 
 
@@ -11109,22 +12424,34 @@ conexion.close()
 <a id="branches"></a>
 ## branches
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/.git/branches)
+
 
 <a id="hooks"></a>
 ## hooks
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/.git/hooks)
 
 
 <a id="info"></a>
 ## info
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/.git/info)
+
 
 <a id="logs"></a>
 ## logs
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/.git/logs)
 
 
 <a id="objects"></a>
 ## objects
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/.git/objects)
+
 
 <a id="refs"></a>
 ## refs
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/.git/refs)

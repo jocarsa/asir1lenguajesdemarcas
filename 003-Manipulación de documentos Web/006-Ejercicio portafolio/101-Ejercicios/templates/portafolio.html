@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>El portafolio de Jose Vicente</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/estilo.css">
+  </head>
+  <body>
+    <header>
+      <h1>El portafolio de Jose Vicente</h1>
+    </header>
+    <main>
+      {% for pieza in datos %}
+        <article>
+          <h3>{{pieza.titulo}}</h3>
+          <time>{{pieza.fecha}}</time>
+          <p>{{pieza.descripcion}}</p>
+          <p>{{pieza.imagen}}</p>
+        </article>
+      {% endfor %}
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>

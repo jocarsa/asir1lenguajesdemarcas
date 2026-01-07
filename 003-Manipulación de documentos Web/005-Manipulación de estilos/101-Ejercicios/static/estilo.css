@@ -1,0 +1,11 @@
+header,main,footer{
+	width:800px;
+  margin:auto;
+  
+}
+header,footer{
+	text-align:center;
+}
+article{
+	border-bottom:1px solid grey;
+}

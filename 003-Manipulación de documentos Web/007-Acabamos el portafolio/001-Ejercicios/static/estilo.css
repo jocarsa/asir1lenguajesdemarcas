@@ -1,0 +1,148 @@
+/* --- Base --- */
+html,body{
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  font-family:Ubuntu,sans-serif;
+}
+
+body{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  overflow-y:auto;              /* ✅ scroll vertical */
+  overflow-x:hidden;
+  -webkit-overflow-scrolling:touch;
+}
+
+header{ padding:30px 20px 10px; }
+footer{ padding:20px; display:flex; gap:10px; flex-wrap:wrap; justify-content:center; }
+footer img{ width:40px; }
+
+/* --- Grid --- */
+main{
+  width:min(1800px, 95vw);
+  display:grid;
+  grid-template-columns:repeat(7, minmax(0, 1fr));  /* ✅ adapta sin desbordar */
+  gap:20px;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+article{
+  aspect-ratio:1/1;            /* ✅ cuadrado responsivo */
+  background:lightgrey;
+  padding:20px;
+  display:flex;
+  justify-content:flex-end;
+  flex-direction:column;
+  transition:transform 0.25s, box-shadow 0.25s;
+  z-index:0;
+  position:relative;
+  box-shadow:0px 10px 20px rgba(0,0,0,0.2) inset;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+article:hover{
+  transform:scale(1.06);       /* ✅ menos agresivo para no “romper” el scroll */
+  z-index:10;
+  box-shadow:0px 10px 20px rgba(0,0,0,0.2);
+}
+
+/* --- CV / About section --- */
+.cv{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  padding:20px 20px 10px;
+  box-sizing:border-box;
+}
+
+.cv-inner{
+  width:min(1800px, 95vw);
+  text-align:left;
+}
+
+.cv-hero{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:20px;
+  padding:25px;
+  border-radius:14px;
+  background:rgba(255,255,255,0.9);
+  box-shadow:0px 10px 20px rgba(0,0,0,0.08);
+}
+
+.cv-title h2{ margin:0 0 8px 0; }
+.cv-sub{
+  margin:0;
+  opacity:0.85;
+  max-width:900px;
+  line-height:1.5;
+}
+
+.cv-actions{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
+
+.btn{
+  display:inline-block;
+  padding:10px 14px;
+  border-radius:10px;
+  text-decoration:none;
+  color:#111;
+  background:#fff;
+  box-shadow:0px 10px 20px rgba(0,0,0,0.12);
+  transition:transform 0.15s;
+}
+.btn:hover{ transform:scale(1.03); }
+
+.btn-ghost{
+  background:transparent;
+  border:1px solid rgba(0,0,0,0.15);
+  box-shadow:none;
+}
+
+.cv-grid{
+  margin-top:20px;
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+  gap:20px;
+}
+
+.cv-card{
+  padding:20px;
+  border-radius:14px;
+  background:#fff;
+  box-shadow:0px 10px 20px rgba(0,0,0,0.08);
+}
+
+.cv-card h3{ margin:0 0 10px 0; }
+.cv-card ul{ margin:0; padding-left:18px; line-height:1.55; }
+.cv-card a{
+  color:inherit;
+  text-decoration:underline;
+  text-decoration-color:rgba(0,0,0,0.25);
+}
+
+/* --- Responsive --- */
+@media (max-width: 1400px){
+  main{ grid-template-columns:repeat(5, minmax(0, 1fr)); }
+  .cv-grid{ grid-template-columns:repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 1100px){
+  main{ grid-template-columns:repeat(3, minmax(0, 1fr)); }
+  .cv-grid{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
+  .cv-hero{ flex-direction:column; }
+}
+@media (max-width: 700px){
+  main{ grid-template-columns:repeat(1, minmax(0, 1fr)); }
+  .cv-grid{ grid-template-columns:repeat(1, minmax(0, 1fr)); }
+}

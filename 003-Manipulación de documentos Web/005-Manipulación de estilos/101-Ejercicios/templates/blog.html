@@ -1,1 +1,26 @@
-Si estas viendo esto, es que mas adelante aqui va a haber un blog
+<!doctype html>
+<html>
+  <head>
+    <title>El blog de Jose Vicente</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/estilo.css">
+  </head>
+  <body>
+    <header>
+      <h1>El blog de Jose Vicente</h1>
+    </header>
+    <main>
+      {% for articulo in datos %}
+        <article>
+          <h3>{{articulo.titulo}}</h3>
+          <time>{{articulo.fecha}}</time>
+          <p>{{articulo.autor}}</p>
+          <p>{{articulo.categoria}}</p>
+          <p>{{articulo.contenido}}</p>
+        </article>
+      {% endfor %}
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
