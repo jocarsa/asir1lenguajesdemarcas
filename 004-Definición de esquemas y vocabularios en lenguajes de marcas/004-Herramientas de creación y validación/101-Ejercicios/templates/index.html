@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Grid (Mock)</title>
+  <style>
+    :root{
+      --bg:#e9e9ea;
+      --page:#f6f6f7;
+      --ink:#1f1f1f;
+      --muted:#8b8b8b;
+      --line:#d9d9dc;
+      --tile:#cfd3d6;
+      --tile2:#bfc4c8;
+      --shadow: 0 1px 0 rgba(0,0,0,.06), 0 10px 30px rgba(0,0,0,.08);
+    }
+
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      background:var(--bg);
+      font:14px/1.35 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      color:var(--ink);
+    }
+
+    /* “ventana” tipo screenshot */
+    .window{
+      max-width: 980px;
+      margin: 28px auto;
+      padding: 0 18px;
+    }
+    .frame{
+      background: var(--page);
+      border: 1px solid #cfcfd3;
+      border-radius: 10px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .chrome{
+      height: 34px;
+      background: linear-gradient(#f3f3f4, #ececee);
+      border-bottom: 1px solid #d7d7da;
+      display:flex;
+      align-items:center;
+      padding: 0 12px;
+      gap: 7px;
+    }
+    .dot{
+      width:10px;height:10px;border-radius:50%;
+      background:#d0d0d4;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.8);
+    }
+
+    /* layout principal */
+    .content{
+      padding: 22px 22px 18px;
+    }
+
+    /* header */
+    header{
+      display:grid;
+      grid-template-columns: 56px 1fr;
+      align-items:center;
+      column-gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .logo{
+      width: 252px;
+      height: 52px;
+      
+      border-radius: 999px;
+      position: relative;
+      background: #fff;
+      display:grid;
+      place-items:center;
+      font-weight: 700;
+   
+      font-size: 10px;
+      color:#222;
+    }
+    .logo span{
+      display:block;
+      transform: translateY(1px);
+      text-align:center;
+      line-height: 1.1;
+    }
+
+    nav{
+      display:flex;
+      justify-content:center;
+      gap: 56px;
+      font-size: 12px;
+      letter-spacing:.03em;
+    }
+    nav a{
+      color: var(--muted);
+      text-decoration:none;
+      padding: 6px 2px;
+      border-bottom: 2px solid transparent;
+    }
+    nav a.active{
+      color: var(--ink);
+      border-bottom-color: var(--ink);
+      font-weight: 600;
+    }
+    nav a:hover{ color: var(--ink); }
+
+    /* grid tipo portfolio */
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 14px;
+      align-items: stretch;
+    }
+
+    .tile{
+      border-radius: 2px;
+      background: var(--tile);
+      border: 1px solid rgba(0,0,0,.08);
+      box-shadow: 0 1px 0 rgba(255,255,255,.6) inset;
+      position:relative;
+      overflow:hidden;
+    }
+
+    /* ligera variación para “sensación” de collage */
+    .tile.alt{ background: var(--tile2); }
+
+    /* pseudo-contenido minimal (líneas) para parecer maquetas */
+    .tile::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:
+        linear-gradient(to bottom, rgba(255,255,255,.35), rgba(255,255,255,0) 45%),
+        repeating-linear-gradient(
+          to bottom,
+          rgba(0,0,0,.05),
+          rgba(0,0,0,.05) 1px,
+          transparent 1px,
+          transparent 22px
+        );
+      opacity:.45;
+      mix-blend-mode: multiply;
+      pointer-events:none;
+    }
+
+    .label{
+      position:absolute;
+      left:10px;
+      bottom:8px;
+      font-size: 10px;
+      color: rgba(0,0,0,.55);
+      letter-spacing:.08em;
+      text-transform: uppercase;
+      background: rgba(255,255,255,.55);
+      padding: 3px 6px;
+      border-radius: 2px;
+      border: 1px solid rgba(0,0,0,.06);
+    }
+
+    /* “cartel circular” en el tile grande como en la captura */
+    .badge{
+      position:absolute;
+      right: 22px;
+      top: 28%;
+      width: 78px;
+      height: 78px;
+      border-radius: 50%;
+      background:#f3f3f3;
+      border: 2px solid rgba(0,0,0,.25);
+      display:grid;
+      place-items:center;
+      text-align:center;
+      font-size:10px;
+      font-weight:700;
+      letter-spacing:.08em;
+      color:#222;
+      box-shadow: 0 8px 18px rgba(0,0,0,.12);
+    }
+
+    /* colocación (spans) para imitar el layout */
+    .t1{ grid-column: 1 / span 4; grid-row: 1 / span 3; }
+    .t2{ grid-column: 5 / span 8; grid-row: 1 / span 3; }
+
+    .t3{ grid-column: 1 / span 4; grid-row: 4 / span 3; }
+    .t4{ grid-column: 5 / span 4; grid-row: 4 / span 2; }
+    .t5{ grid-column: 9 / span 4; grid-row: 4 / span 2; }
+
+    .t6{ grid-column: 5 / span 4; grid-row: 6 / span 1; }
+    .t7{ grid-column: 9 / span 4; grid-row: 6 / span 2; }
+
+    .t8{ grid-column: 1 / span 8; grid-row: 7 / span 2; }
+    .t9{ grid-column: 9 / span 4; grid-row: 8 / span 1; }
+
+    /* alturas para que el “mosaico” se parezca más */
+    .t1{ min-height: 240px; }
+    .t2{ min-height: 240px; }
+    .t3{ min-height: 260px; }
+    .t4{ min-height: 155px; }
+    .t5{ min-height: 155px; }
+    .t6{ min-height: 92px; }
+    .t7{ min-height: 168px; }
+    .t8{ min-height: 210px; }
+    .t9{ min-height: 92px; }
+
+    /* footer “tags” */
+    .footer{
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
+      display:flex;
+      gap: 14px;
+      flex-wrap:wrap;
+      color: var(--muted);
+      font-size: 11px;
+    }
+    .dotmini{
+      display:inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #f0b24a;
+      margin-right: 6px;
+      transform: translateY(-1px);
+    }
+
+    /* responsive */
+    @media (max-width: 860px){
+      nav{ gap: 24px; justify-content:flex-end; }
+      header{ grid-template-columns: 56px 1fr; }
+      .grid{
+        grid-template-columns: repeat(6, 1fr);
+      }
+      .t1{ grid-column: 1 / span 3; }
+      .t2{ grid-column: 4 / span 3; }
+      .t3{ grid-column: 1 / span 3; }
+      .t4{ grid-column: 4 / span 3; }
+      .t5{ grid-column: 1 / span 3; }
+      .t6{ grid-column: 4 / span 3; }
+      .t7{ grid-column: 1 / span 3; }
+      .t8{ grid-column: 1 / span 6; }
+      .t9{ grid-column: 4 / span 3; }
+    }
+
+    @media (max-width: 560px){
+      nav{ display:none; }
+      .grid{ grid-template-columns: repeat(2, 1fr); }
+      .t1,.t2,.t3,.t4,.t5,.t6,.t7,.t8,.t9{ grid-column: 1 / -1; }
+      .badge{ display:none; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="window">
+    <div class="frame">
+      <div class="chrome" aria-hidden="true">
+        <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+      </div>
+
+      <div class="content">
+        <header>
+          <div class="logo" aria-label="Logotipo">
+            <span>José Vicente Carratalá</span>
+          </div>
+
+          <nav aria-label="Navegación principal">
+            <a class="active" href="#">Proyectos</a>
+            <a href="#">Sobre mi</a>
+            <a href="#">Contacto</a>
+            <a href="#">Blog</a>
+          </nav>
+        </header>
+
+        <main class="grid" aria-label="Portfolio grid">
+          <section class="tile t1 alt" style="background:url(portafolio1.jpg);background-size:cover;">
+            <div class="label">Tile 1</div>
+          </section>
+
+          <section class="tile t2">
+            <div class="badge">THE<br>PORTFOLIO<br>GROUP</div>
+            <div class="label">Tile 2</div>
+          </section>
+
+          <section class="tile t3">
+            <div class="label">Tile 3</div>
+          </section>
+
+          <section class="tile t4 alt">
+            <div class="label">Tile 4</div>
+          </section>
+
+          <section class="tile t5">
+            <div class="label">Tile 5</div>
+          </section>
+
+          <section class="tile t6">
+            <div class="label">Tile 6</div>
+          </section>
+
+          <section class="tile t7 alt">
+            <div class="label">Tile 7</div>
+          </section>
+
+          <section class="tile t8">
+            <div class="label">Tile 8</div>
+          </section>
+
+          <section class="tile t9 alt">
+            <div class="label">Tile 9</div>
+          </section>
+        </main>
+
+        <footer class="footer" aria-label="Categorías">
+          <span><span class="dotmini"></span>All</span>
+          <span>Digital</span>
+          <span>Identity</span>
+          <span>Illustration</span>
+          <span>Print</span>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

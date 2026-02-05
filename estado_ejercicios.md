@@ -1,6 +1,6 @@
 # asir1lenguajesdemarcas — Estado de ejercicios
 
-Generado: 2026-01-07 11:00
+Generado: 2026-02-05 09:00
 
 ---
 
@@ -42,10 +42,10 @@ Generado: 2026-01-07 11:00
 
 ## Definición de esquemas y vocabularios en lenguajes de marcas
 
-- 🔴 Tecnologías para la definición de documentos. Estructura y sintaxis
-- 🔴 Creación de descripciones de documentos
-- 🔴 Asociación de descripciones con documentos. Validación
-- 🔴 Herramientas de creación y validación
+- 🟢 Tecnologías para la definición de documentos. Estructura y sintaxis — 2026-01-21
+- 🟢 Creación de descripciones de documentos — 2026-01-28
+- 🟢 Asociación de descripciones con documentos. Validación — 2026-01-29
+- 🟢 Herramientas de creación y validación — 2026-02-04
 
 
 ## Conversión y adaptación de documentos para el intercambio de información
@@ -76,3 +76,8 @@ Generado: 2026-01-07 11:00
 - 🔴 Elaboración de informes
 - 🔴 Exportación de información
 - 🔴 Elaboración de documentación
+
+
+## Preparacion examen segunda evaluacion
+
+- 🟢 Clase dia 7 — 2026-01-07

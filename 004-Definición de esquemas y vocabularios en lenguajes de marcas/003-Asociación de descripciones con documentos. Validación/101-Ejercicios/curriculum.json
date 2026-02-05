@@ -1,0 +1,12 @@
+{
+	"datos_personales":{
+    "nombre":"Jose Vicente",
+    "apellidos":"Carratala Sanchis",
+    "email":"info@jocarsa.com"
+  },
+  "formacion":[
+    {"centro":"Centro 1","periodo":"periodo1"},
+    {"centro":"Centro 2","periodo":"periodo2"},
+    {"centro":"Centro 3","periodo":"periodo3"}
+  ]
+}

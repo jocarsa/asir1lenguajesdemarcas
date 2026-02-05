@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum>
+  <datos_personales>
+    <nombre>Jose Vicente</nombre>
+    <apellidos>Carratalá Sanchis</apellidos>
+    <email>info@jocarsa.com</email>
+  </datos_personales>
+  <experiencia_profesional>
+    <experiencia>
+      <empresa>CEAC</empresa>
+      <periodo>2025-presente</periodo>
+      <responsabilidades>
+        Impartición de ciclos formativos ASIR, DAM, DAW
+      </responsabilidades>
+    </experiencia>
+  </experiencia_profesional>
+</curriculum>

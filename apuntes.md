@@ -57,6 +57,8 @@
   - [Elaboración de informes](#elaboracion-de-informes)
   - [Exportación de información](#exportacion-de-informacion)
   - [Elaboración de documentación](#elaboracion-de-documentacion)
+- [Preparacion examen segunda evaluacion](#preparacion-examen-segunda-evaluacion)
+  - [Clase dia 7](#clase-dia-7)
 - [.git](#git)
   - [branches](#branches)
   - [hooks](#hooks)
@@ -12278,11 +12280,177 @@ if __name__ == "__main__":								#I Si estoy en el archivo principal
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/004-Definici%C3%B3n%20de%20esquemas%20y%20vocabularios%20en%20lenguajes%20de%20marcas/001-Tecnolog%C3%ADas%20para%20la%20definici%C3%B3n%20de%20documentos.%20Estructura%20y%20sintaxis)
 
+### apertura
+<small>Creado: 2026-01-21 11:56</small>
+
+`001-apertura.xml`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+```
+
+### nodo raiz
+<small>Creado: 2026-01-21 11:57</small>
+
+`002-nodo raiz.xml`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum>
+  
+</curriculum>
+```
+
+### Puedes crear etiquetas
+<small>Creado: 2026-01-21 12:01</small>
+
+`003-Puedes crear etiquetas.xml`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum>
+  <datos_personales>
+    <nombre>Jose Vicente</nombre>
+    <apellidos>Carratalá Sanchis</apellidos>
+    <email>info@jocarsa.com</email>
+  </datos_personales>
+</curriculum>
+```
+
+### anidacion compleja
+<small>Creado: 2026-01-21 12:03</small>
+
+`004-anidacion compleja.xml`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum>
+  <datos_personales>
+    <nombre>Jose Vicente</nombre>
+    <apellidos>Carratalá Sanchis</apellidos>
+    <email>info@jocarsa.com</email>
+  </datos_personales>
+  <experiencia_profesional>
+    <experiencia>
+      <empresa>CEAC</empresa>
+      <periodo>2025-presente</periodo>
+      <responsabilidades>
+        Impartición de ciclos formativos ASIR, DAM, DAW
+      </responsabilidades>
+    </experiencia>
+  </experiencia_profesional>
+</curriculum>
+```
+
+### formacion
+<small>Creado: 2026-01-21 12:07</small>
+
+`005-formacion.xml`
+
+```xml
+
+```
+
 
 <a id="creacion-de-descripciones-de-documentos"></a>
 ## Creación de descripciones de documentos
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/004-Definici%C3%B3n%20de%20esquemas%20y%20vocabularios%20en%20lenguajes%20de%20marcas/002-Creaci%C3%B3n%20de%20descripciones%20de%20documentos)
+
+### json basico
+<small>Creado: 2026-01-28 11:54</small>
+
+`001-json basico.json`
+
+```json
+{}
+```
+
+### propiedades
+<small>Creado: 2026-01-28 11:55</small>
+
+`002-propiedades.json`
+
+```json
+{
+	"nombre":"Jose Vicente",
+  "apellidos":"Carratalá Sanchis",
+  "email":"info@jocarsa.com"
+}
+```
+
+### propiedades multiples
+<small>Creado: 2026-01-28 11:57</small>
+
+`003-propiedades multiples.json`
+
+```json
+{
+	"datos_personales":{
+  	
+  },
+  "formacion":{
+  	
+  },
+  "experiencia":{
+  	
+  }
+}
+```
+
+### secciones
+<small>Creado: 2026-01-28 11:58</small>
+
+`004-secciones.json`
+
+```json
+{
+	"datos_personales":{
+  	
+  },
+  "formacion":{
+  	
+  },
+  "experiencia":{
+  	
+  }
+}
+```
+
+### datos en las secciones
+<small>Creado: 2026-01-28 11:59</small>
+
+`005-datos en las secciones.json`
+
+```json
+{
+	"datos_personales":{
+  	"nombre":"Jose Vicente",
+    "apellidos":"Carratalá Sanchis",
+    "email":"info@jocarsa.com"
+  },
+  "formacion":[
+    {
+    	"centro":"Nombre del centro 1",
+      "periodo":"XXXX-XXXX",
+      "estudios":"Nombre de los estudios"
+    },
+    {
+    	"centro":"Nombre del centro 2",
+      "periodo":"XXXX-XXXX",
+      "estudios":"Nombre de los estudios"
+    },
+    {
+    	"centro":"Nombre del centro 3",
+      "periodo":"XXXX-XXXX",
+      "estudios":"Nombre de los estudios"
+    }
+  ],
+  "experiencia":{
+  	
+  }
+}
+```
 
 
 <a id="asociacion-de-descripciones-con-documentos-validacion"></a>
@@ -12290,11 +12458,222 @@ if __name__ == "__main__":								#I Si estoy en el archivo principal
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/004-Definici%C3%B3n%20de%20esquemas%20y%20vocabularios%20en%20lenguajes%20de%20marcas/003-Asociaci%C3%B3n%20de%20descripciones%20con%20documentos.%20Validaci%C3%B3n)
 
+### leer json
+<small>Creado: 2026-01-29 08:41</small>
+
+`001-leer json.py`
+
+```python
+import json
+
+archivo = open("persona.json",'r')
+
+contenido = json.load(archivo)
+
+print(contenido)
+
+archivo.close()
+```
+
+### llegamos a las propiedades
+<small>Creado: 2026-01-29 08:45</small>
+
+`002-llegamos a las propiedades.py`
+
+```python
+import json
+
+archivo = open("persona.json",'r')
+
+contenido = json.load(archivo)
+
+print("Mi nombre es",contenido.nombre)
+print("Mis apellidos son",contenido.apellidos)
+print("Mi correo es",contenido.email)
+
+archivo.close()
+```
+
+### sintaxis alternativa
+<small>Creado: 2026-01-29 08:53</small>
+
+`003-sintaxis alternativa.py`
+
+```python
+import json
+
+archivo = open("persona.json",'r')
+
+contenido = json.load(archivo)
+
+print("Mi nombre es",contenido['nombre'])
+print("Mis apellidos son",contenido['apellidos'])
+print("Mi correo es",contenido['email'])
+
+archivo.close()
+```
+
+### servidor web
+<small>Creado: 2026-01-29 08:57</small>
+
+`004-servidor web.py`
+
+```python
+import json
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.get("/")	
+def inicio():
+  archivo = open("persona.json",'r')
+  contenido = json.load(archivo)
+  return "<p>"+contenido['nombre']+"</p>"
+  archivo.close()
+
+if __name__ == "__main__":								
+	app.run(debug=True)	
+```
+
+### servidor web con plantilla
+<small>Creado: 2026-01-29 09:03</small>
+
+`005-servidor web con plantilla.py`
+
+```python
+import json
+from flask import Flask,render_template
+
+app = Flask(__name__)
+
+@app.get("/")	
+def inicio():
+  archivo = open("persona.json",'r')
+  contenido = json.load(archivo)
+  
+  return render_template("sencillo.html",contenido=contenido)
+
+  archivo.close()
+
+if __name__ == "__main__":								
+	app.run(debug=True)	
+```
+
+### servidor web con niveles
+<small>Creado: 2026-01-29 09:11</small>
+
+`006-servidor web con niveles.py`
+
+```python
+import json
+from flask import Flask,render_template
+
+app = Flask(__name__)
+
+@app.get("/")	
+def inicio():
+  archivo = open("curriculum.json",'r')
+  contenido = json.load(archivo)
+  
+  return render_template("no tan sencillo.html",contenido=contenido)
+
+  archivo.close()
+
+if __name__ == "__main__":								
+	app.run(debug=True)	
+```
+
+### servidor web con for
+<small>Creado: 2026-01-29 09:50</small>
+
+`007-servidor web con for.py`
+
+```python
+import json
+from flask import Flask,render_template
+
+app = Flask(__name__)
+
+@app.get("/")	
+def inicio():
+  archivo = open("curriculum.json",'r')
+  contenido = json.load(archivo)
+  
+  return render_template("for.html",contenido=contenido)
+
+  archivo.close()
+
+if __name__ == "__main__":								
+	app.run(debug=True)	
+```
+
+### curriculum
+<small>Creado: 2026-01-29 09:47</small>
+
+`curriculum.json`
+
+```json
+{
+	"datos_personales":{
+    "nombre":"Jose Vicente",
+    "apellidos":"Carratala Sanchis",
+    "email":"info@jocarsa.com"
+  },
+  "formacion":[
+    {"centro":"Centro 1","periodo":"periodo1"},
+    {"centro":"Centro 2","periodo":"periodo2"},
+    {"centro":"Centro 3","periodo":"periodo3"}
+  ]
+}
+```
+
+### persona
+<small>Creado: 2026-01-29 08:38</small>
+
+`persona.json`
+
+```json
+{
+	"nombre":"Jose Vicente",
+  "apellidos":"Carratala Sanchis",
+  "email":"info@jocarsa.com"
+}
+```
+
 
 <a id="herramientas-de-creacion-y-validacion"></a>
 ## Herramientas de creación y validación
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/004-Definici%C3%B3n%20de%20esquemas%20y%20vocabularios%20en%20lenguajes%20de%20marcas/004-Herramientas%20de%20creaci%C3%B3n%20y%20validaci%C3%B3n)
+
+### plantilla
+<small>Creado: 2026-02-04 12:00</small>
+
+`002-plantilla.json`
+
+```json
+{
+	"datos_personales":{
+  	"nombre":"Jose Vicente",
+    "apellidos":"Carratalá Sanchis",
+    "email":"info@jocarsa.com"
+  },
+  "piezas":[
+    {
+    	"titulo":"Pieza 1",
+      "descripcion":"Este es un texto",
+      "fecha":"2026-02-04",
+      "imagen":"portfolio1.jpg"
+    },
+    {
+    	"titulo":"Pieza 2",
+      "descripcion":"Este es un texto 2",
+      "fecha":"2026-02-05",
+      "imagen":"portfolio2.jpg"
+    },...
+  ]
+}
+```
 
 
 
@@ -12415,6 +12794,16 @@ if __name__ == "__main__":								#I Si estoy en el archivo principal
 ## Elaboración de documentación
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/008-Elaboraci%C3%B3n%20de%20documentaci%C3%B3n)
+
+
+
+<a id="preparacion-examen-segunda-evaluacion"></a>
+# Preparacion examen segunda evaluacion
+
+<a id="clase-dia-7"></a>
+## Clase dia 7
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/008-Preparacion%20examen%20segunda%20evaluacion/001-Clase%20dia%207)
 
 
 

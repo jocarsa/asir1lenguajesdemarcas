@@ -1,0 +1,21 @@
+{
+	"datos_personales":{
+  	"nombre":"Jose Vicente",
+    "apellidos":"Carratalá Sanchis",
+    "email":"info@jocarsa.com"
+  },
+  "piezas":[
+    {
+    	"titulo":"Pieza 1",
+      "descripcion":"Este es un texto",
+      "fecha":"2026-02-04",
+      "imagen":"portfolio1.jpg"
+    },
+    {
+    	"titulo":"Pieza 2",
+      "descripcion":"Este es un texto 2",
+      "fecha":"2026-02-05",
+      "imagen":"portfolio2.jpg"
+    },...
+  ]
+}
