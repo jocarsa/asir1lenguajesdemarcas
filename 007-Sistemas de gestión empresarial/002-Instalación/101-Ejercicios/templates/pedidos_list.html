@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block body %}
+
+  <aside class="sidebar">
+    <div class="sidebar-title">Navegación</div>
+    <a class="navitem" href="{{ url_for('dashboard') }}">Dashboard</a>
+    <a class="navitem" href="{{ url_for('clientes_list') }}">Clientes</a>
+    <a class="navitem" href="{{ url_for('productos_list') }}">Productos</a>
+    <a class="navitem active" href="{{ url_for('pedidos_list') }}">Pedidos</a>
+  </aside>
+
+  <main class="main">
+    <div class="pagehead row">
+      <div>
+        <h1>Pedidos</h1>
+        <p class="muted">Cabeceras de pedido y acceso al detalle.</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-primary" href="{{ url_for('pedidos_new') }}">+ Nuevo pedido</a>
+      </div>
+    </div>
+
+    <div class="tablewrap">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Cliente</th>
+            <th>Fecha</th>
+            <th>Estado</th>
+            <th class="right">Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for p in pedidos %}
+            <tr>
+              <td>{{ p.id }}</td>
+              <td><b>{{ p.cliente_nombre }}</b></td>
+              <td>{{ p.fecha }}</td>
+              <td><span class="pill">{{ p.estado }}</span></td>
+              <td class="right">
+                <a class="btn btn-sm btn-outline" href="{{ url_for('pedido_view', pedido_id=p.id) }}">Ver</a>
+                <form class="inline" method="POST" action="{{ url_for('pedido_delete', pedido_id=p.id) }}">
+                  <button class="btn btn-sm btn-danger" type="submit">Borrar</button>
+                </form>
+              </td>
+            </tr>
+          {% endfor %}
+          {% if pedidos|length == 0 %}
+            <tr><td colspan="5" class="muted">No hay pedidos.</td></tr>
+          {% endif %}
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+{% endblock %}

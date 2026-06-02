@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ APP_NAME }} · Login</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="login-page">
+
+  <div class="login-card">
+    <div class="login-brand">
+      <img class="login-logo" src="{{ url_for('static', filename='logo.png') }}" alt="logo">
+      <div>
+        <div class="login-title">{{ APP_NAME }}</div>
+        <div class="login-sub">Acceso al panel</div>
+      </div>
+    </div>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flash-wrap compact">
+          {% for category, message in messages %}
+            <div class="flash flash-{{ category }}">{{ message }}</div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+
+    <form method="POST" action="{{ url_for('login') }}" class="form">
+      <label>Usuario</label>
+      <input name="username" type="text" autocomplete="username" placeholder="jocarsa" required>
+
+      <label>Contraseña</label>
+      <input name="password" type="password" autocomplete="current-password" placeholder="jocarsa" required>
+
+      <button class="btn btn-primary" type="submit">Entrar</button>
+
+      <div class="hint">
+        Usuario por defecto: <b>jocarsa</b> · Contraseña: <b>jocarsa</b>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block body %}
+
+  <aside class="sidebar">
+    <div class="sidebar-title">Navegación</div>
+    <a class="navitem" href="{{ url_for('dashboard') }}">Dashboard</a>
+    <a class="navitem" href="{{ url_for('clientes_list') }}">Clientes</a>
+    <a class="navitem active" href="{{ url_for('productos_list') }}">Productos</a>
+    <a class="navitem" href="{{ url_for('pedidos_list') }}">Pedidos</a>
+  </aside>
+
+  <main class="main">
+    <div class="pagehead row">
+      <div>
+        <h1>{% if mode=='new' %}Nuevo producto{% else %}Editar producto{% endif %}</h1>
+        <p class="muted">Nombre, precio y stock.</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-outline" href="{{ url_for('productos_list') }}">Volver</a>
+      </div>
+    </div>
+
+    <form class="form cardpad" method="POST">
+      <label>Nombre *</label>
+      <input name="nombre" required value="{{ producto.nombre if producto else '' }}">
+
+      <div class="grid3">
+        <div>
+          <label>SKU</label>
+          <input name="sku" value="{{ producto.sku if producto else '' }}">
+        </div>
+        <div>
+          <label>Precio (€)</label>
+          <input name="precio" type="number" step="0.01" value="{{ producto.precio if producto else '0' }}">
+        </div>
+        <div>
+          <label>Stock</label>
+          <input name="stock" type="number" step="1" value="{{ producto.stock if producto else '0' }}">
+        </div>
+      </div>
+
+      <button class="btn btn-primary" type="submit">Guardar</button>
+    </form>
+  </main>
+
+{% endblock %}

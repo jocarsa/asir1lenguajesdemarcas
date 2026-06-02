@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}Clientes{% endblock %}
+
+{% block content %}
+<section class="card">
+  <h2>Clientes</h2>
+
+  <form class="search" method="get" action="{{ url_for('index') }}">
+    <input type="text" name="q" placeholder="Buscar por nombre, apellidos o email" value="{{ q }}">
+    <button class="btn" type="submit">Buscar</button>
+    {% if q %}
+      <a class="btn btn--ghost" href="{{ url_for('index') }}">Limpiar</a>
+    {% endif %}
+  </form>
+
+  {% if clientes|length == 0 %}
+    <p class="muted">No hay clientes aún.</p>
+  {% else %}
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Teléfono</th>
+            <th>Dirección</th>
+            <th class="right">Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for c in clientes %}
+          <tr>
+            <td>
+              <strong>{{ c["apellidos"] }}, {{ c["nombre"] }}</strong><br>
+              <small class="muted">ID: {{ c["id"] }}</small>
+            </td>
+            <td>{{ c["email"] or "—" }}</td>
+            <td>{{ c["telefono"] or "—" }}</td>
+            <td>{{ c["direccion"] or "—" }}</td>
+            <td class="right">
+              <a class="btn btn--small" href="{{ url_for('editar', cliente_id=c['id']) }}">Editar</a>
+              <form class="inline" method="post" action="{{ url_for('borrar', cliente_id=c['id']) }}">
+                <button class="btn btn--small btn--danger" type="submit">Borrar</button>
+              </form>
+            </td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% endif %}
+</section>
+{% endblock %}

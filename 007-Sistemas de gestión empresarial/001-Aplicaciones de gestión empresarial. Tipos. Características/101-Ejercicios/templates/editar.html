@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Editar cliente{% endblock %}
+
+{% block content %}
+<section class="card">
+  <h2>Editar cliente</h2>
+
+  <form class="form" method="post">
+    <label>
+      Nombre *
+      <input type="text" name="nombre" required value="{{ form.get('nombre','') }}">
+    </label>
+
+    <label>
+      Apellidos *
+      <input type="text" name="apellidos" required value="{{ form.get('apellidos','') }}">
+    </label>
+
+    <label>
+      Email
+      <input type="email" name="email" value="{{ form.get('email','') }}">
+    </label>
+
+    <label>
+      Teléfono
+      <input type="text" name="telefono" value="{{ form.get('telefono','') }}">
+    </label>
+
+    <label>
+      Dirección
+      <input type="text" name="direccion" value="{{ form.get('direccion','') }}">
+    </label>
+
+    <div class="actions">
+      <button class="btn" type="submit">Guardar cambios</button>
+      <a class="btn btn--ghost" href="{{ url_for('index') }}">Cancelar</a>
+    </div>
+  </form>
+
+  <hr>
+
+  <form method="post" action="{{ url_for('borrar', cliente_id=cliente['id']) }}">
+    <button class="btn btn--danger" type="submit">Borrar cliente</button>
+  </form>
+</section>
+{% endblock %}

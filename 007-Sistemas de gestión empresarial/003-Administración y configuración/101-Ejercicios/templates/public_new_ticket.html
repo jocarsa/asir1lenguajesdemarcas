@@ -1,0 +1,33 @@
+{% extends "base_public.html" %}
+{% set title = "Crear ticket" %}
+
+{% block content %}
+  <h1>Crear una incidencia</h1>
+  <p class="muted">Completa el formulario para registrar tu incidencia.</p>
+
+  <form class="card" method="post" action="{{ url_for('public_create_ticket') }}" enctype="multipart/form-data">
+    <label>Nombre *</label>
+    <input type="text" name="requester_name" required>
+
+    <label>Categoría *</label>
+    <select name="category_id" required>
+      <option value="">-- Selecciona --</option>
+      {% for c in categories %}
+        <option value="{{ c.id }}">{{ c.name }}</option>
+      {% endfor %}
+    </select>
+
+    <label>Título *</label>
+    <input type="text" name="title" required>
+
+    <label>Descripción *</label>
+    <textarea name="description" rows="6" required></textarea>
+
+    <label>Adjunto (opcional)</label>
+    <input type="file" name="attachment">
+
+    <div class="row">
+      <button type="submit" class="btn">Enviar ticket</button>
+    </div>
+  </form>
+{% endblock %}

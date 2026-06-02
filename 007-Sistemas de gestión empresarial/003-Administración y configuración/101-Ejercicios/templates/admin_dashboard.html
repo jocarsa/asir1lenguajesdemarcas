@@ -1,0 +1,29 @@
+{% extends "base_admin.html" %}
+{% set title = "Dashboard" %}
+
+{% block content %}
+  <h1>Dashboard</h1>
+
+  <div class="grid">
+    <div class="card">
+      <div class="kpi-title">Tickets (total)</div>
+      <div class="kpi-value">{{ counts.tickets_total }}</div>
+    </div>
+    <div class="card">
+      <div class="kpi-title">Tickets (Nuevos)</div>
+      <div class="kpi-value">{{ counts.tickets_new }}</div>
+    </div>
+    <div class="card">
+      <div class="kpi-title">Categorías</div>
+      <div class="kpi-value">{{ counts.categories }}</div>
+    </div>
+    <div class="card">
+      <div class="kpi-title">Estados</div>
+      <div class="kpi-value">{{ counts.statuses }}</div>
+    </div>
+  </div>
+
+  <p class="muted" style="margin-top:16px;">
+    Accesos rápidos: <a href="{{ url_for('admin_tickets_list') }}">Tickets</a>
+  </p>
+{% endblock %}

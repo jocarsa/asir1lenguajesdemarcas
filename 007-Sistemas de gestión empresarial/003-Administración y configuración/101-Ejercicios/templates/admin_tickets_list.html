@@ -1,0 +1,118 @@
+{% extends "base_admin.html" %}
+{% set title = "Tickets" %}
+
+{% block content %}
+  <h1>Tickets</h1>
+
+  <form class="card" method="get" action="{{ url_for('admin_tickets_list') }}">
+    <div class="grid-3">
+      <div>
+        <label>Estado</label>
+        <select name="status_id">
+          <option value="">-- Todos --</option>
+          {% for s in statuses %}
+            <option value="{{ s.id }}" {% if f_status == (s.id|string) %}selected{% endif %}>{{ s.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div>
+        <label>Categoría</label>
+        <select name="category_id">
+          <option value="">-- Todas --</option>
+          {% for c in categories %}
+            <option value="{{ c.id }}" {% if f_category == (c.id|string) %}selected{% endif %}>{{ c.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div>
+        <label>Buscar (nombre/título/descripcion)</label>
+        <input type="text" name="q" value="{{ q }}">
+      </div>
+    </div>
+
+    <div class="row">
+      <button class="btn" type="submit">Aplicar filtros</button>
+      <a class="btn btn-secondary" href="{{ url_for('admin_tickets_list') }}">Limpiar</a>
+    </div>
+  </form>
+
+  <h2 style="margin-top:18px;">Abiertos</h2>
+  <p class="muted">Estados distintos de <strong>Resuelto</strong> y <strong>Cerrado</strong>.</p>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Fecha</th>
+        <th>Nombre</th>
+        <th>Título</th>
+        <th>Categoría</th>
+        <th>Estado</th>
+        <th class="right">Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for r in open_rows %}
+      <tr>
+        <td>{{ r.id }}</td>
+        <td>{{ r.created_at }}</td>
+        <td>{{ r.requester_name }}</td>
+        <td>{{ r.title }}</td>
+        <td>{{ r.category_name }}</td>
+        <td><span class="pill">{{ r.status_name }}</span></td>
+        <td class="right">
+          <a class="btn btn-secondary" href="{{ url_for('admin_tickets_view', id=r.id) }}">Ver</a>
+          <a class="btn" href="{{ url_for('admin_tickets_edit', id=r.id) }}">Editar</a>
+          <form class="inline" method="post" action="{{ url_for('admin_tickets_delete', id=r.id) }}">
+            <button class="btn btn-danger" type="submit">Eliminar</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+      {% if not open_rows %}
+      <tr><td colspan="7" class="muted">No hay tickets abiertos con estos filtros.</td></tr>
+      {% endif %}
+    </tbody>
+  </table>
+
+  <h2 style="margin-top:22px;">Resueltos y cerrados</h2>
+  <p class="muted">Estados <strong>Resuelto</strong> o <strong>Cerrado</strong>.</p>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Fecha</th>
+        <th>Nombre</th>
+        <th>Título</th>
+        <th>Categoría</th>
+        <th>Estado</th>
+        <th class="right">Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for r in closed_rows %}
+      <tr>
+        <td>{{ r.id }}</td>
+        <td>{{ r.created_at }}</td>
+        <td>{{ r.requester_name }}</td>
+        <td>{{ r.title }}</td>
+        <td>{{ r.category_name }}</td>
+        <td><span class="pill">{{ r.status_name }}</span></td>
+        <td class="right">
+          <a class="btn btn-secondary" href="{{ url_for('admin_tickets_view', id=r.id) }}">Ver</a>
+          <a class="btn" href="{{ url_for('admin_tickets_edit', id=r.id) }}">Editar</a>
+          <form class="inline" method="post" action="{{ url_for('admin_tickets_delete', id=r.id) }}">
+            <button class="btn btn-danger" type="submit">Eliminar</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+      {% if not closed_rows %}
+      <tr><td colspan="7" class="muted">No hay tickets resueltos/cerrados con estos filtros.</td></tr>
+      {% endif %}
+    </tbody>
+  </table>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base_admin.html" %}
+{% set title = "Categoría" %}
+
+{% block content %}
+  <h1>{{ "Editar categoría" if row else "Nueva categoría" }}</h1>
+
+  <form class="card" method="post"
+        action="{{ url_for('admin_categories_update', id=row.id) if row else url_for('admin_categories_create') }}">
+    <label>Nombre *</label>
+    <input type="text" name="name" required value="{{ row.name if row else '' }}">
+
+    <label>Activa</label>
+    <select name="is_active">
+      <option value="1" {% if not row or row.is_active == 1 %}selected{% endif %}>Sí</option>
+      <option value="0" {% if row and row.is_active == 0 %}selected{% endif %}>No</option>
+    </select>
+
+    <div class="row">
+      <button class="btn" type="submit">Guardar</button>
+      <a class="btn btn-secondary" href="{{ url_for('admin_categories_list') }}">Volver</a>
+    </div>
+  </form>
+{% endblock %}

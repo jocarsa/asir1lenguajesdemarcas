@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block body %}
+
+  <aside class="sidebar">
+    <div class="sidebar-title">Entidades</div>
+
+    <a class="navitem" href="{{ url_for('clientes_list') }}">Clientes</a>
+    <a class="navitem" href="{{ url_for('productos_list') }}">Productos</a>
+    <a class="navitem" href="{{ url_for('pedidos_list') }}">Pedidos</a>
+
+    <div class="sidebar-sep"></div>
+    <div class="sidebar-muted">
+      Consejo: crea primero <b>clientes</b> y <b>productos</b>, luego <b>pedidos</b>.
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="pagehead">
+      <h1>Dashboard</h1>
+      <p class="muted">Panel de gestión de {{ APP_NAME }}.</p>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-title">Clientes</div>
+        <div class="card-text">Alta, edición, borrado y búsqueda simple.</div>
+        <a class="btn btn-primary" href="{{ url_for('clientes_list') }}">Ir a clientes</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Productos</div>
+        <div class="card-text">Catálogo con precio y stock.</div>
+        <a class="btn btn-primary" href="{{ url_for('productos_list') }}">Ir a productos</a>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Pedidos</div>
+        <div class="card-text">1 cliente + múltiples líneas de pedido.</div>
+        <a class="btn btn-primary" href="{{ url_for('pedidos_list') }}">Ir a pedidos</a>
+      </div>
+    </div>
+  </main>
+
+{% endblock %}

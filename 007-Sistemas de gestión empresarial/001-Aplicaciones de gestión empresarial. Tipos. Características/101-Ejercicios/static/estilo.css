@@ -1,0 +1,208 @@
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f5f6f8;
+    color:#222;
+}
+
+/* ===========================
+   LAYOUT
+=========================== */
+
+.container{
+    width:1000px;
+    margin:auto;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.topbar{
+    background:white;
+    border-bottom:1px solid #dcdcdc;
+}
+
+.topbar__inner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 0;
+}
+
+.brand{
+    margin:0;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.brand a{
+    text-decoration:none;
+    color:#222;
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.card{
+    background:white;
+    border:1px solid #dcdcdc;
+    padding:20px;
+    margin-top:20px;
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.btn{
+    background:#2c6ed5;
+    color:white;
+    border:none;
+    padding:8px 14px;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.btn:hover{
+    background:#245bb0;
+}
+
+.btn--ghost{
+    background:#eaeaea;
+    color:#222;
+}
+
+.btn--danger{
+    background:#c0392b;
+}
+
+.btn--danger:hover{
+    background:#a93226;
+}
+
+.btn--small{
+    padding:5px 10px;
+    font-size:13px;
+}
+
+/* ===========================
+   TABLE
+=========================== */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#f0f0f0;
+    text-align:left;
+    padding:10px;
+    border:1px solid #dcdcdc;
+}
+
+td{
+    padding:10px;
+    border:1px solid #dcdcdc;
+}
+
+tr:nth-child(even){
+    background:#fafafa;
+}
+
+.right{
+    text-align:right;
+}
+
+/* ===========================
+   FORMS
+=========================== */
+
+.form{
+    max-width:500px;
+}
+
+label{
+    display:block;
+    margin-bottom:12px;
+    font-size:14px;
+}
+
+input{
+    width:100%;
+    padding:8px;
+    border:1px solid #cfcfcf;
+    background:white;
+    font-size:14px;
+}
+
+input:focus{
+    outline:none;
+    border-color:#2c6ed5;
+}
+
+/* ===========================
+   SEARCH
+=========================== */
+
+.search{
+    margin-bottom:15px;
+}
+
+.search input{
+    width:300px;
+}
+
+/* ===========================
+   FLASH MESSAGES
+=========================== */
+
+.messages{
+    margin-top:15px;
+}
+
+.msg{
+    padding:10px;
+    border:1px solid #ccc;
+    background:#f9f9f9;
+    margin-bottom:10px;
+}
+
+.msg--ok{
+    border-color:#27ae60;
+}
+
+.msg--error{
+    border-color:#c0392b;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer{
+    margin-top:40px;
+    padding:20px 0;
+    text-align:center;
+    color:#777;
+    font-size:13px;
+}
+
+/* ===========================
+   INLINE FORM
+=========================== */
+
+.inline{
+    display:inline;
+}

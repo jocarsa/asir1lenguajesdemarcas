@@ -1,0 +1,35 @@
+{% extends "base_admin.html" %}
+{% set title = "Estados" %}
+
+{% block content %}
+  <div class="row row-space">
+    <h1>Estados</h1>
+    <a class="btn" href="{{ url_for('admin_statuses_new') }}">Nuevo estado</a>
+  </div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Activo</th>
+        <th class="right">Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for r in rows %}
+      <tr>
+        <td>{{ r.id }}</td>
+        <td>{{ r.name }}</td>
+        <td>{{ "Sí" if r.is_active else "No" }}</td>
+        <td class="right">
+          <a class="btn btn-secondary" href="{{ url_for('admin_statuses_edit', id=r.id) }}">Editar</a>
+          <form class="inline" method="post" action="{{ url_for('admin_statuses_delete', id=r.id) }}">
+            <button class="btn btn-danger" type="submit">Eliminar</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

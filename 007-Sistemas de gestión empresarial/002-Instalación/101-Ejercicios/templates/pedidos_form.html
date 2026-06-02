@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block body %}
+
+  <aside class="sidebar">
+    <div class="sidebar-title">Navegación</div>
+    <a class="navitem" href="{{ url_for('dashboard') }}">Dashboard</a>
+    <a class="navitem" href="{{ url_for('clientes_list') }}">Clientes</a>
+    <a class="navitem" href="{{ url_for('productos_list') }}">Productos</a>
+    <a class="navitem active" href="{{ url_for('pedidos_list') }}">Pedidos</a>
+  </aside>
+
+  <main class="main">
+    <div class="pagehead row">
+      <div>
+        <h1>Nuevo pedido</h1>
+        <p class="muted">Selecciona cliente y añade líneas (3 filas fijas, sin JS).</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-outline" href="{{ url_for('pedidos_list') }}">Volver</a>
+      </div>
+    </div>
+
+    {% if clientes|length == 0 or productos|length == 0 %}
+      <div class="flash flash-error">
+        Necesitas al menos 1 cliente y 1 producto para crear pedidos.
+      </div>
+    {% endif %}
+
+    <form class="form cardpad" method="POST">
+      <div class="grid2">
+        <div>
+          <label>Cliente *</label>
+          <select name="cliente_id" required>
+            <option value="">— Selecciona —</option>
+            {% for c in clientes %}
+              <option value="{{ c.id }}">{{ c.apellidos }}, {{ c.nombre }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <div>
+          <label>Estado</label>
+          <select name="estado">
+            <option value="borrador">borrador</option>
+            <option value="confirmado">confirmado</option>
+            <option value="enviado">enviado</option>
+            <option value="cerrado">cerrado</option>
+          </select>
+        </div>
+      </div>
+
+      <label>Notas</label>
+      <input name="notas" placeholder="Observaciones (opcional)">
+
+      <div class="tablewrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Línea</th>
+              <th>Producto</th>
+              <th>Cantidad</th>
+              <th>Precio unitario (€)</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for i in [1,2,3] %}
+              <tr>
+                <td>{{ i }}</td>
+                <td>
+                  <select name="producto_{{ i }}">
+                    <option value="">— (vacío) —</option>
+                    {% for p in productos %}
+                      <option value="{{ p.id }}">{{ p.nombre }}</option>
+                    {% endfor %}
+                  </select>
+                </td>
+                <td><input name="cantidad_{{ i }}" type="number" step="1" value="1"></td>
+                <td><input name="precio_{{ i }}" type="number" step="0.01" value="0"></td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <button class="btn btn-primary" type="submit">Crear pedido</button>
+    </form>
+  </main>
+
+{% endblock %}

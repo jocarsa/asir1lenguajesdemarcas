@@ -1,0 +1,27 @@
+{% extends "base_admin.html" %}
+{% set title = "Editar ticket" %}
+
+{% block content %}
+  <h1>Editar ticket #{{ row.id }}</h1>
+
+  <form class="card" method="post" action="{{ url_for('admin_tickets_update', id=row.id) }}">
+    <label>Categoría</label>
+    <select name="category_id" required>
+      {% for c in categories %}
+        <option value="{{ c.id }}" {% if row.category_id == c.id %}selected{% endif %}>{{ c.name }}</option>
+      {% endfor %}
+    </select>
+
+    <label>Estado</label>
+    <select name="status_id" required>
+      {% for s in statuses %}
+        <option value="{{ s.id }}" {% if row.status_id == s.id %}selected{% endif %}>{{ s.name }}</option>
+      {% endfor %}
+    </select>
+
+    <div class="row">
+      <button class="btn" type="submit">Guardar cambios</button>
+      <a class="btn btn-secondary" href="{{ url_for('admin_tickets_view', id=row.id) }}">Cancelar</a>
+    </div>
+  </form>
+{% endblock %}

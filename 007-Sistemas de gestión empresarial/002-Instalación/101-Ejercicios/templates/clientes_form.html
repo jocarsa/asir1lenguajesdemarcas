@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block body %}
+
+  <aside class="sidebar">
+    <div class="sidebar-title">Navegación</div>
+    <a class="navitem" href="{{ url_for('dashboard') }}">Dashboard</a>
+    <a class="navitem active" href="{{ url_for('clientes_list') }}">Clientes</a>
+    <a class="navitem" href="{{ url_for('productos_list') }}">Productos</a>
+    <a class="navitem" href="{{ url_for('pedidos_list') }}">Pedidos</a>
+  </aside>
+
+  <main class="main">
+    <div class="pagehead row">
+      <div>
+        <h1>{% if mode=='new' %}Nuevo cliente{% else %}Editar cliente{% endif %}</h1>
+        <p class="muted">Datos principales del cliente.</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-outline" href="{{ url_for('clientes_list') }}">Volver</a>
+      </div>
+    </div>
+
+    <form class="form cardpad" method="POST">
+      <div class="grid2">
+        <div>
+          <label>Nombre *</label>
+          <input name="nombre" required value="{{ cliente.nombre if cliente else '' }}">
+        </div>
+        <div>
+          <label>Apellidos *</label>
+          <input name="apellidos" required value="{{ cliente.apellidos if cliente else '' }}">
+        </div>
+      </div>
+
+      <div class="grid2">
+        <div>
+          <label>Email</label>
+          <input name="email" type="email" value="{{ cliente.email if cliente else '' }}">
+        </div>
+        <div>
+          <label>Teléfono</label>
+          <input name="telefono" value="{{ cliente.telefono if cliente else '' }}">
+        </div>
+      </div>
+
+      <label>Dirección</label>
+      <input name="direccion" value="{{ cliente.direccion if cliente else '' }}">
+
+      <button class="btn btn-primary" type="submit">Guardar</button>
+    </form>
+  </main>
+
+{% endblock %}

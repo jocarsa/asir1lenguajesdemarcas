@@ -1,0 +1,11 @@
+{% extends "base_public.html" %}
+{% set title = "Ticket enviado" %}
+
+{% block content %}
+  <div class="card">
+    <h1>Ticket enviado</h1>
+    <p>Tu incidencia se ha registrado correctamente.</p>
+    <p><strong>ID del ticket:</strong> {{ ticket_id }}</p>
+    <a class="btn" href="{{ url_for('public_new_ticket') }}">Crear otro ticket</a>
+  </div>
+{% endblock %}

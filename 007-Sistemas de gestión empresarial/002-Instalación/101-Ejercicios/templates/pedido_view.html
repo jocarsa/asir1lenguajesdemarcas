@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block body %}
+
+  <aside class="sidebar">
+    <div class="sidebar-title">Navegación</div>
+    <a class="navitem" href="{{ url_for('dashboard') }}">Dashboard</a>
+    <a class="navitem" href="{{ url_for('clientes_list') }}">Clientes</a>
+    <a class="navitem" href="{{ url_for('productos_list') }}">Productos</a>
+    <a class="navitem active" href="{{ url_for('pedidos_list') }}">Pedidos</a>
+  </aside>
+
+  <main class="main">
+    <div class="pagehead row">
+      <div>
+        <h1>Pedido #{{ pedido.id }}</h1>
+        <p class="muted">
+          Cliente: <b>{{ pedido.cliente_nombre }}</b> · Fecha: {{ pedido.fecha }} · Estado: <span class="pill">{{ pedido.estado }}</span>
+        </p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-outline" href="{{ url_for('pedidos_list') }}">Volver</a>
+      </div>
+    </div>
+
+    {% if pedido.notas %}
+      <div class="note-box"><b>Notas:</b> {{ pedido.notas }}</div>
+    {% endif %}
+
+    <div class="tablewrap">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio unitario</th>
+            <th class="right">Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for l in lineas %}
+            <tr>
+              <td><b>{{ l.producto_nombre }}</b></td>
+              <td>{{ l.cantidad }}</td>
+              <td>{{ "%.2f"|format(l.precio_unitario) }} €</td>
+              <td class="right">{{ "%.2f"|format(l.cantidad * l.precio_unitario) }} €</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3" class="right"><b>Total</b></td>
+            <td class="right"><b>{{ "%.2f"|format(total) }} €</b></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+  </main>
+
+{% endblock %}

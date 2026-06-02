@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ APP_NAME }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="brand">
+      <img class="brand-logo" src="{{ url_for('static', filename='logo.png') }}" alt="logo">
+      <div class="brand-text">
+        <div class="brand-name">{{ APP_NAME }}</div>
+        <div class="brand-sub">micro-SaaS (Flask + SQLite)</div>
+      </div>
+    </div>
+
+    {% if current_user %}
+      <div class="topbar-right">
+        <span class="user-chip">👤 {{ current_user }}</span>
+        <a class="btn btn-outline" href="{{ url_for('logout') }}">Cerrar sesión</a>
+      </div>
+    {% endif %}
+  </div>
+
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      <div class="flash-wrap">
+        {% for category, message in messages %}
+          <div class="flash flash-{{ category }}">{{ message }}</div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endwith %}
+
+  <div class="layout">
+    {% block body %}{% endblock %}
+  </div>
+
+</body>
+</html>

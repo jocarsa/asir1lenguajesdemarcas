@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block body %}
+
+  <aside class="sidebar">
+    <div class="sidebar-title">Navegación</div>
+    <a class="navitem" href="{{ url_for('dashboard') }}">Dashboard</a>
+    <a class="navitem" href="{{ url_for('clientes_list') }}">Clientes</a>
+    <a class="navitem active" href="{{ url_for('productos_list') }}">Productos</a>
+    <a class="navitem" href="{{ url_for('pedidos_list') }}">Pedidos</a>
+  </aside>
+
+  <main class="main">
+    <div class="pagehead row">
+      <div>
+        <h1>Productos</h1>
+        <p class="muted">Catálogo de productos.</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-primary" href="{{ url_for('productos_new') }}">+ Nuevo producto</a>
+      </div>
+    </div>
+
+    <form class="searchbar" method="GET" action="{{ url_for('productos_list') }}">
+      <input name="q" value="{{ q }}" placeholder="Buscar por nombre o SKU">
+      <button class="btn btn-outline" type="submit">Buscar</button>
+      {% if q %}
+        <a class="btn btn-outline" href="{{ url_for('productos_list') }}">Limpiar</a>
+      {% endif %}
+    </form>
+
+    <div class="tablewrap">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Producto</th>
+            <th>SKU</th>
+            <th>Precio</th>
+            <th>Stock</th>
+            <th class="right">Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for p in productos %}
+            <tr>
+              <td>{{ p.id }}</td>
+              <td><b>{{ p.nombre }}</b></td>
+              <td>{{ p.sku or "" }}</td>
+              <td>{{ "%.2f"|format(p.precio) }} €</td>
+              <td>{{ p.stock }}</td>
+              <td class="right">
+                <a class="btn btn-sm btn-outline" href="{{ url_for('productos_edit', producto_id=p.id) }}">Editar</a>
+                <form class="inline" method="POST" action="{{ url_for('productos_delete', producto_id=p.id) }}">
+                  <button class="btn btn-sm btn-danger" type="submit">Borrar</button>
+                </form>
+              </td>
+            </tr>
+          {% endfor %}
+          {% if productos|length == 0 %}
+            <tr><td colspan="6" class="muted">No hay productos.</td></tr>
+          {% endif %}
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+{% endblock %}

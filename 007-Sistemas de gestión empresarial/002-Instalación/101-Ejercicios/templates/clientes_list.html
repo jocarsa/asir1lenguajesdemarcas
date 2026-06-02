@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block body %}
+
+  <aside class="sidebar">
+    <div class="sidebar-title">Navegación</div>
+    <a class="navitem" href="{{ url_for('dashboard') }}">Dashboard</a>
+    <a class="navitem active" href="{{ url_for('clientes_list') }}">Clientes</a>
+    <a class="navitem" href="{{ url_for('productos_list') }}">Productos</a>
+    <a class="navitem" href="{{ url_for('pedidos_list') }}">Pedidos</a>
+  </aside>
+
+  <main class="main">
+    <div class="pagehead row">
+      <div>
+        <h1>Clientes</h1>
+        <p class="muted">Gestión de clientes.</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-primary" href="{{ url_for('clientes_new') }}">+ Nuevo cliente</a>
+      </div>
+    </div>
+
+    <form class="searchbar" method="GET" action="{{ url_for('clientes_list') }}">
+      <input name="q" value="{{ q }}" placeholder="Buscar por nombre, apellidos o email">
+      <button class="btn btn-outline" type="submit">Buscar</button>
+      {% if q %}
+        <a class="btn btn-outline" href="{{ url_for('clientes_list') }}">Limpiar</a>
+      {% endif %}
+    </form>
+
+    <div class="tablewrap">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Teléfono</th>
+            <th class="right">Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for c in clientes %}
+            <tr>
+              <td>{{ c.id }}</td>
+              <td><b>{{ c.nombre }} {{ c.apellidos }}</b><div class="muted small">{{ c.direccion or "" }}</div></td>
+              <td>{{ c.email or "" }}</td>
+              <td>{{ c.telefono or "" }}</td>
+              <td class="right">
+                <a class="btn btn-sm btn-outline" href="{{ url_for('clientes_edit', cliente_id=c.id) }}">Editar</a>
+                <form class="inline" method="POST" action="{{ url_for('clientes_delete', cliente_id=c.id) }}">
+                  <button class="btn btn-sm btn-danger" type="submit">Borrar</button>
+                </form>
+              </td>
+            </tr>
+          {% endfor %}
+          {% if clientes|length == 0 %}
+            <tr><td colspan="5" class="muted">No hay clientes.</td></tr>
+          {% endif %}
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+{% endblock %}

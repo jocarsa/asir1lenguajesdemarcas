@@ -1,0 +1,35 @@
+{% extends "base_admin.html" %}
+{% set title = "Categorías" %}
+
+{% block content %}
+  <div class="row row-space">
+    <h1>Categorías</h1>
+    <a class="btn" href="{{ url_for('admin_categories_new') }}">Nueva categoría</a>
+  </div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Activa</th>
+        <th class="right">Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for r in rows %}
+      <tr>
+        <td>{{ r.id }}</td>
+        <td>{{ r.name }}</td>
+        <td>{{ "Sí" if r.is_active else "No" }}</td>
+        <td class="right">
+          <a class="btn btn-secondary" href="{{ url_for('admin_categories_edit', id=r.id) }}">Editar</a>
+          <form class="inline" method="post" action="{{ url_for('admin_categories_delete', id=r.id) }}">
+            <button class="btn btn-danger" type="submit">Eliminar</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

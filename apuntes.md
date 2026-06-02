@@ -59,6 +59,7 @@
   - [Elaboración de documentación](#elaboracion-de-documentacion)
 - [Preparacion examen segunda evaluacion](#preparacion-examen-segunda-evaluacion)
   - [Clase dia 7](#clase-dia-7)
+- [Repaso programacion](#repaso-programacion)
 - [.git](#git)
   - [branches](#branches)
   - [hooks](#hooks)
@@ -9881,6 +9882,792 @@ FLUSH PRIVILEGES;
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/003-Manipulaci%C3%B3n%20de%20documentos%20Web/000-Repaso%20HTML%20y%20CSS)
 
+### contenido
+<small>Creado: 2026-05-19 16:00</small>
+
+`001-contenido.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>CV</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    
+  </body>
+</html>
+```
+
+### contenido
+<small>Creado: 2026-05-19 16:00</small>
+
+`002-contenido.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>CV</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <div id="arriba">
+      </div>
+      <div id="abajo">
+      </div>
+    </header>
+  </body>
+</html>
+```
+
+### contenido de arriba
+<small>Creado: 2026-05-19 16:00</small>
+
+`003-contenido de arriba.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>CV</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <div id="arriba">
+        <h1>Isabela Fernández</h1>
+        <h2>Lic. en Administración</h2>
+        <ul>
+          <li>1234 - 5678</li>
+          <li>hola@sitioincreible.com</li>
+          <li>Calle cualquier 123</li>
+        </ul>
+      </div>
+      <div id="abajo">
+      </div>
+    </header>
+  </body>
+</html>
+```
+
+### encapsular
+<small>Creado: 2026-05-19 16:00</small>
+
+`004-encapsular.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>CV</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <div id="arriba">
+        <h1>Isabela Fernández</h1>
+        <h2>Lic. en Administración</h2>
+        <ul>
+          <li>1234 - 5678</li>
+          <li>hola@sitioincreible.com</li>
+          <li>Calle cualquier 123</li>
+        </ul>
+      </div>
+      <div id="abajo">
+      </div>
+    </header>
+  </body>
+</html>
+```
+
+### estilo
+<small>Creado: 2026-05-19 16:00</small>
+
+`005-estilo.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>CV</title>
+    <meta charset="utf-8">
+    <style>
+      body,html{background:black;}
+      header{background:white;width:600px;padding:20px;margin:auto;}
+      #arriba{display:flex;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="arriba">
+        <div id="identidad">
+          <h1>Isabela Fernández</h1>
+          <h2>Lic. en Administración</h2>
+        </div>
+        <ul>
+          <li>1234 - 5678</li>
+          <li>hola@sitioincreible.com</li>
+          <li>Calle cualquier 123</li>
+        </ul>
+      </div>
+      <div id="abajo">
+        <p>Soy una persona proactiva, organizada y responsable, con excelentes relaciones interpersonales. Con 5 años de experiencia en el rubro, me destaco por el buen trabajo en equipo, la rápida toma de decisiones y el buen manejo de la presión. Busco un puesto de trabajo dinámico y desafiante para continuar desarrollando mi carrera</p>
+      </div>
+    </header>
+  </body>
+</html>
+```
+
+### muevo el estilo
+<small>Creado: 2026-05-19 16:00</small>
+
+`006-muevo el estilo.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>CV</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <style>
+      body,html{background:black;}
+      header{background:white;width:600px;padding:20px;margin:auto;}
+      #arriba{display:flex;}
+    </style>
+    <header>
+      <div id="arriba">
+        <div id="identidad">
+          <h1>Isabela Fernández</h1>
+          <h2>Lic. en Administración</h2>
+        </div>
+        <ul>
+          <li>1234 - 5678</li>
+          <li>hola@sitioincreible.com</li>
+          <li>Calle cualquier 123</li>
+        </ul>
+      </div>
+      <div id="abajo">
+        <p>Soy una persona proactiva, organizada y responsable, con excelentes relaciones interpersonales. Con 5 años de experiencia en el rubro, me destaco por el buen trabajo en equipo, la rápida toma de decisiones y el buen manejo de la presión. Busco un puesto de trabajo dinámico y desafiante para continuar desarrollando mi carrera</p>
+      </div>
+    </header>
+  </body>
+</html>
+```
+
+### creo una seccion
+<small>Creado: 2026-05-19 16:00</small>
+
+`007-creo una seccion.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>CV</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <style>
+      body,html{background:black;}
+      header{background:white;width:600px;padding:20px;margin:auto;}
+      #arriba{display:flex;gap:100px;}
+    </style>
+    <header>
+      <div id="arriba">
+        <div id="identidad">
+          <h1>Isabela Fernández</h1>
+          <h2>Lic. en Administración</h2>
+        </div>
+        <ul>
+          <li>1234 - 5678</li>
+          <li>hola@sitioincreible.com</li>
+          <li>Calle cualquier 123</li>
+        </ul>
+      </div>
+      <div id="abajo">
+        <p>Soy una persona proactiva, organizada y responsable, con excelentes relaciones interpersonales. Con 5 años de experiencia en el rubro, me destaco por el buen trabajo en equipo, la rápida toma de decisiones y el buen manejo de la presión. Busco un puesto de trabajo dinámico y desafiante para continuar desarrollando mi carrera</p>
+      </div>
+    </header>
+    <style>
+      section{background:white;display:flex;width:600px;margin:auto;padding:20px;}
+    </style>
+    <section>
+      <div id="educacion">
+        <h3>Educación</h3>
+        <time>2009-2014</time>
+        <p>Lic. en Administración de empresas</p>
+        <time>2004-2008</time>
+        <p>Colegio secundario increíble</p>
+        <p>Bachiller en bienes y servicios<p/>
+      </div>
+      <div id="habilidades">
+        <h3>Habilidades</h3>
+        <ul>
+          <li>Manejo de software informático</li>
+          <li>Software de administración avanzado</li>
+          <li>Software de diseño avanzado</li>
+          <li>Manejo integral de redes sociales</li>
+          <li>Idioma inglés avanzado</li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
+```
+
+### pie de pagina
+<small>Creado: 2026-05-19 16:00</small>
+
+`008-pie de pagina.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>CV</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <style>
+      body,html{background:black;}
+      header{background:white;width:600px;padding:20px;margin:auto;}
+      #arriba{display:flex;gap:100px;}
+    </style>
+    <header>
+      <div id="arriba">
+        <div id="identidad">
+          <h1>Isabela Fernández</h1>
+          <h2>Lic. en Administración</h2>
+        </div>
+        <ul>
+          <li>1234 - 5678</li>
+          <li>hola@sitioincreible.com</li>
+          <li>Calle cualquier 123</li>
+        </ul>
+      </div>
+      <div id="abajo">
+        <p>Soy una persona proactiva, organizada y responsable, con excelentes relaciones interpersonales. Con 5 años de experiencia en el rubro, me destaco por el buen trabajo en equipo, la rápida toma de decisiones y el buen manejo de la presión. Busco un puesto de trabajo dinámico y desafiante para continuar desarrollando mi carrera</p>
+      </div>
+    </header>
+    <style>
+      section{background:white;display:flex;width:600px;margin:auto;padding:20px;}
+    </style>
+    <section>
+      <div id="educacion">
+        <h3>Educación</h3>
+        <time>2009-2014</time>
+        <p>Lic. en Administración de empresas</p>
+        <time>2004-2008</time>
+        <p>Colegio secundario increíble</p>
+        <p>Bachiller en bienes y servicios<p/>
+      </div>
+      <div id="habilidades">
+        <h3>Habilidades</h3>
+        <ul>
+          <li>Manejo de software informático</li>
+          <li>Software de administración avanzado</li>
+          <li>Software de diseño avanzado</li>
+          <li>Manejo integral de redes sociales</li>
+          <li>Idioma inglés avanzado</li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <h3>Experiencia laboral</h3>
+      <h4>Asistente de gerencia</h4>
+      <p>Empresa increíble, Ago. 2019 - Presente</p>
+      <p>Asistencia administrativa integral a Gerencia. Seguimiento de Agenda. Revisión de Idoneidad de documentos y control de archivo. Creación de Presentaciones mensuales.</p>
+      <h4>Asistente de gerencia</h4>
+      <p>Empresa increíble, Ago. 2019 - Presente</p>
+      <p>Asistencia administrativa integral a Gerencia. Seguimiento de Agenda. Revisión de Idoneidad de documentos y control de archivo. Creación de Presentaciones mensuales.</p>
+      <h4>Asistente de gerencia</h4>
+      <p>Empresa increíble, Ago. 2019 - Presente</p>
+      <p>Asistencia administrativa integral a Gerencia. Seguimiento de Agenda. Revisión de Idoneidad de documentos y control de archivo. Creación de Presentaciones mensuales.</p>
+    </footer>
+  </body>
+</html>
+```
+
+### estilo del footer
+<small>Creado: 2026-05-19 16:00</small>
+
+`009-estilo del footer.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>CV</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <style>
+      body,html{background:black;}
+      header{background:white;width:600px;padding:20px;margin:auto;}
+      #arriba{display:flex;gap:100px;}
+    </style>
+    <header>
+      <div id="arriba">
+        <div id="identidad">
+          <h1>Isabela Fernández</h1>
+          <h2>Lic. en Administración</h2>
+        </div>
+        <ul>
+          <li>1234 - 5678</li>
+          <li>hola@sitioincreible.com</li>
+          <li>Calle cualquier 123</li>
+        </ul>
+      </div>
+      <div id="abajo">
+        <p>Soy una persona proactiva, organizada y responsable, con excelentes relaciones interpersonales. Con 5 años de experiencia en el rubro, me destaco por el buen trabajo en equipo, la rápida toma de decisiones y el buen manejo de la presión. Busco un puesto de trabajo dinámico y desafiante para continuar desarrollando mi carrera</p>
+      </div>
+    </header>
+    <style>
+      section{background:white;display:flex;width:600px;margin:auto;padding:20px;}
+    </style>
+    <section>
+      <div id="educacion">
+        <h3>Educación</h3>
+        <time>2009-2014</time>
+        <p>Lic. en Administración de empresas</p>
+        <time>2004-2008</time>
+        <p>Colegio secundario increíble</p>
+        <p>Bachiller en bienes y servicios<p/>
+      </div>
+      <div id="habilidades">
+        <h3>Habilidades</h3>
+        <ul>
+          <li>Manejo de software informático</li>
+          <li>Software de administración avanzado</li>
+          <li>Software de diseño avanzado</li>
+          <li>Manejo integral de redes sociales</li>
+          <li>Idioma inglés avanzado</li>
+        </ul>
+      </div>
+    </section>
+    <style>
+      footer{width:600px;background:white;margin:auto;padding:20px;}
+    </style>
+    <footer>
+      <h3>Experiencia laboral</h3>
+      <h4>Asistente de gerencia</h4>
+      <p>Empresa increíble, Ago. 2019 - Presente</p>
+      <p>Asistencia administrativa integral a Gerencia. Seguimiento de Agenda. Revisión de Idoneidad de documentos y control de archivo. Creación de Presentaciones mensuales.</p>
+      <h4>Asistente de gerencia</h4>
+      <p>Empresa increíble, Ago. 2019 - Presente</p>
+      <p>Asistencia administrativa integral a Gerencia. Seguimiento de Agenda. Revisión de Idoneidad de documentos y control de archivo. Creación de Presentaciones mensuales.</p>
+      <h4>Asistente de gerencia</h4>
+      <p>Empresa increíble, Ago. 2019 - Presente</p>
+      <p>Asistencia administrativa integral a Gerencia. Seguimiento de Agenda. Revisión de Idoneidad de documentos y control de archivo. Creación de Presentaciones mensuales.</p>
+    </footer>
+  </body>
+</html>
+```
+
+### datos personales
+<small>Creado: 2026-05-19 16:00</small>
+
+`010-datos personales.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>CV - Jose Vicente Carratalá</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <style>
+      body,html{background:black;}
+      header{background:white;width:600px;padding:20px;margin:auto;}
+      #arriba{display:flex;gap:100px;}
+    </style>
+    <header>
+      <div id="arriba">
+        <div id="identidad">
+          <h1>Jose Vicente Carratalá Sanchis</h1>
+          <h2>Profesor de FP • Desarrollador de Software • Autor Técnico</h2>
+        </div>
+        <ul>
+          <li>—</li>
+          <li>info@josevicentecarratala.com</li>
+          <li>Valencia, España</li>
+        </ul>
+      </div>
+      <div id="abajo">
+        <p>Soy docente de Formación Profesional y desarrollador de software especializado en soluciones empresariales, plataformas educativas y proyectos técnicos multidisciplinares. Combino experiencia en programación, creación de contenidos, visualización 3D y diseño de herramientas educativas basadas en la nube. He publicado múltiples libros técnicos y desarrollo software bajo la marca JOCARSA, donde implemento CRM, ERP, plataformas de análisis de datos, WebSockets seguros, integraciones con Moodle y diversos sistemas de productividad orientados a empresas y centros educativos.</p>
+      </div>
+    </header>
+
+    <style>
+      section{background:white;display:flex;width:600px;margin:auto;padding:20px;gap:40px;}
+      section > div{flex:1;}
+    </style>
+
+    <section>
+      <div id="educacion">
+        <h3>Educación</h3>
+        <time>2000 - 2004</time>
+        <p>Formación relacionada con desarrollo, programación y entornos informáticos</p>
+        <p>Actualización continua en tecnologías web, bases de datos, IA, visualización 3D y sistemas empresariales</p>
+      </div>
+
+      <div id="habilidades">
+        <h3>Habilidades</h3>
+        <ul>
+          <li>Desarrollo web full-stack (PHP, JavaScript, Python, Java)</li>
+          <li>Integraciones avanzadas con Moodle y ecosistemas educativos</li>
+          <li>Diseño y desarrollo de CRM, ERP y sistemas SaaS</li>
+          <li>Bases de datos (MySQL, SQLite, MongoDB)</li>
+          <li>Programación 3D, simulaciones y visualización (OpenCV, CUDA, WebGL)</li>
+          <li>Desarrollo de IA local, QLoRA, datasets educativos y asistentes personalizados</li>
+          <li>Diseño de cursos online y creación de materiales didácticos</li>
+          <li>Autor de libros técnicos (Python, SQL, Markdown, Ubuntu, etc.)</li>
+        </ul>
+      </div>
+    </section>
+
+    <style>
+      footer{width:600px;background:white;margin:auto;padding:20px;}
+    </style>
+
+    <footer>
+      <h3>Experiencia laboral</h3>
+
+      <h4>Profesor de Formación Profesional</h4>
+      <p>Centros de FP • 2010 - Presente</p>
+      <p>Docencia en módulos de programación, bases de datos, servicios en red, lenguajes de marcas y proyectos. Desarrollo de material didáctico, automatización docente, dashboards de seguimiento y herramientas digitales para evaluaciones.</p>
+
+      <h4>Desarrollador y fundador — JOCARSA</h4>
+      <p>2015 - Presente</p>
+      <p>Desarrollo de soluciones empresariales como CRM, ERP, BI, gestores documentales, plataformas SaaS y herramientas de productividad. Integraciones con APIs, implementación de seguridad, sistemas WebSocket y aplicaciones personalizadas para clientes.</p>
+
+      <h4>Autor de libros técnicos</h4>
+      <p>Autoedición • 2014 - Presente</p>
+      <p>Redacción y publicación de libros didácticos sobre programación (Python, SQL, Markdown, Ubuntu Server, HTML/CSS/JS, etc.). Creación de ejercicios continuos, ejemplos prácticos y colecciones orientadas a estudiantes de programación.</p>
+
+      <h4>Desarrollador de proyectos multimedia y 3D</h4>
+      <p>Freelance • 2008 - Presente</p>
+      <p>Desarrollo de animaciones 3D, simulaciones, visualizaciones técnicas, motores de render interactivos y proyectos gráficos para presentaciones y contenido educativo.</p>
+    </footer>
+  </body>
+</html>
+```
+
+### mejoras estéticas
+<small>Creado: 2026-05-19 16:00</small>
+
+`011-mejoras estéticas.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>CV - Jose Vicente Carratalá Sanchis</title>
+    <style>
+      /* RESET BÁSICO */
+      *{
+        box-sizing:border-box;
+        margin:0;
+        padding:0;
+      }
+
+      body,html{
+        height:100%;
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        background:#111;
+        color:#111;
+      }
+
+      /* CONTENEDOR PRINCIPAL */
+      .cv{
+        max-width:900px;
+        margin:40px auto;
+        background:#fff;
+        box-shadow:0 15px 40px rgba(0,0,0,.35);
+        border-radius:4px;
+        overflow:hidden;
+      }
+
+      header,main,footer{
+        padding:32px 40px;
+      }
+
+      /* CABECERA */
+      header{
+        border-bottom:3px solid #000;
+      }
+
+      .top{
+        display:flex;
+        justify-content:space-between;
+        gap:60px;
+      }
+
+      #identidad h1{
+        font-size:40px;
+        letter-spacing:.08em;
+        text-transform:uppercase;
+        line-height:1.1;
+      }
+
+      #identidad h2{
+        margin-top:6px;
+        font-size:16px;
+        font-weight:600;
+        text-transform:uppercase;
+        letter-spacing:.2em;
+      }
+
+      .contacto{
+        list-style:none;
+        font-size:14px;
+        line-height:1.7;
+        text-align:right;
+      }
+
+      .contacto li span{
+        font-weight:600;
+      }
+
+      #resumen{
+        margin-top:24px;
+        font-size:14px;
+        line-height:1.7;
+        max-width:100%;
+      }
+
+      /* SECCIONES GENERALES */
+      h3.titulo-bloque{
+        font-size:20px;
+        text-transform:uppercase;
+        letter-spacing:.14em;
+        margin-bottom:18px;
+      }
+
+      main{
+        display:flex;
+        gap:60px;
+        border-bottom:1px solid #ddd;
+      }
+
+      #educacion, #habilidades{
+        flex:1;
+      }
+
+      /* EDUCACIÓN */
+      #educacion time{
+        display:block;
+        font-size:12px;
+        text-transform:uppercase;
+        letter-spacing:.15em;
+        margin-top:10px;
+        color:#555;
+      }
+
+      #educacion p{
+        font-size:14px;
+        margin-top:3px;
+        line-height:1.5;
+      }
+
+      #educacion p strong{
+        font-weight:700;
+      }
+
+      /* HABILIDADES */
+      #habilidades ul{
+        list-style:none;
+        font-size:14px;
+        line-height:1.8;
+      }
+
+      #habilidades li::before{
+        content:"•";
+        display:inline-block;
+        margin-right:8px;
+      }
+
+      /* EXPERIENCIA */
+      footer{
+        font-size:14px;
+      }
+
+      footer h3{
+        composes:titulo-bloque;
+      }
+
+      footer h3{
+        font-size:20px;
+        text-transform:uppercase;
+        letter-spacing:.14em;
+        margin-bottom:18px;
+      }
+
+      .experiencia{
+        margin-bottom:20px;
+      }
+
+      .experiencia h4{
+        font-size:16px;
+        font-weight:700;
+      }
+
+      .experiencia .empresa{
+        margin-top:2px;
+        font-size:13px;
+        font-weight:600;
+      }
+
+      .experiencia .periodo{
+        font-weight:400;
+        color:#555;
+      }
+
+      .experiencia p{
+        margin-top:6px;
+        line-height:1.6;
+      }
+
+      /* PEQUEÑOS AJUSTES RESPONSIVE */
+      @media (max-width:720px){
+        header,main,footer{
+          padding:24px 20px;
+        }
+        .top{
+          flex-direction:column;
+          gap:16px;
+        }
+        .contacto{
+          text-align:left;
+        }
+        main{
+          flex-direction:column;
+          gap:24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cv">
+      <header>
+        <div class="top">
+          <div id="identidad">
+            <h1>Jose Vicente<br>Carratalá Sanchis</h1>
+            <h2>Docente de programación y desarrollador de software</h2>
+          </div>
+          <ul class="contacto">
+            <li><span>Tel.:</span> +34 600 000 000</li>
+            <li><span>Email:</span> info@josevicentecarratala.com</li>
+            <li><span>Web:</span> josevicentecarratala.com · jocarsa.com</li>
+            <li><span>Ubicación:</span> València, España</li>
+          </ul>
+        </div>
+        <div id="resumen">
+          <p>
+            Docente de Formación Profesional en el área de programación y sistemas,
+            desarrollador de soluciones de gestión empresarial y autor de materiales
+            didácticos sobre programación (Python, bases de datos, lenguajes de marcas,
+            servidores, etc.). Combino la experiencia como profesor con el desarrollo
+            de productos SaaS (ERP, CRM, herramientas de analítica y plugins para Moodle)
+            bajo la marca JOCARSA.
+          </p>
+          <p style="margin-top:8px;">
+            Me interesa especialmente el diseño de ecosistemas educativos y de software
+            que simplifiquen el trabajo diario de centros de formación y empresas, con
+            especial foco en la automatización de procesos, la visualización clara de
+            datos y la experiencia de usuario.
+          </p>
+        </div>
+      </header>
+
+      <main>
+        <section id="educacion">
+          <h3 class="titulo-bloque">Formación y publicaciones</h3>
+
+          <time>2015 – Actualidad</time>
+          <p><strong>Autor de libros técnicos</strong><br>
+             Publicación de manuales de programación, entre ellos
+             “Aprende programación con Python”, así como libros sobre SQL,
+             Markdown y administración de servidores.</p>
+
+          <time>2000 – Actualidad</time>
+          <p><strong>Formación continua en desarrollo de software</strong><br>
+             Especialización práctica en desarrollo web y backend
+             (Python, PHP, Java, JavaScript), bases de datos SQL, administración
+             de servidores Linux y plataformas e-learning.</p>
+        </section>
+
+        <aside id="habilidades">
+          <h3 class="titulo-bloque">Habilidades</h3>
+          <ul>
+            <li>Diseño e implementación de soluciones de gestión empresarial (ERP/CRM)</li>
+            <li>Desarrollo de plugins y automatizaciones para Moodle y entornos e-learning</li>
+            <li>Programación en Python, PHP, Java, JavaScript y bases de datos SQL</li>
+            <li>Administración de servidores Linux y servicios web (Ubuntu Server, Apache, SSL)</li>
+            <li>Diseño de material didáctico y cursos online de programación</li>
+            <li>Visualización 3D y creación de recursos multimedia para formación</li>
+            <li>Gestión integral de proyectos educativos y tecnológicos</li>
+          </ul>
+        </aside>
+      </main>
+
+      <footer>
+        <h3>Experiencia profesional</h3>
+
+        <div class="experiencia">
+          <h4>Docente de programación y sistemas</h4>
+          <div class="empresa">
+            Centros de Formación Profesional ·
+            <span class="periodo">2010 – Actualidad</span>
+          </div>
+          <p>
+            Impartición de módulos de programación, bases de datos, lenguajes de marcas,
+            servicios y procesos, administración de sistemas y proyectos intermodulares.
+            Diseño de actividades, rúbricas de evaluación, material didáctico y
+            acompañamiento del alumnado en proyectos reales.
+          </p>
+        </div>
+
+        <div class="experiencia">
+          <h4>Fundador y desarrollador principal</h4>
+          <div class="empresa">
+            JOCARSA ·
+            <span class="periodo">2008 – Actualidad</span>
+          </div>
+          <p>
+            Desarrollo de soluciones SaaS de gestión empresarial: ERP, CRM, herramientas
+            de productividad, paneles de Business Intelligence y utilidades para
+            administración de servidores. Diseño de interfaces web modernas y
+            dashboards para la toma de decisiones en empresas y centros educativos.
+          </p>
+        </div>
+
+        <div class="experiencia">
+          <h4>Autor y diseñador de cursos online</h4>
+          <div class="empresa">
+            Proyectos propios y colaboraciones ·
+            <span class="periodo">2015 – Actualidad</span>
+          </div>
+          <p>
+            Creación de cursos online de programación, bases de datos, desarrollo web,
+            servidores y herramientas de productividad. Producción de vídeos, guías
+            paso a paso, ejercicios continuos y material descargable para plataformas
+            de formación y uso en el aula.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+```
+
 
 <a id="lenguajes-de-script-de-cliente-caracteristicas-y-sintaxis-basica-estandares"></a>
 ## Lenguajes de script de cliente. Características y sintaxis básica. Estándares
@@ -12685,11 +13472,287 @@ if __name__ == "__main__":
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/005-Conversi%C3%B3n%20y%20adaptaci%C3%B3n%20de%20documentos%20para%20el%20intercambio%20de%20informaci%C3%B3n/001-Tecnolog%C3%ADas%20de%20transformaci%C3%B3n%20de%20documentos)
 
+### sqlite a json
+<small>Creado: 2026-02-11 11:59</small>
+
+`002-sqlite a json.py`
+
+```python
+import sqlite3
+import json
+
+# Conexión a la base de datos SQLite
+conn = sqlite3.connect("empresa.db")
+conn.row_factory = sqlite3.Row
+cursor = conn.cursor()
+
+# Leer toda la tabla
+cursor.execute("SELECT * FROM clientes")
+rows = cursor.fetchall()
+
+# Convertir a lista de diccionarios
+data = [dict(row) for row in rows]
+
+# Guardar en JSON
+with open("clientes.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+conn.close()
+```
+
+### clientes
+<small>Creado: 2026-02-11 12:00</small>
+
+`clientes.json`
+
+```json
+[
+  {
+    "id": 1,
+    "nombre": "Ana",
+    "apellidos": "García López",
+    "email": "ana.garcia@example.com"
+  },
+  {
+    "id": 2,
+    "nombre": "Luis",
+    "apellidos": "Martínez Pérez",
+    "email": "luis.martinez@example.com"
+  },
+  {
+    "id": 3,
+    "nombre": "María",
+    "apellidos": "Sánchez Ruiz",
+    "email": "maria.sanchez@example.com"
+  },
+  {
+    "id": 4,
+    "nombre": "Carlos",
+    "apellidos": "Fernández Gómez",
+    "email": "carlos.fernandez@example.com"
+  },
+  {
+    "id": 5,
+    "nombre": "Laura",
+    "apellidos": "Jiménez Torres",
+    "email": "laura.jimenez@example.com"
+  },
+  {
+    "id": 6,
+    "nombre": "Javier",
+    "apellidos": "Moreno Díaz",
+    "email": "javier.moreno@example.com"
+  },
+  {
+    "id": 7,
+    "nombre": "Carmen",
+    "apellidos": "Navarro Romero",
+    "email": "carmen.navarro@example.com"
+  },
+  {
+    "id": 8,
+    "nombre": "David",
+    "apellidos": "Ruiz Molina",
+    "email": "david.ruiz@example.com"
+  },
+  {
+    "id": 9,
+    "nombre": "Elena",
+    "apellidos": "Hernández Castro",
+    "email": "elena.hernandez@example.com"
+  },
+  {
+    "id": 10,
+    "nombre": "Pablo",
+    "apellidos": "Ortega Vidal",
+    "email": "pablo.ortega@example.com"
+  },
+  {
+    "id": 11,
+    "nombre": "Isabel",
+    "apellidos": "Ramos León",
+    "email": "isabel.ramos@example.com"
+  },
+  {
+    "id": 12,
+    "nombre": "Sergio",
+    "apellidos": "Gil Cabrera",
+    "email": "sergio.gil@example.com"
+  },
+  {
+    "id": 13,
+    "nombre": "Patricia",
+    "apellidos": "Flores Soto",
+    "email": "patricia.flores@example.com"
+  },
+  {
+    "id": 14,
+    "nombre": "Miguel",
+    "apellidos": "Vega Núñez",
+    "email": "miguel.vega@example.com"
+  },
+  {
+    "id": 15,
+    "nombre": "Raquel",
+    "apellidos": "Campos Blanco",
+    "email": "raquel.campos@example.com"
+  },
+  {
+    "id": 16,
+    "nombre": "Alberto",
+    "apellidos": "Méndez Cruz",
+    "email": "alberto.mendez@example.com"
+  },
+  {
+    "id": 17,
+    "nombre": "Silvia",
+    "apellidos": "Prieto Lozano",
+    "email": "silvia.prieto@example.com"
+  },
+  {
+    "id": 18,
+    "nombre": "Antonio",
+    "apellidos": "Herrera Peña",
+    "email": "antonio.herrera@example.com"
+  },
+  {
+    "id": 19,
+    "nombre": "Natalia",
+    "apellidos": "Iglesias Fuentes",
+    "email": "natalia.iglesias@example.com"
+  },
+  {
+    "id": 20,
+    "nombre": "Fernando",
+    "apellidos": "Cano Aguilar",
+    "email": "fernando.cano@example.com"
+  }
+]
+```
+
 
 <a id="descripcion-de-la-estructura-y-de-la-sintaxis"></a>
 ## Descripción de la estructura y de la sintaxis
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/005-Conversi%C3%B3n%20y%20adaptaci%C3%B3n%20de%20documentos%20para%20el%20intercambio%20de%20informaci%C3%B3n/002-Descripci%C3%B3n%20de%20la%20estructura%20y%20de%20la%20sintaxis)
+
+### convertir a html
+<small>Creado: 2026-02-13 12:08</small>
+
+`002-convertir a html.py`
+
+```python
+# pip3 install markdown --break-system-packages
+
+import pathlib
+import markdown
+
+md_path = pathlib.Path("001-Fundamentos de markdown.md")
+html_path = pathlib.Path("003-resultado.html")
+
+text = md_path.read_text(encoding="utf-8")
+
+html_body = markdown.markdown(
+    text,
+    extensions=[
+        "extra",        # tablas, listas mejoradas, etc.
+        "toc",          # genera TOC si usas [TOC] o anchors
+        "codehilite",   # resalta código (requiere pygments para estilos)
+    ],
+)
+
+full_html = f"""<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{md_path.stem}</title>
+</head>
+<body>
+{html_body}
+</body>
+</html>
+"""
+
+html_path.write_text(full_html, encoding="utf-8")
+print("OK:", html_path)
+```
+
+### resultado
+<small>Creado: 2026-02-13 12:08</small>
+
+`003-resultado.html`
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>001-Fundamentos de markdown</title>
+</head>
+<body>
+<h1 id="este-es-un-titulo-de-nivel-1">Este es un titulo de nivel 1</h1>
+<h2 id="este-es-un-titulo-de-nivel-2">Este es un titulo de nivel 2</h2>
+<h3 id="este-es-un-titulo-de-nivel-3">Este es un titulo de nivel 3</h3>
+<h4 id="este-es-un-titulo-de-nivel-4">Este es un titulo de nivel 4</h4>
+<h5 id="este-es-un-titulo-de-nivel-5">Este es un titulo de nivel 5</h5>
+<h6 id="este-es-un-titulo-de-nivel-6">Este es un titulo de nivel 6</h6>
+<p>Esto es un texto plano. 
+Esto sigue en el mismo párrafo.</p>
+<p>Para hacer un nuevo párrafo hay que saltar dos veces de linea.</p>
+<hr />
+<h2 id="esto-es-un-separador">Esto es un separador</h2>
+<div class="codehilite"><pre><span></span><code>    Esto es HTML
+</code></pre></div>
+
+<p>Esto es un codigo HTML en linea para hablarte de la etiqueta <code>html</code> </p>
+<p>Esto es un texto en <strong>negrita</strong></p>
+<p>Esto es un texto en <em>italica</em></p>
+<p>Esto es un texto ~~tachado~~ (AltGR + 4)</p>
+<p><a href="https://josevicentecarratala.com">Página de Jose Vicente</a></p>
+<p>Lista ordenada:</p>
+<ol>
+<li>Primer elemento</li>
+<li>Segundo elemento</li>
+<li>Tercer elemento</li>
+</ol>
+<p>Lista no ordenada:</p>
+<ul>
+<li>Uno de los elementos</li>
+<li>Otro de los elementos</li>
+<li>Otro elemento más</li>
+</ul>
+<p>Vamos a hacer tablas</p>
+<table>
+<thead>
+<tr>
+<th>Asignatura</th>
+<th>Curso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inglés</td>
+<td>Primero</td>
+</tr>
+<tr>
+<td>Redes</td>
+<td>Primero</td>
+</tr>
+<tr>
+<td>Fundamentos de hardware</td>
+<td>Primero</td>
+</tr>
+<tr>
+<td>Lenguajes de marcas</td>
+<td>Primero</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+```
 
 
 <a id="creacion-y-utilizacion-de-plantillas-herramientas-y-depuracion"></a>
@@ -12712,6 +13775,34 @@ if __name__ == "__main__":
 ## Sistemas de almacenamiento de información. Características. Tecnologías
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/006-Almacenamiento%20de%20informaci%C3%B3n/001-Sistemas%20de%20almacenamiento%20de%20informaci%C3%B3n.%20Caracter%C3%ADsticas.%20Tecnolog%C3%ADas)
+
+### me conecto a mysql
+<small>Creado: 2026-03-04 12:18</small>
+
+`001-me conecto a mysql.py`
+
+```python
+# pip3 install mysql-connector-python
+
+import mysql.connector
+
+# connect
+db = mysql.connector.connect(
+    host="localhost",
+    user="usuario",
+    password="password",
+    database="basedatos"
+)
+
+cursor = db.cursor()
+
+# query
+cursor.execute("SELECT * FROM clientes")
+
+# print rows
+for row in cursor:
+    print(row)
+```
 
 
 <a id="lenguajes-de-consulta-y-manipulacion-en-documentos"></a>
@@ -12753,17 +13844,1311 @@ if __name__ == "__main__":
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/001-Aplicaciones%20de%20gesti%C3%B3n%20empresarial.%20Tipos.%20Caracter%C3%ADsticas)
 
+### app
+<small>Creado: 2026-02-25 12:02</small>
+
+`app.py`
+
+```python
+from flask import Flask, render_template, request, redirect, url_for, flash
+import sqlite3
+from pathlib import Path
+
+app = Flask(__name__)
+app.secret_key = "cambia-esto-por-una-clave"
+
+BASE_DIR = Path(__file__).resolve().parent
+DB_PATH = BASE_DIR / "clientes.db"
+
+def get_conn():
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    return conn
+
+def init_db():
+    with get_conn() as conn:
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS clientes (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                nombre TEXT NOT NULL,
+                apellidos TEXT NOT NULL,
+                email TEXT,
+                telefono TEXT,
+                direccion TEXT
+            )
+        """)
+        conn.commit()
+
+@app.route("/")
+def index():
+    q = (request.args.get("q") or "").strip()
+    with get_conn() as conn:
+        if q:
+            clientes = conn.execute("""
+                SELECT * FROM clientes
+                WHERE nombre LIKE ? OR apellidos LIKE ? OR email LIKE ?
+                ORDER BY apellidos, nombre
+            """, (f"%{q}%", f"%{q}%", f"%{q}%")).fetchall()
+        else:
+            clientes = conn.execute("""
+                SELECT * FROM clientes
+                ORDER BY apellidos, nombre
+            """).fetchall()
+
+    return render_template("index.html", clientes=clientes, q=q)
+
+@app.route("/clientes/nuevo", methods=["GET", "POST"])
+def nuevo():
+    if request.method == "POST":
+        nombre = (request.form.get("nombre") or "").strip()
+        apellidos = (request.form.get("apellidos") or "").strip()
+        email = (request.form.get("email") or "").strip()
+        telefono = (request.form.get("telefono") or "").strip()
+        direccion = (request.form.get("direccion") or "").strip()
+
+        if not nombre or not apellidos:
+            flash("Nombre y apellidos son obligatorios.", "error")
+            return render_template("nuevo.html", form=request.form)
+
+        with get_conn() as conn:
+            conn.execute("""
+                INSERT INTO clientes (nombre, apellidos, email, telefono, direccion)
+                VALUES (?, ?, ?, ?, ?)
+            """, (nombre, apellidos, email, telefono, direccion))
+            conn.commit()
+
+        flash("Cliente creado correctamente.", "ok")
+        return redirect(url_for("index"))
+
+    return render_template("nuevo.html", form={})
+
+@app.route("/clientes/<int:cliente_id>/editar", methods=["GET", "POST"])
+def editar(cliente_id):
+    with get_conn() as conn:
+        cliente = conn.execute("SELECT * FROM clientes WHERE id = ?", (cliente_id,)).fetchone()
+
+    if not cliente:
+        flash("Cliente no encontrado.", "error")
+        return redirect(url_for("index"))
+
+    if request.method == "POST":
+        nombre = (request.form.get("nombre") or "").strip()
+        apellidos = (request.form.get("apellidos") or "").strip()
+        email = (request.form.get("email") or "").strip()
+        telefono = (request.form.get("telefono") or "").strip()
+        direccion = (request.form.get("direccion") or "").strip()
+
+        if not nombre or not apellidos:
+            flash("Nombre y apellidos son obligatorios.", "error")
+            return render_template("editar.html", cliente=cliente, form=request.form)
+
+        with get_conn() as conn:
+            conn.execute("""
+                UPDATE clientes
+                SET nombre = ?, apellidos = ?, email = ?, telefono = ?, direccion = ?
+                WHERE id = ?
+            """, (nombre, apellidos, email, telefono, direccion, cliente_id))
+            conn.commit()
+
+        flash("Cliente actualizado correctamente.", "ok")
+        return redirect(url_for("index"))
+
+    return render_template("editar.html", cliente=cliente, form=dict(cliente))
+
+@app.route("/clientes/<int:cliente_id>/borrar", methods=["POST"])
+def borrar(cliente_id):
+    with get_conn() as conn:
+        conn.execute("DELETE FROM clientes WHERE id = ?", (cliente_id,))
+        conn.commit()
+    flash("Cliente eliminado.", "ok")
+    return redirect(url_for("index"))
+
+if __name__ == "__main__":
+    init_db()
+    app.run(debug=True)
+```
+
 
 <a id="instalacion"></a>
 ## Instalación
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/002-Instalaci%C3%B3n)
 
+### app
+<small>Creado: 2026-02-26 08:43</small>
+
+`app.py`
+
+```python
+import os
+import sqlite3
+from datetime import datetime
+from functools import wraps
+
+from flask import (
+    Flask, render_template, request, redirect, url_for, session, flash
+)
+from werkzeug.security import generate_password_hash, check_password_hash
+
+
+APP_NAME = "jocarsa | microsaas"
+
+
+def create_app():
+    app = Flask(__name__)
+    app.config["SECRET_KEY"] = os.environ.get("FLASK_SECRET", "dev-secret-change-me")
+
+    # DB en carpeta instance/
+    os.makedirs(app.instance_path, exist_ok=True)
+    app.config["DATABASE"] = os.path.join(app.instance_path, "microsaas.db")
+
+    def get_db():
+        conn = sqlite3.connect(app.config["DATABASE"])
+        conn.row_factory = sqlite3.Row
+        conn.execute("PRAGMA foreign_keys = ON;")
+        return conn
+
+    def init_db():
+        conn = get_db()
+        cur = conn.cursor()
+
+        # Users (login)
+        cur.execute("""
+        CREATE TABLE IF NOT EXISTS users(
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            username TEXT NOT NULL UNIQUE,
+            password_hash TEXT NOT NULL,
+            created_at TEXT NOT NULL
+        );
+        """)
+
+        # Clientes
+        cur.execute("""
+        CREATE TABLE IF NOT EXISTS clientes(
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            nombre TEXT NOT NULL,
+            apellidos TEXT NOT NULL,
+            email TEXT,
+            telefono TEXT,
+            direccion TEXT,
+            created_at TEXT NOT NULL
+        );
+        """)
+
+        # Productos
+        cur.execute("""
+        CREATE TABLE IF NOT EXISTS productos(
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            nombre TEXT NOT NULL,
+            sku TEXT,
+            precio REAL NOT NULL DEFAULT 0,
+            stock INTEGER NOT NULL DEFAULT 0,
+            created_at TEXT NOT NULL
+        );
+        """)
+
+        # Pedidos (cabecera)
+        cur.execute("""
+        CREATE TABLE IF NOT EXISTS pedidos(
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            cliente_id INTEGER NOT NULL,
+            fecha TEXT NOT NULL,
+            estado TEXT NOT NULL DEFAULT 'borrador',
+            notas TEXT,
+            created_at TEXT NOT NULL,
+            FOREIGN KEY(cliente_id) REFERENCES clientes(id) ON DELETE RESTRICT
+        );
+        """)
+
+        # Líneas de pedido
+        cur.execute("""
+        CREATE TABLE IF NOT EXISTS pedido_lineas(
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            pedido_id INTEGER NOT NULL,
+            producto_id INTEGER NOT NULL,
+            cantidad INTEGER NOT NULL DEFAULT 1,
+            precio_unitario REAL NOT NULL DEFAULT 0,
+            FOREIGN KEY(pedido_id) REFERENCES pedidos(id) ON DELETE CASCADE,
+            FOREIGN KEY(producto_id) REFERENCES productos(id) ON DELETE RESTRICT
+        );
+        """)
+
+        # Seed: usuario por defecto
+        cur.execute("SELECT id FROM users WHERE username = ?", ("jocarsa",))
+        if cur.fetchone() is None:
+            cur.execute(
+                "INSERT INTO users(username, password_hash, created_at) VALUES(?,?,?)",
+                ("jocarsa", generate_password_hash("jocarsa"), datetime.utcnow().isoformat())
+            )
+
+        conn.commit()
+        conn.close()
+
+    def login_required(view):
+        @wraps(view)
+        def wrapped(*args, **kwargs):
+            if not session.get("user_id"):
+                return redirect(url_for("login"))
+            return view(*args, **kwargs)
+        return wrapped
+
+    @app.context_processor
+    def inject_globals():
+        return {
+            "APP_NAME": APP_NAME,
+            "current_user": session.get("username")
+        }
+
+    @app.route("/")
+    def home():
+        if session.get("user_id"):
+            return redirect(url_for("dashboard"))
+        return redirect(url_for("login"))
+
+    @app.route("/login", methods=["GET", "POST"])
+    def login():
+        if request.method == "POST":
+            username = (request.form.get("username") or "").strip()
+            password = request.form.get("password") or ""
+
+            conn = get_db()
+            user = conn.execute(
+                "SELECT * FROM users WHERE username = ?",
+                (username,)
+            ).fetchone()
+            conn.close()
+
+            if user and check_password_hash(user["password_hash"], password):
+                session["user_id"] = user["id"]
+                session["username"] = user["username"]
+                return redirect(url_for("dashboard"))
+
+            flash("Credenciales incorrectas.", "error")
+            return redirect(url_for("login"))
+
+        return render_template("login.html")
+
+    @app.route("/logout")
+    def logout():
+        session.clear()
+        return redirect(url_for("login"))
+
+    @app.route("/dashboard")
+    @login_required
+    def dashboard():
+        return render_template("dashboard.html")
+
+    # -------------------------
+    # CLIENTES CRUD
+    # -------------------------
+    @app.route("/clientes")
+    @login_required
+    def clientes_list():
+        q = (request.args.get("q") or "").strip()
+        conn = get_db()
+        if q:
+            rows = conn.execute("""
+                SELECT * FROM clientes
+                WHERE nombre LIKE ? OR apellidos LIKE ? OR email LIKE ?
+                ORDER BY id DESC
+            """, (f"%{q}%", f"%{q}%", f"%{q}%")).fetchall()
+        else:
+            rows = conn.execute("SELECT * FROM clientes ORDER BY id DESC").fetchall()
+        conn.close()
+        return render_template("clientes_list.html", clientes=rows, q=q)
+
+    @app.route("/clientes/nuevo", methods=["GET", "POST"])
+    @login_required
+    def clientes_new():
+        if request.method == "POST":
+            data = {
+                "nombre": (request.form.get("nombre") or "").strip(),
+                "apellidos": (request.form.get("apellidos") or "").strip(),
+                "email": (request.form.get("email") or "").strip(),
+                "telefono": (request.form.get("telefono") or "").strip(),
+                "direccion": (request.form.get("direccion") or "").strip(),
+            }
+            if not data["nombre"] or not data["apellidos"]:
+                flash("Nombre y apellidos son obligatorios.", "error")
+                return redirect(url_for("clientes_new"))
+
+            conn = get_db()
+            conn.execute("""
+                INSERT INTO clientes(nombre, apellidos, email, telefono, direccion, created_at)
+                VALUES(?,?,?,?,?,?)
+            """, (
+                data["nombre"], data["apellidos"], data["email"], data["telefono"], data["direccion"],
+                datetime.utcnow().isoformat()
+            ))
+            conn.commit()
+            conn.close()
+            flash("Cliente creado.", "ok")
+            return redirect(url_for("clientes_list"))
+
+        return render_template("clientes_form.html", mode="new", cliente=None)
+
+    @app.route("/clientes/<int:cliente_id>/editar", methods=["GET", "POST"])
+    @login_required
+    def clientes_edit(cliente_id):
+        conn = get_db()
+        cliente = conn.execute("SELECT * FROM clientes WHERE id = ?", (cliente_id,)).fetchone()
+        if not cliente:
+            conn.close()
+            flash("Cliente no encontrado.", "error")
+            return redirect(url_for("clientes_list"))
+
+        if request.method == "POST":
+            data = {
+                "nombre": (request.form.get("nombre") or "").strip(),
+                "apellidos": (request.form.get("apellidos") or "").strip(),
+                "email": (request.form.get("email") or "").strip(),
+                "telefono": (request.form.get("telefono") or "").strip(),
+                "direccion": (request.form.get("direccion") or "").strip(),
+            }
+            if not data["nombre"] or not data["apellidos"]:
+                conn.close()
+                flash("Nombre y apellidos son obligatorios.", "error")
+                return redirect(url_for("clientes_edit", cliente_id=cliente_id))
+
+            conn.execute("""
+                UPDATE clientes
+                SET nombre=?, apellidos=?, email=?, telefono=?, direccion=?
+                WHERE id=?
+            """, (
+                data["nombre"], data["apellidos"], data["email"], data["telefono"], data["direccion"],
+                cliente_id
+            ))
+            conn.commit()
+            conn.close()
+            flash("Cliente actualizado.", "ok")
+            return redirect(url_for("clientes_list"))
+
+        conn.close()
+        return render_template("clientes_form.html", mode="edit", cliente=cliente)
+
+    @app.route("/clientes/<int:cliente_id>/borrar", methods=["POST"])
+    @login_required
+    def clientes_delete(cliente_id):
+        conn = get_db()
+        try:
+            conn.execute("DELETE FROM clientes WHERE id = ?", (cliente_id,))
+            conn.commit()
+            flash("Cliente borrado.", "ok")
+        except sqlite3.IntegrityError:
+            flash("No se puede borrar: el cliente tiene pedidos asociados.", "error")
+        finally:
+            conn.close()
+        return redirect(url_for("clientes_list"))
+
+    # -------------------------
+    # PRODUCTOS CRUD
+    # -------------------------
+    @app.route("/productos")
+    @login_required
+    def productos_list():
+        q = (request.args.get("q") or "").strip()
+        conn = get_db()
+        if q:
+            rows = conn.execute("""
+                SELECT * FROM productos
+                WHERE nombre LIKE ? OR sku LIKE ?
+                ORDER BY id DESC
+            """, (f"%{q}%", f"%{q}%")).fetchall()
+        else:
+            rows = conn.execute("SELECT * FROM productos ORDER BY id DESC").fetchall()
+        conn.close()
+        return render_template("productos_list.html", productos=rows, q=q)
+
+    @app.route("/productos/nuevo", methods=["GET", "POST"])
+    @login_required
+    def productos_new():
+        if request.method == "POST":
+            nombre = (request.form.get("nombre") or "").strip()
+            sku = (request.form.get("sku") or "").strip()
+            precio = request.form.get("precio") or "0"
+            stock = request.form.get("stock") or "0"
+
+            if not nombre:
+                flash("El nombre es obligatorio.", "error")
+                return redirect(url_for("productos_new"))
+
+            try:
+                precio_f = float(precio)
+            except ValueError:
+                precio_f = 0.0
+            try:
+                stock_i = int(stock)
+            except ValueError:
+                stock_i = 0
+
+            conn = get_db()
+            conn.execute("""
+                INSERT INTO productos(nombre, sku, precio, stock, created_at)
+                VALUES(?,?,?,?,?)
+            """, (nombre, sku, precio_f, stock_i, datetime.utcnow().isoformat()))
+            conn.commit()
+            conn.close()
+            flash("Producto creado.", "ok")
+            return redirect(url_for("productos_list"))
+
+        return render_template("productos_form.html", mode="new", producto=None)
+
+    @app.route("/productos/<int:producto_id>/editar", methods=["GET", "POST"])
+    @login_required
+    def productos_edit(producto_id):
+        conn = get_db()
+        producto = conn.execute("SELECT * FROM productos WHERE id = ?", (producto_id,)).fetchone()
+        if not producto:
+            conn.close()
+            flash("Producto no encontrado.", "error")
+            return redirect(url_for("productos_list"))
+
+        if request.method == "POST":
+            nombre = (request.form.get("nombre") or "").strip()
+            sku = (request.form.get("sku") or "").strip()
+            precio = request.form.get("precio") or "0"
+            stock = request.form.get("stock") or "0"
+
+            if not nombre:
+                conn.close()
+                flash("El nombre es obligatorio.", "error")
+                return redirect(url_for("productos_edit", producto_id=producto_id))
+
+            try:
+                precio_f = float(precio)
+            except ValueError:
+                precio_f = 0.0
+            try:
+                stock_i = int(stock)
+            except ValueError:
+                stock_i = 0
+
+            conn.execute("""
+                UPDATE productos
+                SET nombre=?, sku=?, precio=?, stock=?
+                WHERE id=?
+            """, (nombre, sku, precio_f, stock_i, producto_id))
+            conn.commit()
+            conn.close()
+            flash("Producto actualizado.", "ok")
+            return redirect(url_for("productos_list"))
+
+        conn.close()
+        return render_template("productos_form.html", mode="edit", producto=producto)
+
+    @app.route("/productos/<int:producto_id>/borrar", methods=["POST"])
+    @login_required
+    def productos_delete(producto_id):
+        conn = get_db()
+        try:
+            conn.execute("DELETE FROM productos WHERE id = ?", (producto_id,))
+            conn.commit()
+            flash("Producto borrado.", "ok")
+        except sqlite3.IntegrityError:
+            flash("No se puede borrar: el producto está en líneas de pedido.", "error")
+        finally:
+            conn.close()
+        return redirect(url_for("productos_list"))
+
+    # -------------------------
+    # PEDIDOS
+    # -------------------------
+    @app.route("/pedidos")
+    @login_required
+    def pedidos_list():
+        conn = get_db()
+        rows = conn.execute("""
+            SELECT p.*, c.nombre || ' ' || c.apellidos AS cliente_nombre
+            FROM pedidos p
+            JOIN clientes c ON c.id = p.cliente_id
+            ORDER BY p.id DESC
+        """).fetchall()
+        conn.close()
+        return render_template("pedidos_list.html", pedidos=rows)
+
+    @app.route("/pedidos/nuevo", methods=["GET", "POST"])
+    @login_required
+    def pedidos_new():
+        conn = get_db()
+        clientes = conn.execute("SELECT id, nombre, apellidos FROM clientes ORDER BY apellidos, nombre").fetchall()
+        productos = conn.execute("SELECT id, nombre, precio FROM productos ORDER BY nombre").fetchall()
+
+        if request.method == "POST":
+            cliente_id = request.form.get("cliente_id") or ""
+            estado = (request.form.get("estado") or "borrador").strip()
+            notas = (request.form.get("notas") or "").strip()
+
+            # Líneas (3 filas fijas sin JS)
+            lineas = []
+            for i in range(1, 4):
+                pid = request.form.get(f"producto_{i}") or ""
+                cant = request.form.get(f"cantidad_{i}") or ""
+                precio = request.form.get(f"precio_{i}") or ""
+
+                if not pid:
+                    continue
+                try:
+                    cant_i = int(cant) if cant else 1
+                except ValueError:
+                    cant_i = 1
+                try:
+                    precio_f = float(precio) if precio else 0.0
+                except ValueError:
+                    precio_f = 0.0
+
+                lineas.append((int(pid), max(1, cant_i), max(0.0, precio_f)))
+
+            if not cliente_id:
+                conn.close()
+                flash("Selecciona un cliente.", "error")
+                return redirect(url_for("pedidos_new"))
+
+            if len(lineas) == 0:
+                conn.close()
+                flash("Añade al menos una línea de pedido.", "error")
+                return redirect(url_for("pedidos_new"))
+
+            now = datetime.utcnow().isoformat()
+            cur = conn.cursor()
+            cur.execute("""
+                INSERT INTO pedidos(cliente_id, fecha, estado, notas, created_at)
+                VALUES(?,?,?,?,?)
+            """, (int(cliente_id), datetime.utcnow().date().isoformat(), estado, notas, now))
+            pedido_id = cur.lastrowid
+
+            for (producto_id, cantidad, precio_unitario) in lineas:
+                cur.execute("""
+                    INSERT INTO pedido_lineas(pedido_id, producto_id, cantidad, precio_unitario)
+                    VALUES(?,?,?,?)
+                """, (pedido_id, producto_id, cantidad, precio_unitario))
+
+            conn.commit()
+            conn.close()
+            flash("Pedido creado.", "ok")
+            return redirect(url_for("pedido_view", pedido_id=pedido_id))
+
+        conn.close()
+        return render_template("pedidos_form.html", clientes=clientes, productos=productos)
+
+    @app.route("/pedidos/<int:pedido_id>")
+    @login_required
+    def pedido_view(pedido_id):
+        conn = get_db()
+        pedido = conn.execute("""
+            SELECT p.*, c.nombre || ' ' || c.apellidos AS cliente_nombre
+            FROM pedidos p
+            JOIN clientes c ON c.id = p.cliente_id
+            WHERE p.id = ?
+        """, (pedido_id,)).fetchone()
+
+        if not pedido:
+            conn.close()
+            flash("Pedido no encontrado.", "error")
+            return redirect(url_for("pedidos_list"))
+
+        lineas = conn.execute("""
+            SELECT l.*, pr.nombre AS producto_nombre
+            FROM pedido_lineas l
+            JOIN productos pr ON pr.id = l.producto_id
+            WHERE l.pedido_id = ?
+            ORDER BY l.id ASC
+        """, (pedido_id,)).fetchall()
+
+        total = 0.0
+        for l in lineas:
+            total += float(l["cantidad"]) * float(l["precio_unitario"])
+
+        conn.close()
+        return render_template("pedido_view.html", pedido=pedido, lineas=lineas, total=total)
+
+    @app.route("/pedidos/<int:pedido_id>/borrar", methods=["POST"])
+    @login_required
+    def pedido_delete(pedido_id):
+        conn = get_db()
+        conn.execute("DELETE FROM pedidos WHERE id = ?", (pedido_id,))
+        conn.commit()
+        conn.close()
+        flash("Pedido borrado.", "ok")
+        return redirect(url_for("pedidos_list"))
+
+    # Inicializa DB al arrancar
+    with app.app_context():
+        init_db()
+
+    return app
+
+
+app = create_app()
+
+if __name__ == "__main__":
+    app.run(debug=True)
+```
+
+### requirements
+<small>Creado: 2026-02-26 08:41</small>
+
+`requirements.txt`
+
+```
+
+```
+
 
 <a id="administracion-y-configuracion"></a>
 ## Administración y configuración
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Administraci%C3%B3n%20y%20configuraci%C3%B3n)
+
+### app
+<small>Creado: 2026-03-05 09:35</small>
+
+`app.py`
+
+```python
+from flask import Flask, render_template, request, redirect, url_for, session, flash, send_from_directory, abort
+from werkzeug.security import generate_password_hash, check_password_hash
+from werkzeug.utils import secure_filename
+import mysql.connector
+import os
+import uuid
+from datetime import datetime
+
+app = Flask(__name__)
+app.secret_key = "CAMBIA_ESTA_CLAVE_SECRETA"
+
+DB_CONFIG = {
+    "host": "localhost",
+    "user": "ticketing",
+    "password": "ticketing",
+    "database": "ticketing",
+    "charset": "utf8mb4",
+    "collation": "utf8mb4_unicode_ci",
+}
+
+UPLOAD_FOLDER = os.path.join(os.path.dirname(__file__), "uploads")
+ALLOWED_EXTENSIONS = {"png", "jpg", "jpeg", "gif", "pdf", "txt", "log", "zip"}
+MAX_CONTENT_LENGTH = 10 * 1024 * 1024  # 10MB
+
+app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
+app.config["MAX_CONTENT_LENGTH"] = MAX_CONTENT_LENGTH
+
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+
+
+def db():
+    return mysql.connector.connect(**DB_CONFIG)
+
+
+def query_all(sql, params=None):
+    conn = db()
+    cur = conn.cursor(dictionary=True)
+    cur.execute(sql, params or ())
+    rows = cur.fetchall()
+    cur.close()
+    conn.close()
+    return rows
+
+
+def query_one(sql, params=None):
+    rows = query_all(sql, params)
+    return rows[0] if rows else None
+
+
+def execute(sql, params=None):
+    conn = db()
+    cur = conn.cursor()
+    cur.execute(sql, params or ())
+    conn.commit()
+    last_id = cur.lastrowid
+    cur.close()
+    conn.close()
+    return last_id
+
+
+def allowed_file(filename: str) -> bool:
+    if "." not in filename:
+        return False
+    ext = filename.rsplit(".", 1)[1].lower()
+    return ext in ALLOWED_EXTENSIONS
+
+
+def require_admin():
+    if not session.get("admin_user_id"):
+        return redirect(url_for("admin_login"))
+    return None
+
+
+@app.context_processor
+def inject_now():
+    return {"now": datetime.now()}
+
+
+# =========================
+# BLOQUE PÚBLICO
+# =========================
+
+@app.get("/")
+def public_new_ticket():
+    categories = query_all("SELECT id, name FROM categories WHERE is_active=1 ORDER BY name")
+    return render_template("public_new_ticket.html", categories=categories)
+
+
+@app.post("/ticket")
+def public_create_ticket():
+    requester_name = (request.form.get("requester_name") or "").strip()
+    title = (request.form.get("title") or "").strip()
+    description = (request.form.get("description") or "").strip()
+    category_id = request.form.get("category_id")
+
+    if not requester_name or not title or not description or not category_id:
+        flash("Faltan campos obligatorios.", "error")
+        return redirect(url_for("public_new_ticket"))
+
+    default_status = query_one("SELECT id FROM statuses WHERE name='Nuevo' LIMIT 1")
+    if not default_status:
+        # fallback: primer estado activo
+        default_status = query_one("SELECT id FROM statuses WHERE is_active=1 ORDER BY id LIMIT 1")
+    if not default_status:
+        flash("No hay estados configurados. Contacta con el administrador.", "error")
+        return redirect(url_for("public_new_ticket"))
+
+    attachment_original = None
+    attachment_stored = None
+
+    f = request.files.get("attachment")
+    if f and f.filename:
+        if not allowed_file(f.filename):
+            flash("Tipo de archivo no permitido.", "error")
+            return redirect(url_for("public_new_ticket"))
+
+        attachment_original = f.filename
+        safe = secure_filename(f.filename)
+        stored = f"{uuid.uuid4().hex}_{safe}"
+        save_path = os.path.join(app.config["UPLOAD_FOLDER"], stored)
+        f.save(save_path)
+        attachment_stored = stored
+
+    ticket_id = execute(
+        """
+        INSERT INTO tickets
+          (requester_name, title, description, category_id, status_id,
+           attachment_original_name, attachment_stored_name, created_at)
+        VALUES
+          (%s, %s, %s, %s, %s, %s, %s, NOW())
+        """,
+        (requester_name, title, description, int(category_id), int(default_status["id"]),
+         attachment_original, attachment_stored)
+    )
+
+    return render_template("public_ticket_ok.html", ticket_id=ticket_id)
+
+
+# =========================
+# AUTH ADMIN
+# =========================
+
+@app.get("/admin/login")
+def admin_login():
+    return render_template("admin_login.html")
+
+
+@app.post("/admin/login")
+def admin_login_post():
+    username = (request.form.get("username") or "").strip()
+    password = request.form.get("password") or ""
+
+    user = query_one("SELECT id, username, password_hash FROM admin_users WHERE username=%s LIMIT 1", (username,))
+    if not user or not check_password_hash(user["password_hash"], password):
+        flash("Credenciales incorrectas.", "error")
+        return redirect(url_for("admin_login"))
+
+    session["admin_user_id"] = user["id"]
+    session["admin_username"] = user["username"]
+    return redirect(url_for("admin_dashboard"))
+
+
+@app.get("/admin/logout")
+def admin_logout():
+    session.clear()
+    return redirect(url_for("admin_login"))
+
+
+# Endpoint auxiliar para crear hash correcto de demo (una sola vez)
+@app.get("/admin/init-demo")
+def admin_init_demo():
+    """
+    Crea/actualiza usuario admin=admin con password=admin123
+    Úsalo una vez y luego elimina este endpoint si lo deseas.
+    """
+    username = "admin"
+    pwd = "admin123"
+    ph = generate_password_hash(pwd)
+
+    existing = query_one("SELECT id FROM admin_users WHERE username=%s", (username,))
+    if existing:
+        execute("UPDATE admin_users SET password_hash=%s WHERE id=%s", (ph, existing["id"]))
+    else:
+        execute("INSERT INTO admin_users (username, password_hash) VALUES (%s, %s)", (username, ph))
+
+    return (
+        "OK. Usuario demo listo: admin / admin123. "
+        "Ahora puedes borrar el endpoint /admin/init-demo por seguridad."
+    )
+
+
+# =========================
+# PANEL ADMIN
+# =========================
+
+@app.get("/admin")
+def admin_dashboard():
+    r = require_admin()
+    if r:
+        return r
+
+    counts = {
+        "tickets_total": query_one("SELECT COUNT(*) AS c FROM tickets")["c"],
+        "tickets_new": query_one(
+            "SELECT COUNT(*) AS c FROM tickets t JOIN statuses s ON s.id=t.status_id WHERE s.name='Nuevo'"
+        )["c"],
+        "categories": query_one("SELECT COUNT(*) AS c FROM categories")["c"],
+        "statuses": query_one("SELECT COUNT(*) AS c FROM statuses")["c"],
+    }
+    return render_template("admin_dashboard.html", counts=counts)
+
+
+# ----- CATEGORIES CRUD -----
+
+@app.get("/admin/categories")
+def admin_categories_list():
+    r = require_admin()
+    if r:
+        return r
+    rows = query_all("SELECT * FROM categories ORDER BY name")
+    return render_template("admin_categories_list.html", rows=rows)
+
+
+@app.get("/admin/categories/new")
+def admin_categories_new():
+    r = require_admin()
+    if r:
+        return r
+    return render_template("admin_categories_form.html", row=None)
+
+
+@app.post("/admin/categories/new")
+def admin_categories_create():
+    r = require_admin()
+    if r:
+        return r
+    name = (request.form.get("name") or "").strip()
+    is_active = 1 if request.form.get("is_active") == "1" else 0
+    if not name:
+        flash("El nombre es obligatorio.", "error")
+        return redirect(url_for("admin_categories_new"))
+    execute("INSERT INTO categories (name, is_active) VALUES (%s, %s)", (name, is_active))
+    flash("Categoría creada.", "ok")
+    return redirect(url_for("admin_categories_list"))
+
+
+@app.get("/admin/categories/edit/<int:id>")
+def admin_categories_edit(id):
+    r = require_admin()
+    if r:
+        return r
+    row = query_one("SELECT * FROM categories WHERE id=%s", (id,))
+    if not row:
+        abort(404)
+    return render_template("admin_categories_form.html", row=row)
+
+
+@app.post("/admin/categories/edit/<int:id>")
+def admin_categories_update(id):
+    r = require_admin()
+    if r:
+        return r
+    name = (request.form.get("name") or "").strip()
+    is_active = 1 if request.form.get("is_active") == "1" else 0
+    if not name:
+        flash("El nombre es obligatorio.", "error")
+        return redirect(url_for("admin_categories_edit", id=id))
+    execute("UPDATE categories SET name=%s, is_active=%s WHERE id=%s", (name, is_active, id))
+    flash("Categoría actualizada.", "ok")
+    return redirect(url_for("admin_categories_list"))
+
+
+@app.post("/admin/categories/delete/<int:id>")
+def admin_categories_delete(id):
+    r = require_admin()
+    if r:
+        return r
+    try:
+        execute("DELETE FROM categories WHERE id=%s", (id,))
+        flash("Categoría eliminada.", "ok")
+    except mysql.connector.Error:
+        flash("No se puede eliminar: está en uso por tickets.", "error")
+    return redirect(url_for("admin_categories_list"))
+
+
+# ----- STATUSES CRUD -----
+
+@app.get("/admin/statuses")
+def admin_statuses_list():
+    r = require_admin()
+    if r:
+        return r
+    rows = query_all("SELECT * FROM statuses ORDER BY id")
+    return render_template("admin_statuses_list.html", rows=rows)
+
+
+@app.get("/admin/statuses/new")
+def admin_statuses_new():
+    r = require_admin()
+    if r:
+        return r
+    return render_template("admin_statuses_form.html", row=None)
+
+
+@app.post("/admin/statuses/new")
+def admin_statuses_create():
+    r = require_admin()
+    if r:
+        return r
+    name = (request.form.get("name") or "").strip()
+    is_active = 1 if request.form.get("is_active") == "1" else 0
+    if not name:
+        flash("El nombre es obligatorio.", "error")
+        return redirect(url_for("admin_statuses_new"))
+    execute("INSERT INTO statuses (name, is_active) VALUES (%s, %s)", (name, is_active))
+    flash("Estado creado.", "ok")
+    return redirect(url_for("admin_statuses_list"))
+
+
+@app.get("/admin/statuses/edit/<int:id>")
+def admin_statuses_edit(id):
+    r = require_admin()
+    if r:
+        return r
+    row = query_one("SELECT * FROM statuses WHERE id=%s", (id,))
+    if not row:
+        abort(404)
+    return render_template("admin_statuses_form.html", row=row)
+
+
+@app.post("/admin/statuses/edit/<int:id>")
+def admin_statuses_update(id):
+    r = require_admin()
+    if r:
+        return r
+    name = (request.form.get("name") or "").strip()
+    is_active = 1 if request.form.get("is_active") == "1" else 0
+    if not name:
+        flash("El nombre es obligatorio.", "error")
+        return redirect(url_for("admin_statuses_edit", id=id))
+    execute("UPDATE statuses SET name=%s, is_active=%s WHERE id=%s", (name, is_active, id))
+    flash("Estado actualizado.", "ok")
+    return redirect(url_for("admin_statuses_list"))
+
+
+@app.post("/admin/statuses/delete/<int:id>")
+def admin_statuses_delete(id):
+    r = require_admin()
+    if r:
+        return r
+    try:
+        execute("DELETE FROM statuses WHERE id=%s", (id,))
+        flash("Estado eliminado.", "ok")
+    except mysql.connector.Error:
+        flash("No se puede eliminar: está en uso por tickets.", "error")
+    return redirect(url_for("admin_statuses_list"))
+
+
+# ----- TICKETS CRUD + FILTROS -----
+
+@app.get("/admin/tickets")
+def admin_tickets_list():
+    r = require_admin()
+    if r:
+        return r
+
+    f_status = (request.args.get("status_id") or "").strip()
+    f_category = (request.args.get("category_id") or "").strip()
+    q = (request.args.get("q") or "").strip()
+
+    where = []
+    params = []
+
+    if f_status.isdigit():
+        where.append("t.status_id = %s")
+        params.append(int(f_status))
+
+    if f_category.isdigit():
+        where.append("t.category_id = %s")
+        params.append(int(f_category))
+
+    if q:
+        like = f"%{q}%"
+        where.append("(t.requester_name LIKE %s OR t.title LIKE %s OR t.description LIKE %s)")
+        params.extend([like, like, like])
+
+    where_sql = ("WHERE " + " AND ".join(where)) if where else ""
+
+    # IDs de estados "finales"
+    st_resuelto = query_one("SELECT id FROM statuses WHERE name='Resuelto' LIMIT 1")
+    st_cerrado  = query_one("SELECT id FROM statuses WHERE name='Cerrado' LIMIT 1")
+
+    resuelto_id = st_resuelto["id"] if st_resuelto else None
+    cerrado_id  = st_cerrado["id"] if st_cerrado else None
+
+    finales = [x for x in [resuelto_id, cerrado_id] if x is not None]
+
+    # Si por lo que sea no existen, no segregamos (pero normalmente existen)
+    if not finales:
+        base_sql = f"""
+            SELECT t.*, c.name AS category_name, s.name AS status_name
+            FROM tickets t
+            JOIN categories c ON c.id=t.category_id
+            JOIN statuses s ON s.id=t.status_id
+            {where_sql}
+            ORDER BY t.created_at DESC
+        """
+        all_rows = query_all(base_sql, tuple(params))
+        open_rows = all_rows
+        closed_rows = []
+    else:
+        # Abiertos: NOT IN (resuelto, cerrado)
+        open_sql = f"""
+            SELECT t.*, c.name AS category_name, s.name AS status_name
+            FROM tickets t
+            JOIN categories c ON c.id=t.category_id
+            JOIN statuses s ON s.id=t.status_id
+            {where_sql}
+            {"AND" if where_sql else "WHERE"} t.status_id NOT IN ({",".join(["%s"]*len(finales))})
+            ORDER BY t.created_at DESC
+        """
+
+        # Cerrados: IN (resuelto, cerrado)
+        closed_sql = f"""
+            SELECT t.*, c.name AS category_name, s.name AS status_name
+            FROM tickets t
+            JOIN categories c ON c.id=t.category_id
+            JOIN statuses s ON s.id=t.status_id
+            {where_sql}
+            {"AND" if where_sql else "WHERE"} t.status_id IN ({",".join(["%s"]*len(finales))})
+            ORDER BY t.created_at DESC
+        """
+
+        open_rows = query_all(open_sql, tuple(params + finales))
+        closed_rows = query_all(closed_sql, tuple(params + finales))
+
+    categories = query_all("SELECT id, name FROM categories ORDER BY name")
+    statuses = query_all("SELECT id, name FROM statuses ORDER BY id")
+
+    return render_template(
+        "admin_tickets_list.html",
+        open_rows=open_rows,
+        closed_rows=closed_rows,
+        categories=categories,
+        statuses=statuses,
+        f_status=f_status,
+        f_category=f_category,
+        q=q
+    )
+
+
+@app.get("/admin/tickets/view/<int:id>")
+def admin_tickets_view(id):
+    r = require_admin()
+    if r:
+        return r
+
+    row = query_one(
+        """
+        SELECT
+          t.*,
+          c.name AS category_name,
+          s.name AS status_name
+        FROM tickets t
+        JOIN categories c ON c.id=t.category_id
+        JOIN statuses s ON s.id=t.status_id
+        WHERE t.id=%s
+        """,
+        (id,)
+    )
+    if not row:
+        abort(404)
+
+    return render_template("admin_tickets_view.html", row=row)
+
+
+@app.get("/admin/tickets/edit/<int:id>")
+def admin_tickets_edit(id):
+    r = require_admin()
+    if r:
+        return r
+
+    row = query_one("SELECT * FROM tickets WHERE id=%s", (id,))
+    if not row:
+        abort(404)
+
+    categories = query_all("SELECT id, name FROM categories WHERE is_active=1 ORDER BY name")
+    statuses = query_all("SELECT id, name FROM statuses WHERE is_active=1 ORDER BY id")
+
+    return render_template("admin_tickets_edit.html", row=row, categories=categories, statuses=statuses)
+
+
+@app.post("/admin/tickets/edit/<int:id>")
+def admin_tickets_update(id):
+    r = require_admin()
+    if r:
+        return r
+
+    category_id = request.form.get("category_id") or ""
+    status_id = request.form.get("status_id") or ""
+
+    if not category_id.isdigit() or not status_id.isdigit():
+        flash("Categoría/Estado inválidos.", "error")
+        return redirect(url_for("admin_tickets_edit", id=id))
+
+    execute(
+        """
+        UPDATE tickets
+        SET category_id=%s, status_id=%s, updated_at=NOW()
+        WHERE id=%s
+        """,
+        (int(category_id), int(status_id), id)
+    )
+
+    flash("Ticket actualizado.", "ok")
+    return redirect(url_for("admin_tickets_view", id=id))
+
+
+@app.post("/admin/tickets/delete/<int:id>")
+def admin_tickets_delete(id):
+    r = require_admin()
+    if r:
+        return r
+
+    row = query_one("SELECT attachment_stored_name FROM tickets WHERE id=%s", (id,))
+    if not row:
+        abort(404)
+
+    # borrado archivo adjunto si existe
+    stored = row.get("attachment_stored_name")
+    if stored:
+        path = os.path.join(app.config["UPLOAD_FOLDER"], stored)
+        if os.path.exists(path):
+            try:
+                os.remove(path)
+            except OSError:
+                pass
+
+    execute("DELETE FROM tickets WHERE id=%s", (id,))
+    flash("Ticket eliminado.", "ok")
+    return redirect(url_for("admin_tickets_list"))
+
+
+@app.get("/uploads/<path:filename>")
+def download_upload(filename):
+    # Por simplicidad: solo admin puede descargar adjuntos
+    if not session.get("admin_user_id"):
+        return redirect(url_for("admin_login"))
+    return send_from_directory(app.config["UPLOAD_FOLDER"], filename, as_attachment=True)
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
+```
+
+### instalar
+<small>Creado: 2026-03-05 09:14</small>
+
+`instalar.sql`
+
+```sql
+CREATE DATABASE IF NOT EXISTS ticketing_db
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;
+
+USE ticketing_db;
+
+-- Usuarios administradores
+CREATE TABLE admin_users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(50) NOT NULL UNIQUE,
+  password_hash VARCHAR(255) NOT NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB;
+
+-- Categorías
+CREATE TABLE categories (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL UNIQUE,
+  is_active TINYINT(1) NOT NULL DEFAULT 1
+) ENGINE=InnoDB;
+
+-- Estados
+CREATE TABLE statuses (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50) NOT NULL UNIQUE,
+  is_active TINYINT(1) NOT NULL DEFAULT 1
+) ENGINE=InnoDB;
+
+-- Tickets
+CREATE TABLE tickets (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  requester_name VARCHAR(120) NOT NULL,
+  title VARCHAR(200) NOT NULL,
+  description TEXT NOT NULL,
+  category_id INT NOT NULL,
+  status_id INT NOT NULL,
+  attachment_original_name VARCHAR(255) NULL,
+  attachment_stored_name VARCHAR(255) NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME NULL DEFAULT NULL,
+  INDEX idx_created_at (created_at),
+  INDEX idx_category (category_id),
+  INDEX idx_status (status_id),
+  INDEX idx_requester_name (requester_name),
+  CONSTRAINT fk_tickets_category
+    FOREIGN KEY (category_id) REFERENCES categories(id)
+    ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT fk_tickets_status
+    FOREIGN KEY (status_id) REFERENCES statuses(id)
+    ON UPDATE CASCADE ON DELETE RESTRICT
+) ENGINE=InnoDB;
+
+-- =========================
+-- DATOS DE MUESTRA
+-- =========================
+
+INSERT INTO categories (name, is_active) VALUES
+('Acceso / Login', 1),
+('Email', 1),
+('Impresoras', 1),
+('Red / WiFi', 1),
+('Software interno', 1);
+
+INSERT INTO statuses (name, is_active) VALUES
+('Nuevo', 1),
+('En progreso', 1),
+('Pendiente de usuario', 1),
+('Resuelto', 1),
+('Cerrado', 1);
+
+-- IMPORTANTE:
+-- password_hash está pensado para un hash de Werkzeug (pbkdf2:sha256:...)
+-- Para que el login funcione, crea el usuario desde Flask con el endpoint /admin/init-demo
+-- (ver app.py). Aun así dejamos un ejemplo de username:
+INSERT INTO admin_users (username, password_hash) VALUES
+('admin', 'REEMPLAZAR_DESDE_FLASK_INIT');
+
+INSERT INTO tickets (requester_name, title, description, category_id, status_id, created_at)
+VALUES
+('Ana Gómez', 'No puedo iniciar sesión', 'Al introducir mi usuario, vuelve a la pantalla de login.', 1, 1, NOW()),
+('Carlos Pérez', 'No imprime en la oficina', 'La impresora aparece offline y no imprime ningún documento.', 3, 2, NOW()),
+('Marta Ruiz', 'WiFi intermitente', 'Se corta cada pocos minutos en la sala de reuniones.', 4, 1, NOW());
+```
 
 
 <a id="integracion-de-modulos"></a>
@@ -12805,6 +15190,10 @@ if __name__ == "__main__":
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/asir1lenguajesdemarcas/tree/main/008-Preparacion%20examen%20segunda%20evaluacion/001-Clase%20dia%207)
 
+
+
+<a id="repaso-programacion"></a>
+# Repaso programacion
 
 
 <a id="git"></a>

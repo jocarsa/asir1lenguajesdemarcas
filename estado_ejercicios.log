@@ -1,0 +1,495 @@
+[2026-06-02 12:00:01] ==============================================
+[2026-06-02 12:00:01] Generación de informe de ejercicios
+[2026-06-02 12:00:01] ==============================================
+[2026-06-02 12:00:01] Carpeta raíz: /var/www/html/asir1lenguajesdemarcas
+[2026-06-02 12:00:01] Informe Markdown: /var/www/html/asir1lenguajesdemarcas/estado_ejercicios.md
+[2026-06-02 12:00:01] Informe HTML: /var/www/html/asir1lenguajesdemarcas/estado_ejercicios.html
+[2026-06-02 12:00:01] Log: /var/www/html/asir1lenguajesdemarcas/estado_ejercicios.log
+[2026-06-02 12:00:01] IA activada: False
+[2026-06-02 12:00:01] Modo IA: remote
+[2026-06-02 12:00:01] Modelo IA: qwen2.5-coder:3b
+[2026-06-02 12:00:01] Máximo caracteres por carpeta: 3000
+[2026-06-02 12:00:01] Escaneando raíz: /var/www/html/asir1lenguajesdemarcas
+[2026-06-02 12:00:01] Unidades encontradas: 9
+[2026-06-02 12:00:01] 001-Reconocimiento de las características de lenguajes de marcas: 7 subcarpetas
+[2026-06-02 12:00:01] 002-Utilización de lenguajes de marcas en entornos web: 9 subcarpetas
+[2026-06-02 12:00:01] 003-Manipulación de documentos Web: 8 subcarpetas
+[2026-06-02 12:00:01] 004-Definición de esquemas y vocabularios en lenguajes de marcas: 4 subcarpetas
+[2026-06-02 12:00:01] 005-Conversión y adaptación de documentos para el intercambio de información: 4 subcarpetas
+[2026-06-02 12:00:01] 006-Almacenamiento de información: 6 subcarpetas
+[2026-06-02 12:00:01] 007-Sistemas de gestión empresarial: 8 subcarpetas
+[2026-06-02 12:00:01] 008-Preparacion examen segunda evaluacion: 1 subcarpetas
+[2026-06-02 12:00:01] 009-Repaso programacion: 0 subcarpetas
+[2026-06-02 12:00:01] Total subcarpetas nivel 2: 47
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [1/47] 2.1%
+[2026-06-02 12:00:01] Unidad: Reconocimiento de las características de lenguajes de marcas
+[2026-06-02 12:00:01] Subunidad: Clasificación
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/001-Reconocimiento de las características de lenguajes de marcas/001-Clasificación
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/001-Reconocimiento de las características de lenguajes de marcas/001-Clasificación/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [2/47] 4.3%
+[2026-06-02 12:00:01] Unidad: Reconocimiento de las características de lenguajes de marcas
+[2026-06-02 12:00:01] Subunidad: Características y ámbitos de aplicación
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/001-Reconocimiento de las características de lenguajes de marcas/002-Características y ámbitos de aplicación
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/001-Reconocimiento de las características de lenguajes de marcas/002-Características y ámbitos de aplicación/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [3/47] 6.4%
+[2026-06-02 12:00:01] Unidad: Reconocimiento de las características de lenguajes de marcas
+[2026-06-02 12:00:01] Subunidad: Estructura y sintaxis
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/001-Reconocimiento de las características de lenguajes de marcas/003-Estructura y sintaxis
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/001-Reconocimiento de las características de lenguajes de marcas/003-Estructura y sintaxis/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [4/47] 8.5%
+[2026-06-02 12:00:01] Unidad: Reconocimiento de las características de lenguajes de marcas
+[2026-06-02 12:00:01] Subunidad: Herramientas de edición
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/001-Reconocimiento de las características de lenguajes de marcas/004-Herramientas de edición
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/001-Reconocimiento de las características de lenguajes de marcas/004-Herramientas de edición/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [5/47] 10.6%
+[2026-06-02 12:00:01] Unidad: Reconocimiento de las características de lenguajes de marcas
+[2026-06-02 12:00:01] Subunidad: Elaboración de documentos bien formados
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/001-Reconocimiento de las características de lenguajes de marcas/005-Elaboración de documentos bien formados
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/001-Reconocimiento de las características de lenguajes de marcas/005-Elaboración de documentos bien formados/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [6/47] 12.8%
+[2026-06-02 12:00:01] Unidad: Reconocimiento de las características de lenguajes de marcas
+[2026-06-02 12:00:01] Subunidad: Utilización de espacios de nombres
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/001-Reconocimiento de las características de lenguajes de marcas/006-Utilización de espacios de nombres
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/001-Reconocimiento de las características de lenguajes de marcas/006-Utilización de espacios de nombres/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [7/47] 14.9%
+[2026-06-02 12:00:01] Unidad: Reconocimiento de las características de lenguajes de marcas
+[2026-06-02 12:00:01] Subunidad: Ejercicio práctico
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/001-Reconocimiento de las características de lenguajes de marcas/007-Ejercicio práctico
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/001-Reconocimiento de las características de lenguajes de marcas/007-Ejercicio práctico/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [8/47] 17.0%
+[2026-06-02 12:00:01] Unidad: Utilización de lenguajes de marcas en entornos web
+[2026-06-02 12:00:01] Subunidad: Estándares web. Versiones. Clasificación
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/001-Estándares web. Versiones. Clasificación
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/001-Estándares web. Versiones. Clasificación/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [9/47] 19.1%
+[2026-06-02 12:00:01] Unidad: Utilización de lenguajes de marcas en entornos web
+[2026-06-02 12:00:01] Subunidad: Estructura de un documento HTML
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/002-Estructura de un documento HTML
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/002-Estructura de un documento HTML/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [10/47] 21.3%
+[2026-06-02 12:00:01] Unidad: Utilización de lenguajes de marcas en entornos web
+[2026-06-02 12:00:01] Subunidad: Identificación de etiquetas y atributos de HTML
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/003-Identificación de etiquetas y atributos de HTML
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/003-Identificación de etiquetas y atributos de HTML/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [11/47] 23.4%
+[2026-06-02 12:00:01] Unidad: Utilización de lenguajes de marcas en entornos web
+[2026-06-02 12:00:01] Subunidad: Herramientas de diseño web
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/004-Herramientas de diseño web
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/004-Herramientas de diseño web/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [12/47] 25.5%
+[2026-06-02 12:00:01] Unidad: Utilización de lenguajes de marcas en entornos web
+[2026-06-02 12:00:01] Subunidad: Hojas de estilo (CSS)
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/005-Hojas de estilo (CSS)
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/005-Hojas de estilo (CSS)/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [13/47] 27.7%
+[2026-06-02 12:00:01] Unidad: Utilización de lenguajes de marcas en entornos web
+[2026-06-02 12:00:01] Subunidad: Validación de documentos HTML y CSS
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/006-Validación de documentos HTML y CSS
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/006-Validación de documentos HTML y CSS/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [14/47] 29.8%
+[2026-06-02 12:00:01] Unidad: Utilización de lenguajes de marcas en entornos web
+[2026-06-02 12:00:01] Subunidad: Lenguajes de marcas para la sindicación de contenidos
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/007-Lenguajes de marcas para la sindicación de contenidos
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/007-Lenguajes de marcas para la sindicación de contenidos/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [15/47] 31.9%
+[2026-06-02 12:00:01] Unidad: Utilización de lenguajes de marcas en entornos web
+[2026-06-02 12:00:01] Subunidad: Ejercicio de final de unidad
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/101-Ejercicio de final de unidad
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/101-Ejercicio de final de unidad/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [16/47] 34.0%
+[2026-06-02 12:00:01] Unidad: Utilización de lenguajes de marcas en entornos web
+[2026-06-02 12:00:01] Subunidad: Examen final
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/104-Examen final
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/002-Utilización de lenguajes de marcas en entornos web/104-Examen final/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [17/47] 36.2%
+[2026-06-02 12:00:01] Unidad: Manipulación de documentos Web
+[2026-06-02 12:00:01] Subunidad: Repaso HTML y CSS
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/000-Repaso HTML y CSS
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/000-Repaso HTML y CSS/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [18/47] 38.3%
+[2026-06-02 12:00:01] Unidad: Manipulación de documentos Web
+[2026-06-02 12:00:01] Subunidad: Lenguajes de script de cliente. Características y sintaxis básica. Estándares
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/001-Lenguajes de script de cliente. Características y sintaxis básica. Estándares
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/001-Lenguajes de script de cliente. Características y sintaxis básica. Estándares/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [19/47] 40.4%
+[2026-06-02 12:00:01] Unidad: Manipulación de documentos Web
+[2026-06-02 12:00:01] Subunidad: Selección y acceso a elementos
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/002-Selección y acceso a elementos
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/002-Selección y acceso a elementos/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [20/47] 42.6%
+[2026-06-02 12:00:01] Unidad: Manipulación de documentos Web
+[2026-06-02 12:00:01] Subunidad: Creación y modificación de elementos
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/003-Creación y modificación de elementos
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/003-Creación y modificación de elementos/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [21/47] 44.7%
+[2026-06-02 12:00:01] Unidad: Manipulación de documentos Web
+[2026-06-02 12:00:01] Subunidad: Eliminación de elementos
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/004-Eliminación de elementos
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/004-Eliminación de elementos/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [22/47] 46.8%
+[2026-06-02 12:00:01] Unidad: Manipulación de documentos Web
+[2026-06-02 12:00:01] Subunidad: Manipulación de estilos
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/005-Manipulación de estilos
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/005-Manipulación de estilos/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [23/47] 48.9%
+[2026-06-02 12:00:01] Unidad: Manipulación de documentos Web
+[2026-06-02 12:00:01] Subunidad: Ejercicio portafolio
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/006-Ejercicio portafolio
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/006-Ejercicio portafolio/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [24/47] 51.1%
+[2026-06-02 12:00:01] Unidad: Manipulación de documentos Web
+[2026-06-02 12:00:01] Subunidad: Acabamos el portafolio
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/007-Acabamos el portafolio
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/003-Manipulación de documentos Web/007-Acabamos el portafolio/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [25/47] 53.2%
+[2026-06-02 12:00:01] Unidad: Definición de esquemas y vocabularios en lenguajes de marcas
+[2026-06-02 12:00:01] Subunidad: Tecnologías para la definición de documentos. Estructura y sintaxis
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/004-Definición de esquemas y vocabularios en lenguajes de marcas/001-Tecnologías para la definición de documentos. Estructura y sintaxis
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/004-Definición de esquemas y vocabularios en lenguajes de marcas/001-Tecnologías para la definición de documentos. Estructura y sintaxis/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [26/47] 55.3%
+[2026-06-02 12:00:01] Unidad: Definición de esquemas y vocabularios en lenguajes de marcas
+[2026-06-02 12:00:01] Subunidad: Creación de descripciones de documentos
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/004-Definición de esquemas y vocabularios en lenguajes de marcas/002-Creación de descripciones de documentos
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/004-Definición de esquemas y vocabularios en lenguajes de marcas/002-Creación de descripciones de documentos/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [27/47] 57.4%
+[2026-06-02 12:00:01] Unidad: Definición de esquemas y vocabularios en lenguajes de marcas
+[2026-06-02 12:00:01] Subunidad: Asociación de descripciones con documentos. Validación
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/004-Definición de esquemas y vocabularios en lenguajes de marcas/003-Asociación de descripciones con documentos. Validación
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/004-Definición de esquemas y vocabularios en lenguajes de marcas/003-Asociación de descripciones con documentos. Validación/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [28/47] 59.6%
+[2026-06-02 12:00:01] Unidad: Definición de esquemas y vocabularios en lenguajes de marcas
+[2026-06-02 12:00:01] Subunidad: Herramientas de creación y validación
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/004-Definición de esquemas y vocabularios en lenguajes de marcas/004-Herramientas de creación y validación
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/004-Definición de esquemas y vocabularios en lenguajes de marcas/004-Herramientas de creación y validación/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [29/47] 61.7%
+[2026-06-02 12:00:01] Unidad: Conversión y adaptación de documentos para el intercambio de información
+[2026-06-02 12:00:01] Subunidad: Tecnologías de transformación de documentos
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/005-Conversión y adaptación de documentos para el intercambio de información/001-Tecnologías de transformación de documentos
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/005-Conversión y adaptación de documentos para el intercambio de información/001-Tecnologías de transformación de documentos/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [30/47] 63.8%
+[2026-06-02 12:00:01] Unidad: Conversión y adaptación de documentos para el intercambio de información
+[2026-06-02 12:00:01] Subunidad: Descripción de la estructura y de la sintaxis
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/005-Conversión y adaptación de documentos para el intercambio de información/002-Descripción de la estructura y de la sintaxis
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/005-Conversión y adaptación de documentos para el intercambio de información/002-Descripción de la estructura y de la sintaxis/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [31/47] 66.0%
+[2026-06-02 12:00:01] Unidad: Conversión y adaptación de documentos para el intercambio de información
+[2026-06-02 12:00:01] Subunidad: Creación y utilización de plantillas. Herramientas y depuración
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/005-Conversión y adaptación de documentos para el intercambio de información/003-Creación y utilización de plantillas. Herramientas y depuración
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/005-Conversión y adaptación de documentos para el intercambio de información/003-Creación y utilización de plantillas. Herramientas y depuración/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [32/47] 68.1%
+[2026-06-02 12:00:01] Unidad: Conversión y adaptación de documentos para el intercambio de información
+[2026-06-02 12:00:01] Subunidad: Conversión entre diferentes formatos de documentos
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/005-Conversión y adaptación de documentos para el intercambio de información/004-Conversión entre diferentes formatos de documentos
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/005-Conversión y adaptación de documentos para el intercambio de información/004-Conversión entre diferentes formatos de documentos/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [33/47] 70.2%
+[2026-06-02 12:00:01] Unidad: Almacenamiento de información
+[2026-06-02 12:00:01] Subunidad: Sistemas de almacenamiento de información. Características. Tecnologías
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/006-Almacenamiento de información/001-Sistemas de almacenamiento de información. Características. Tecnologías
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/006-Almacenamiento de información/001-Sistemas de almacenamiento de información. Características. Tecnologías/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [34/47] 72.3%
+[2026-06-02 12:00:01] Unidad: Almacenamiento de información
+[2026-06-02 12:00:01] Subunidad: Lenguajes de consulta y manipulación en documentos
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/006-Almacenamiento de información/002-Lenguajes de consulta y manipulación en documentos
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/006-Almacenamiento de información/002-Lenguajes de consulta y manipulación en documentos/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [35/47] 74.5%
+[2026-06-02 12:00:01] Unidad: Almacenamiento de información
+[2026-06-02 12:00:01] Subunidad: Consulta y manipulación de información
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/006-Almacenamiento de información/003-Consulta y manipulación de información
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/006-Almacenamiento de información/003-Consulta y manipulación de información/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [36/47] 76.6%
+[2026-06-02 12:00:01] Unidad: Almacenamiento de información
+[2026-06-02 12:00:01] Subunidad: Importación y exportación de bases de datos relacionales en diferentes formatos
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/006-Almacenamiento de información/004-Importación y exportación de bases de datos relacionales en diferentes formatos
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/006-Almacenamiento de información/004-Importación y exportación de bases de datos relacionales en diferentes formatos/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [37/47] 78.7%
+[2026-06-02 12:00:01] Unidad: Almacenamiento de información
+[2026-06-02 12:00:01] Subunidad: Herramientas de tratamiento y almacenamiento de información en sistemas nativos
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/006-Almacenamiento de información/005-Herramientas de tratamiento y almacenamiento de información en sistemas nativos
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/006-Almacenamiento de información/005-Herramientas de tratamiento y almacenamiento de información en sistemas nativos/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [38/47] 80.9%
+[2026-06-02 12:00:01] Unidad: Almacenamiento de información
+[2026-06-02 12:00:01] Subunidad: Almacenamiento y manipulación de información en sistemas nativos
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/006-Almacenamiento de información/006-Almacenamiento y manipulación de información en sistemas nativos
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/006-Almacenamiento de información/006-Almacenamiento y manipulación de información en sistemas nativos/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [39/47] 83.0%
+[2026-06-02 12:00:01] Unidad: Sistemas de gestión empresarial
+[2026-06-02 12:00:01] Subunidad: Aplicaciones de gestión empresarial. Tipos. Características
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/001-Aplicaciones de gestión empresarial. Tipos. Características
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/001-Aplicaciones de gestión empresarial. Tipos. Características/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [40/47] 85.1%
+[2026-06-02 12:00:01] Unidad: Sistemas de gestión empresarial
+[2026-06-02 12:00:01] Subunidad: Instalación
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/002-Instalación
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/002-Instalación/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [41/47] 87.2%
+[2026-06-02 12:00:01] Unidad: Sistemas de gestión empresarial
+[2026-06-02 12:00:01] Subunidad: Administración y configuración
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/003-Administración y configuración
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/003-Administración y configuración/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [42/47] 89.4%
+[2026-06-02 12:00:01] Unidad: Sistemas de gestión empresarial
+[2026-06-02 12:00:01] Subunidad: Integración de módulos
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/004-Integración de módulos
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/004-Integración de módulos/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [43/47] 91.5%
+[2026-06-02 12:00:01] Unidad: Sistemas de gestión empresarial
+[2026-06-02 12:00:01] Subunidad: Mecanismos de acceso seguro a la información. Roles y privilegios
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/005-Mecanismos de acceso seguro a la información. Roles y privilegios
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/005-Mecanismos de acceso seguro a la información. Roles y privilegios/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [44/47] 93.6%
+[2026-06-02 12:00:01] Unidad: Sistemas de gestión empresarial
+[2026-06-02 12:00:01] Subunidad: Elaboración de informes
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/006-Elaboración de informes
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/006-Elaboración de informes/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [45/47] 95.7%
+[2026-06-02 12:00:01] Unidad: Sistemas de gestión empresarial
+[2026-06-02 12:00:01] Subunidad: Exportación de información
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/007-Exportación de información
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/007-Exportación de información/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [46/47] 97.9%
+[2026-06-02 12:00:01] Unidad: Sistemas de gestión empresarial
+[2026-06-02 12:00:01] Subunidad: Elaboración de documentación
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/008-Elaboración de documentación
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/007-Sistemas de gestión empresarial/008-Elaboración de documentación/101-Ejercicios
+[2026-06-02 12:00:01] Sin materiales. No se añade.
+[2026-06-02 12:00:01] 
+[2026-06-02 12:00:01] ----------------------------------------------
+[2026-06-02 12:00:01] [47/47] 100.0%
+[2026-06-02 12:00:01] Unidad: Preparacion examen segunda evaluacion
+[2026-06-02 12:00:01] Subunidad: Clase dia 7
+[2026-06-02 12:00:01] Ruta: /var/www/html/asir1lenguajesdemarcas/008-Preparacion examen segunda evaluacion/001-Clase dia 7
+[2026-06-02 12:00:01] Tiempo: 0s
+[2026-06-02 12:00:01] ETA: 0s
+[2026-06-02 12:00:01] 101-Ejercicios ya existe: /var/www/html/asir1lenguajesdemarcas/008-Preparacion examen segunda evaluacion/001-Clase dia 7/101-Ejercicios
+[2026-06-02 12:00:01] Añadido al informe rápido.
+[2026-06-02 12:00:01] Informe rápido sin IA generado.
+[2026-06-02 12:00:01] IA desactivada. Proceso terminado.

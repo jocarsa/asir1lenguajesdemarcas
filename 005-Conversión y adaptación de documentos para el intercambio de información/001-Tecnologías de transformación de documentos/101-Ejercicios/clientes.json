@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ana",
+    "apellidos": "García López",
+    "email": "ana.garcia@example.com"
+  },
+  {
+    "id": 2,
+    "nombre": "Luis",
+    "apellidos": "Martínez Pérez",
+    "email": "luis.martinez@example.com"
+  },
+  {
+    "id": 3,
+    "nombre": "María",
+    "apellidos": "Sánchez Ruiz",
+    "email": "maria.sanchez@example.com"
+  },
+  {
+    "id": 4,
+    "nombre": "Carlos",
+    "apellidos": "Fernández Gómez",
+    "email": "carlos.fernandez@example.com"
+  },
+  {
+    "id": 5,
+    "nombre": "Laura",
+    "apellidos": "Jiménez Torres",
+    "email": "laura.jimenez@example.com"
+  },
+  {
+    "id": 6,
+    "nombre": "Javier",
+    "apellidos": "Moreno Díaz",
+    "email": "javier.moreno@example.com"
+  },
+  {
+    "id": 7,
+    "nombre": "Carmen",
+    "apellidos": "Navarro Romero",
+    "email": "carmen.navarro@example.com"
+  },
+  {
+    "id": 8,
+    "nombre": "David",
+    "apellidos": "Ruiz Molina",
+    "email": "david.ruiz@example.com"
+  },
+  {
+    "id": 9,
+    "nombre": "Elena",
+    "apellidos": "Hernández Castro",
+    "email": "elena.hernandez@example.com"
+  },
+  {
+    "id": 10,
+    "nombre": "Pablo",
+    "apellidos": "Ortega Vidal",
+    "email": "pablo.ortega@example.com"
+  },
+  {
+    "id": 11,
+    "nombre": "Isabel",
+    "apellidos": "Ramos León",
+    "email": "isabel.ramos@example.com"
+  },
+  {
+    "id": 12,
+    "nombre": "Sergio",
+    "apellidos": "Gil Cabrera",
+    "email": "sergio.gil@example.com"
+  },
+  {
+    "id": 13,
+    "nombre": "Patricia",
+    "apellidos": "Flores Soto",
+    "email": "patricia.flores@example.com"
+  },
+  {
+    "id": 14,
+    "nombre": "Miguel",
+    "apellidos": "Vega Núñez",
+    "email": "miguel.vega@example.com"
+  },
+  {
+    "id": 15,
+    "nombre": "Raquel",
+    "apellidos": "Campos Blanco",
+    "email": "raquel.campos@example.com"
+  },
+  {
+    "id": 16,
+    "nombre": "Alberto",
+    "apellidos": "Méndez Cruz",
+    "email": "alberto.mendez@example.com"
+  },
+  {
+    "id": 17,
+    "nombre": "Silvia",
+    "apellidos": "Prieto Lozano",
+    "email": "silvia.prieto@example.com"
+  },
+  {
+    "id": 18,
+    "nombre": "Antonio",
+    "apellidos": "Herrera Peña",
+    "email": "antonio.herrera@example.com"
+  },
+  {
+    "id": 19,
+    "nombre": "Natalia",
+    "apellidos": "Iglesias Fuentes",
+    "email": "natalia.iglesias@example.com"
+  },
+  {
+    "id": 20,
+    "nombre": "Fernando",
+    "apellidos": "Cano Aguilar",
+    "email": "fernando.cano@example.com"
+  }
+]

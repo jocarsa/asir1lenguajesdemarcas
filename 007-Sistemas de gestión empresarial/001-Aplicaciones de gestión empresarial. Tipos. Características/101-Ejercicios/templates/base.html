@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Gestión de clientes{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='estilo.css') }}">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <h1 class="brand"><a href="{{ url_for('index') }}">Gestión de clientes</a></h1>
+      <nav class="nav">
+        <a class="btn" href="{{ url_for('nuevo') }}">+ Nuevo cliente</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="messages">
+          {% for category, msg in messages %}
+            <div class="msg msg--{{ category }}">{{ msg }}</div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>SQLite + Flask + Templates (sin JavaScript)</small>
+    </div>
+  </footer>
+</body>
+</html>
